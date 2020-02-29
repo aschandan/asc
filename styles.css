@@ -104,19 +104,19 @@ hr{
 	border-top: 1px solid white;
 }
 	
-h1 {font-family:'Chivo', sans-serif;
+h1 {font-family:'Chivo', sans-serif; color:#ffffff
 	/*'IBM Plex Serif'*/
 	font-weight: 450;
 	margin-top: 37px;
 	font-size:25px;}
 
-h2 {font-family:'Chivo', sans-serif; font-size:16px; color: white;
+h2 {font-family:'Chivo', sans-serif; font-size:16px; color: #ffffff;
 	margin-top: -50px;
 	margin-bottom:8px;
 	margin-left: 8px;
 font-weight: 150;}
 
-h3 {font-family:'Chivo', sans-serif; font-size:32px; color: white;
+h3 {font-family:'Chivo', sans-serif; font-size:32px; color: #ffffff;
 	margin-top: 8px;
 	margin-bottom:8px;
 	margin-left: 15px;
