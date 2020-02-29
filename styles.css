@@ -79,13 +79,13 @@ header nav ul {
 }
 nav ul li {
 	float: left;
-	color: #000000;
+	color: #ffffff;
 	text-align: right;
 	margin-right: 10px;
 	
 }
 ul li a {
-	color: #000;
+	color: #fff;
 	text-decoration: none;
 }
 ul li:hover a {
@@ -101,7 +101,7 @@ header {
 }
 
 hr{
-	border-top: 1px solid black;
+	border-top: 1px solid white;
 }
 	
 h1 {font-family:'Chivo', sans-serif;
@@ -110,13 +110,13 @@ h1 {font-family:'Chivo', sans-serif;
 	margin-top: 37px;
 	font-size:25px;}
 
-h2 {font-family:'Chivo', sans-serif; font-size:16px; color: #000;
+h2 {font-family:'Chivo', sans-serif; font-size:16px; color: white;
 	margin-top: -50px;
 	margin-bottom:8px;
 	margin-left: 8px;
 font-weight: 150;}
 
-h3 {font-family:'Chivo', sans-serif; font-size:32px; color: #000;
+h3 {font-family:'Chivo', sans-serif; font-size:32px; color: white;
 	margin-top: 8px;
 	margin-bottom:8px;
 	margin-left: 15px;
