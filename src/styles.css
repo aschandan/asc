@@ -74,7 +74,7 @@ p {	font-family:'Iosevka';
 position: relative;
 font-weight: 200; 
 color:var(--mainfont);
-
+outline:none;
 padding-top: .1rem; 
 padding-left: 5rem;
 
@@ -82,7 +82,7 @@ padding-left: 5rem;
 
 .medialist{
 	text-underline-position: under;
-	
+	outline:none;
   } 
 	
 a{
@@ -125,6 +125,7 @@ a:hover {
 	display: block;
 	transition: 0.2s;
 	font-family:"Iosevka";
+	outline:none;
 	font-weight:300;
 	text-underline-position: under;
 	text-decoration: underline;
