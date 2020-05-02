@@ -1,6 +1,8 @@
+
 :root{
-	--mainfont: #9a9a9a;
+	--mainfont: #bdbcbc;
 }
+
 @font-face {
 	font-family: Iosevka Light;
 	src: url(./fonts/iosevka-light.ttf) format("truetype");
@@ -50,7 +52,7 @@ body{
 	
 h1 {font-family:'Iosevka', sans-serif; 
 	color: var(--mainfont);
-	font-size: 2rem;
+	font-size: 3rem;
 	font-style: oblique;
 	font-weight: 400;
 	padding-top: 4rem;
@@ -68,22 +70,33 @@ h3 {font-family:'Iosevka', sans-serif;
 }
 	
 p {	font-family:'Iosevka';
-	font-size: 1.5rem;
+	font-size: 2rem;
 position: relative;
 font-weight: 200; 
 color:var(--mainfont);
-text-underline-position: under;
+
 padding-top: .1rem; 
 padding-left: 5rem;
 
 }
+
+.medialist{
+	text-underline-position: under;
+	
+  } 
 	
 a{
 	font-family:'Iosevka';
-	font-size: 1.5rem;
+	transition: 0.2s;
 font-weight: 200; 
+text-underline-position: under;
 color:var(--mainfont);
 }
+
+a:hover {
+	color: #f1f1f1;
+	text-decoration: underline;
+  }
 
 
 
@@ -91,46 +104,44 @@ color:var(--mainfont);
  /* The side navigation menu */
  .sidenav {
 	height: 100%; /* 100% Full-height */
-	width: 15%; /* 0 width - change this with JavaScript */
+	width: 18rem; 
 	position: fixed; /* Stay in place */
 	z-index: 1; /* Stay on top */
 	top: 0; /* Stay at the top */
-		right: 0;
+	right: 0;
 	background-color: #0d0d0d; /* Black*/
 	overflow-x: hidden; /* Disable horizontal scroll */
-	padding-top: 60px; /* Place content 60px from the top */
-
+	padding-top: 19rem; /* Place content 60px from the top */
+	
   }
   
   /* The navigation menu links */
   .sidenav a {
-	padding: 2rem 0rem .1rem 2.5rem;
+	padding: 0em 1.1em 2.5rem;
 	text-decoration: none;
-	font-size: 25px;
-	color: #8d8d8d;
+	text-align:right;
+	font-size: 2rem;
+	color: var(--mainfont);
 	display: block;
-	transition: 0.3s;
+	transition: 0.2s;
 	font-family:"Iosevka";
-	font-weight:400;
+	font-weight:300;
+	text-underline-position: under;
+	text-decoration: underline;
   }
   
   /* When you mouse over the navigation links, change their color */
   .sidenav a:hover {
 	color: #f1f1f1;
+	
+
+
   }
   
-  /* Position and style the close button (top right corner) */
-  .sidenav .closebtn {
-	position: absolute;
-	top: 0;
-	right: 25px;
-	font-size: 36px;
-	margin-left: 50px;
-  }
-  
-  
+
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-  @media screen and (max-height: 450px) {
+  @media screen and (max-height: 450px) and (min-width: 350px)
+  {
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
   } 
