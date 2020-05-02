@@ -1,56 +1,79 @@
 
 :root{
 	--mainfont: #bdbcbc;
-}
-
-@font-face {
-	font-family: Iosevka Light;
-	src: url(./fonts/iosevka-light.ttf) format("truetype");
-}
-
-@font-face {
-	font-family: Iosevka LightItalic;
-	src: url(./fonts/iosevka-lightitalic.ttf) format("truetype");
-}
-
-@font-face {
-	font-family: Iosevka LightOblique;
-	src: url(./fonts/iosevka-lightoblique.ttf) format("truetype");
+	--bgcolor: #121212;
 }
 
 
+
 @font-face {
-	font-family: Iosevka Regular;
-	src: url(./fonts/iosevka.ttf) format("truetype");
+	font-family: "Iosevka";
+	src: url(fonts/iosevka-light.ttf) format("truetype");
+	font-weight: 300;
+	font-style: normal;
+	
 }
 
 @font-face {
-	font-family: Iosevka Italic;
-	src: url(./fonts/iosevka-italic.ttf) format("truetype");
+	font-family: "Iosevka";
+	src: url(fonts/iosevka-lightitalic.ttf) format("truetype");
+	font-weight: 300;
+	font-style: italic;
 }
 
 @font-face {
-	font-family: Iosevka Oblique;
-	src: url(./fonts/iosevka-oblique.ttf) format("truetype");
+	font-family: "Iosevka";
+	src: url(fonts/iosevka-lightoblique.ttf) format("truetype");
+	font-weight: 300;
+	font-style: oblique;
+	
+}
+
+@font-face {
+	font-family: "Iosevka";
+	src: url(fonts/iosevka.ttf) format("truetype");
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: "Iosevka";
+	src: url(fonts/iosevka-italic.ttf) format("truetype");
+	font-weight: normal;
+	font-style: italic;
+	
+}
+
+@font-face {
+	font-family: "Iosevka";
+	src: url(fonts/iosevka-oblique.ttf) format("truetype");
+	font-weight: normal;
+	font-style: oblique;
+	
 }
 
 
 @font-face {
-	font-family: Iosevka Bold;
-	src:url(./fonts/iosevka-bold.ttf) format("truetype");
+	font-family: "Iosevka";
+	src:url(fonts/iosevka-bold.ttf) format("truetype");
+	font-weight: bold;
+	font-style: oblique;
+	
 }
 
 
 
 body{
-	background-color:#121212
+	background-color:var(--bgcolor);
+	font-family: 'Iosevka', Georgia, sans-serif;
 }
 
 
 
 
 	
-h1 {font-family:'Iosevka', sans-serif; 
+h1 {
 	color: var(--mainfont);
 	font-size: 3rem;
 	font-style: oblique;
@@ -59,26 +82,45 @@ h1 {font-family:'Iosevka', sans-serif;
 	padding-left: 5rem;}
 
 
-h2 {font-family:'Iosevka Light', sans-serif; 
+h2 {
 	color: var(--mainfont);
-	font-size: 1.5em;}
+	font-size: 2rem;
+	font-style: oblique;
+	font-weight: 300;
+	padding-top: 2rem;
+	padding-left: 5rem;}
 
-h3 {font-family:'Iosevka', sans-serif; 
+h3 {
 	font-size:32px; 
 	color: var(--mainfont);
 	font-weight: 500;
 }
 	
-p {	font-family:'Iosevka';
-	font-size: 2rem;
+
+
+p {
+	font-size: 1.6rem;
 position: relative;
 font-weight: 200; 
 color:var(--mainfont);
 outline:none;
-padding-top: .1rem; 
+padding-top: 0rem; 
 padding-left: 5rem;
 
 }
+
+.p2{
+	font-size: 1.7rem;
+	font-weight:300;
+position: relative;
+font-style:oblique;
+color:var(--mainfont);
+outline:none;
+padding-top: 0rem; 
+padding-left: 5rem;
+}
+
+
 
 .medialist{
 	text-underline-position: under;
@@ -86,7 +128,7 @@ padding-left: 5rem;
   } 
 	
 a{
-	font-family:'Iosevka';
+
 	transition: 0.2s;
 font-weight: 200; 
 text-underline-position: under;
@@ -97,7 +139,6 @@ a:hover {
 	color: #f1f1f1;
 	text-decoration: underline;
   }
-
 
 
 
@@ -112,32 +153,36 @@ a:hover {
 	background-color: #0d0d0d; /* Black*/
 	overflow-x: hidden; /* Disable horizontal scroll */
 	padding-top: 19rem; /* Place content 60px from the top */
-	
+	display: flex;
+	align-items: right
   }
   
   /* The navigation menu links */
   .sidenav a {
-	padding: 0em 1.1em 2.5rem;
+	padding: 0em 1.1em 3rem;
 	text-decoration: none;
 	text-align:right;
 	font-size: 2rem;
 	color: var(--mainfont);
 	display: block;
 	transition: 0.2s;
-	font-family:"Iosevka";
+
 	outline:none;
 	font-weight:300;
-	text-underline-position: under;
-	text-decoration: underline;
+	margin: 0;
   }
   
   /* When you mouse over the navigation links, change their color */
   .sidenav a:hover {
 	color: #f1f1f1;
-	
-
+	text-underline-position: under;
+	text-decoration: underline;
+	background-color: black;
 
   }
+
+  
+
   
 
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
