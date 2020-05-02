@@ -1,0 +1,162 @@
+
+@font-face {
+	font-family: Iosevka Light;
+	src: url(./fonts/iosevka-thin.ttf) format("truetype"),
+	url(./fonts/iosevka-thinitalic.ttf) format("truetype"),
+	url(./fonts/iosevka-thinoblique.ttf.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: Iosevka Medium;
+	src: url(./fonts/iosevka-medium.ttf) format("truetype"),
+	url(./fonts/iosevka-mediumitalic.ttf) format("truetype"),
+	url(./fonts/iosevka-mediumoblique.ttf.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: Iosevka Regular;
+	src: url(./fonts/iosevka.ttf) format("truetype"),
+	url(./fonts/iosevka-italic.ttf) format("truetype"),
+	url(./fonts/iosevka-oblique.ttf.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: Iosevka semiBold;
+	src: url(./fonts/iosevka-semibold.ttf.ttf) format("truetype"),
+	url(./fonts/iosevka-semibolditalic.ttf) format("truetype"),
+	url(./fonts/iosevka-semiboldoblique.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: Iosevka Bold ;
+	src: url(./fonts/iosevka-bolditalic.ttf) format("truetype"),
+	url(./fonts/iosevka-bold.ttf) format("truetype"),
+	url(./fonts/iosevka-boldoblique.ttf) format("truetype");
+}
+
+
+img.pol {
+max-height: 600px;
+max-width:400px;
+  display: block;
+ margin-top: 20px;
+float: left;
+	margin-right: 20px;
+  padding: 20px;
+  width: auto;
+  height: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+img.float-left{
+	float: left;
+	max-height: 600px;
+max-width:400px;
+  display: block;
+  padding: 10px;
+  width: auto;
+  height: auto;
+}
+
+img.resize{
+max-height: 600px;
+max-width:400px;
+  display: block;
+  padding: 10px;
+  width: auto;
+  height: auto;
+}
+
+
+
+img.me {
+  max-width:400px;
+  max-height:600px;
+  width: auto;
+  height: auto;
+}
+
+svg
+{
+overflow: visible;
+}
+
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+body{
+	background-color:#000000; 
+}
+
+nav {
+	float: right;
+	width: 90%;
+	text-align: right;
+	margin-right: 10px;
+}
+header nav ul {
+	list-style: none;
+	float: right;
+}
+nav ul li {
+	float: left;
+	color: #ffffff;
+	text-align: right;
+	margin-right: 10px;
+	
+	
+}
+ul li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+ul li:hover a {
+	color: #c23b22;
+	 text-decoration: underline;
+}
+
+
+	
+h1 {font-family:'Iosevka', sans-serif; color:#ffffff;
+	font-weight: 450;
+	margin-top: 37px;
+	font-size:25px;}
+
+h2 {font-family:'Iosevka', sans-serif; font-size:16px; color: #ffffff;
+	margin-top: -55px;
+	margin-bottom: 10px;
+	margin-left: 8px;
+font-weight: 150;}
+
+h3 {font-family:'Iosevka', sans-serif; font-size:32px; color: #ffffff;
+	margin-top: 8px;
+	margin-bottom:8px;
+	margin-left: 15px;
+	letter-spacing: 0px;
+	font-weight: 500;
+}
+	
+p {font-family:'Iosevka', sans-serif; font-size: 23px; line-height:200%; color:white;
+font-weight: 100;}
+	
+a{
+	font-family:'Iosevka', sans-serif; font-size: 23px;
+font-weight: 100; color:#c23b22; display:inline-block;
+}
+	
+
+
+footer {
+	font-family:'Iosevka', sans-serif;
+	background-color:#6495ed; color:white; clear:both; text-align:left; padding:4px;
+}
+
+
