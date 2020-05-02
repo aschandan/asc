@@ -9,7 +9,7 @@
 @font-face {
 	font-family: "Iosevka";
 	src: url(fonts/iosevka-light.ttf) format("truetype");
-	font-weight: 300;
+	font-weight: 200;
 	font-style: normal;
 	
 }
@@ -17,14 +17,14 @@
 @font-face {
 	font-family: "Iosevka";
 	src: url(fonts/iosevka-lightitalic.ttf) format("truetype");
-	font-weight: 300;
+	font-weight: 200;
 	font-style: italic;
 }
 
 @font-face {
 	font-family: "Iosevka";
 	src: url(fonts/iosevka-lightoblique.ttf) format("truetype");
-	font-weight: 300;
+	font-weight: 200;
 	font-style: oblique;
 	
 }
@@ -74,6 +74,7 @@ body{
 
 	
 h1 {
+	
 	color: var(--mainfont);
 	font-size: 3rem;
 	font-style: oblique;
@@ -87,7 +88,7 @@ h2 {
 	color: var(--mainfont);
 	font-size: 2rem;
 	font-style: oblique;
-	font-weight: 300;
+	font-weight: 500;
 	padding-top: 2rem;
 	padding-left: 5rem;
 	padding-right: 18rem;}
@@ -103,7 +104,7 @@ h3 {
 p {
 	font-size: 1.6rem;
 position: relative;
-font-weight: 200; 
+font-weight: 100; 
 color:var(--mainfont);
 outline:none;
 padding-top: 0rem; 
@@ -114,7 +115,7 @@ padding-right: 18rem;
 
 .p2{
 	font-size: 1.7rem;
-	font-weight:300;
+	font-weight:200;
 position: relative;
 font-style:oblique;
 color:var(--mainfont);
@@ -138,11 +139,13 @@ a{
 font-weight: 200; 
 text-underline-position: under;
 color:var(--mainfont);
+outline:none;
 }
 
 a:hover {
 	color: #f1f1f1;
 	text-decoration: underline;
+	outline:none;
   }
 
 
@@ -158,30 +161,45 @@ a:hover {
 	right: 0;
 	background-color: #0d0d0d; /* Black*/
 	overflow-x: hidden; /* Disable horizontal scroll */
-	padding-top: 19rem; /* Place content 60px from the top */
+	padding-top: 17rem; /* Place content 60px from the top */
+	outline:none;
 
   }
   
   
   /* The navigation menu links */
   .sidenav a {
-	padding: 2rem;
+	padding: 1.7rem;
 	text-decoration: none;
 	text-align:right;
 	font-size: 2rem;
 	color: var(--mainfont);
 	display: block;
-	transition: 0.2s;
+	transition: 0.3s;
 	outline:none;
-	font-weight:300;
+	font-weight:200;
 
   }
+
+  .sidenav a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+	transition: 0.3s;
+	position:absolute;
+	right: 0;
+	
+}
   
   /* When you mouse over the navigation links, change their color */
-  .sidenav a:hover {
-	color: #f1f1f1;
+  .sidenav a:hover::after {
+	background-color: #f1f1f1;
+	width: 80%;
+	outline:none;
+	transition: width 0.3s;
 	
-	background-color: rgba(0, 0, 0, 0.39);
+
 
   }
 
