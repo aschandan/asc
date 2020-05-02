@@ -1,1 +1,1 @@
-# https://amandeepchandan.github.io/asc/#index.html
+https://amandeepchandan.github.io/asc/contact
