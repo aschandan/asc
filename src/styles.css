@@ -79,7 +79,8 @@ h1 {
 	font-weight: 400;
 	padding-top: 4rem;
 	padding-left: 5rem;
-	padding-right: 18rem;}
+	padding-right: 18rem;
+}
 
 
 h2 {
@@ -127,17 +128,73 @@ padding-right: 18rem;
 section {
 	display: none;
   }
+  
   section:target {
 	display: block;
-  }
+	
+	}
  
 .medialist{
 	text-underline-position: under;
 	outline:none;
   } 
 	
-a{
+  .fade-in {
+	animation: fadeIn ease 1s;
+	-webkit-animation: fadeIn ease 1s;
+	-moz-animation: fadeIn ease 1s;
+	-o-animation: fadeIn ease 1s;
+	-ms-animation: fadeIn ease 1s;
+  }
+	
 
+  @keyframes fadeIn {
+	0% {
+	  opacity:0;
+	}
+	100% {
+	  opacity:1;
+	}
+  }
+  
+  @-moz-keyframes fadeIn {
+	0% {
+	  opacity:0;
+	}
+	100% {
+	  opacity:1;
+	}
+  }
+  
+  @-webkit-keyframes fadeIn {
+	0% {
+	  opacity:0;
+	}
+	100% {
+	  opacity:1;
+	}
+  }
+  
+  @-o-keyframes fadeIn {
+	0% {
+	  opacity:0;
+	}
+	100% {
+	  opacity:1;
+	}
+  }
+  
+  @-ms-keyframes fadeIn {
+	0% {
+	  opacity:0;
+	}
+	100% {
+	  opacity:1;
+  }
+} 
+
+
+a{
 	transition: 0.2s;
 font-weight: 200; 
 text-underline-position: under;
@@ -150,7 +207,6 @@ a:hover {
 	text-decoration: underline;
 	outline:none;
   }
-
 
 
  /* The side navigation menu */
