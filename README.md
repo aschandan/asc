@@ -1,4 +1,5 @@
 # asc
 Personal Website of Amandeep's.
-http://achandan.org/profile
+http://achandan.org
+
 
