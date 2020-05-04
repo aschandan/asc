@@ -148,15 +148,18 @@ padding-right: 18rem;
 }
 
 
-section {
-	display: none;
-  }
-  
+.default {
+  display: block !important;
+}
 
-  section:target {
-	display: block;
+section {
+  display: none;
+}
+
+section:target {
+  display: block;
+}
 	
-	}
  
 .medialist{
 	text-underline-position: under;
@@ -196,7 +199,6 @@ a:hover {
 	background-color:var(--selectioncolor);
 	
   }
-
 
 
  /* The side navigation menu */
