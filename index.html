@@ -5,14 +5,8 @@
   <link rel="stylesheet" href="src/styles.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>aschandan.org</title>
-<script>
-  let sidenav = document.querySelector('#sidenav')
-let def = document.querySelector('#a')
-sidenav.addEventListener('click', () => {
-  def.classList.remove('default')
-});
-</script>
 
   </head>
 
@@ -28,7 +22,7 @@ sidenav.addEventListener('click', () => {
   </div>
 
  
-  <section class="fade-in" id="a">
+  <section class="fade-in default" id="a">
       <h1>
         Hey, welcome to my site!
       </h1>
@@ -63,5 +57,15 @@ sidenav.addEventListener('click', () => {
 </div>
 </section>
 
+<script>
+  let sidenav = document.querySelector('#sidenav')
+let def = document.querySelector('#a')
+sidenav.addEventListener('click', () => {
+  def.classList.remove('default')
+});
+
+</script>
+
 </body>
+
 </html>
