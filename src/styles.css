@@ -9,7 +9,27 @@
 	--selectorfont:#e13470;
 }
 
+@font-face {
+	font-family: "Iosevka";
+	src: url(fonts/iosevka-thin.ttf) format("truetype");
+	font-weight: 100;
+	font-style: normal;
+	
+}
 
+@font-face {
+	font-family: "Iosevka";
+	src: url(fonts/iosevka-thinitalic.ttf) format("truetype");
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: "Iosevka";
+	src: url(fonts/iosevka-thinoblique.ttf) format("truetype");
+	font-weight: 100;
+	font-style: oblique;
+}
 
 @font-face {
 	font-family: "Iosevka";
@@ -148,18 +168,8 @@ padding-right: 18rem;
 }
 
 
-.default {
-  display: block !important;
-}
 
-section {
-  display: none;
-}
 
-section:target {
-  display: block;
-}
-	
  
 .medialist{
 	text-underline-position: under;
@@ -186,12 +196,13 @@ section:target {
 
 a{
 	transition: ease 0.3s, background-color 0.3s;
-font-weight: 200; 
-text-decoration:none;
-color:var(--mainfont);
-outline:none;
+	font-weight: 200; 
+	text-decoration:none;
+	color:var(--mainfont);
+	outline:none;
 
 }
+
 
 a:hover {
 	color: var(--selectorfont);
@@ -212,8 +223,9 @@ a:hover {
 	overflow: auto;
 	background-color:var(--sidenav); 
 	overflow-x: hidden; /* Disable horizontal scroll */
-	padding-top: 17rem; 
+	padding-top: 18rem; 
 	outline:none;
+	
   }
   
 
@@ -257,7 +269,12 @@ a:hover {
 	
   }
 
-  
+  #selected{
+	content: '';
+	right: 0;
+	outline: 1px solid;
+	background-color:var(--selectioncolorbar);
+   }
   
   @media screen and (max-width: 700px) {
 	.sidenav {
@@ -304,4 +321,3 @@ a:hover {
 	  }
 
 	
-  
