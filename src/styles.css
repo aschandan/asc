@@ -1,5 +1,18 @@
 
 	:root{
+		--headerfont:#e3cb9b;
+		--mainfont: #ffffff;
+		--bgcolor: #0c0b10;
+		--sidenav: #13111b;
+		--selectioncolor: #1f1b2a;
+		--selectioncolorbar:#1f1b2a;
+		--selectorfont:#e3cb9b;
+	}
+
+/*
+A back up of the main colors, changing to ALMA.
+
+	:root{
 		--headerfont:#e13470;
 		--mainfont: #ffffff;
 		--bgcolor: #0c0b10;
@@ -8,6 +21,7 @@
 		--selectioncolorbar:#1f1b2a;
 		--selectorfont:#e13470;
 	}
+*/
 
 	@font-face {
 		font-family: "Iosevka";
