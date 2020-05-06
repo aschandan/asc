@@ -136,9 +136,12 @@ A back up of the main colors, changing to ALMA.
 		padding-right: 18rem;}
 
 	h3 {
-		font-size:32px; 
+		font-size:4rem; 
 		color: var(--headerfont);
 		font-weight: 500;
+		padding-top: 2rem;
+		padding-left: 5rem;
+		padding-right: 18rem;
 	}
 		
 
@@ -146,7 +149,7 @@ A back up of the main colors, changing to ALMA.
 	p {
 		font-size: 1.6rem;
 	position: relative;
-	font-weight: 100; 
+	font-weight: 200; 
 	color:var(--mainfont);
 	outline:none;
 	padding-left: 5rem;
@@ -154,6 +157,7 @@ A back up of the main colors, changing to ALMA.
 	line-height: 1.4;
 
 	}
+
 
 	.p2	{
 	font-size: 1.7rem;
@@ -286,7 +290,8 @@ A back up of the main colors, changing to ALMA.
 	outline: 1px solid;
 	background-color:var(--selectioncolorbar);
    }
-  
+
+
   @media screen and (max-width: 700px) {
 	.sidenav {
 	  width: 97.9vw;
