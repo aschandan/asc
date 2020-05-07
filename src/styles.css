@@ -173,7 +173,7 @@ A back up of the main colors, changing to ALMA.
 }
 
 	.p3		{
-	font-size: 1.4rem;
+	font-size: 3rem;
 	font-weight:200;
 	position: relative;
 	font-style:oblique;
@@ -186,7 +186,20 @@ A back up of the main colors, changing to ALMA.
 	}
 
 
-
+	.p4		{
+		font-size: 3rem;
+		font-weight:200;
+		position: relative;
+		font-style:oblique;
+		color:var(--mainfont);
+		outline:none;
+		line-height: 1.4;
+	
+		padding-right: 18rem;
+	
+		}
+	
+	
 
  
 	.medialist	{
@@ -218,7 +231,7 @@ A back up of the main colors, changing to ALMA.
 	text-decoration:none;
 	color:var(--mainfont);
 	outline:none;
-
+	
 	}
 
 	a:hover 
