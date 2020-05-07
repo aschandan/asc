@@ -187,14 +187,14 @@ A back up of the main colors, changing to ALMA.
 
 
 	.p4		{
-		font-size: 3rem;
+		font-size: 2rem;
 		font-weight:200;
 		position: relative;
-		font-style:oblique;
+		
 		color:var(--mainfont);
 		outline:none;
 		line-height: 1.4;
-	
+	padding-left: 5rem;
 		padding-right: 18rem;
 	
 		}
@@ -236,12 +236,16 @@ A back up of the main colors, changing to ALMA.
 
 	a:hover 
 	{
-
 	color: var(--selectorfont);
 	outline:none;
 	background-color:var(--selectioncolor);
 	
   	}
+	
+	  #for404 {
+		border: 8px solid #e8e8e800;
+		padding-left:-3rem;
+	  }
 
  /* The side navigation menu */
  .sidenav {
