@@ -8,7 +8,6 @@
 		--selectioncolorbar:#1f1b2a;
 		--selectorfont:#e3cb9b;
 	}
-
 /*
 A back up of the main colors, changing to ALMA.
 
@@ -23,131 +22,129 @@ A back up of the main colors, changing to ALMA.
 	}
 */
 
-	@font-face {
-		font-family: "Iosevka";
-		src: url(fonts/iosevka-thin.ttf) format("truetype");
-		font-weight: 100;
-		font-style: normal;
-		
-	}
+@font-face {
+	font-family: "Iosevka";
+	src: url(fonts/iosevka-thin.ttf) format("truetype");
+	font-weight: 100;
+	font-style: normal;
+	
+}
 
-	@font-face {
-		font-family: "Iosevka";
-		src: url(fonts/iosevka-thinitalic.ttf) format("truetype");
-		font-weight: 100;
-		font-style: italic;
-	}
+@font-face {
+	font-family: "Iosevka";
+	src: url(fonts/iosevka-thinitalic.ttf) format("truetype");
+	font-weight: 100;
+	font-style: italic;
+}
 
-	@font-face {
-		font-family: "Iosevka";
-		src: url(fonts/iosevka-thinoblique.ttf) format("truetype");
-		font-weight: 100;
-		font-style: oblique;
-	}
+@font-face {
+	font-family: "Iosevka";
+	src: url(fonts/iosevka-thinoblique.ttf) format("truetype");
+	font-weight: 100;
+	font-style: oblique;
+}
 
-	@font-face {
-		font-family: "Iosevka";
-		src: url(fonts/iosevka-light.ttf) format("truetype");
-		font-weight: 200;
-		font-style: normal;
-		
-	}
+@font-face {
+	font-family: "Iosevka";
+	src: url(fonts/iosevka-light.ttf) format("truetype");
+	font-weight: 200;
+	font-style: normal;
+	
+}
 
-	@font-face {
-		font-family: "Iosevka";
-		src: url(fonts/iosevka-lightitalic.ttf) format("truetype");
-		font-weight: 200;
-		font-style: italic;
-	}
+@font-face {
+	font-family: "Iosevka";
+	src: url(fonts/iosevka-lightitalic.ttf) format("truetype");
+	font-weight: 200;
+	font-style: italic;
+}
 
-	@font-face {
-		font-family: "Iosevka";
-		src: url(fonts/iosevka-lightoblique.ttf) format("truetype");
-		font-weight: 200;
-		font-style: oblique;
-		
-	}
+@font-face {
+	font-family: "Iosevka";
+	src: url(fonts/iosevka-lightoblique.ttf) format("truetype");
+	font-weight: 200;
+	font-style: oblique;
+	
+}
 
-	@font-face {
-		font-family: "Iosevka";
-		src: url(fonts/iosevka-regular.ttf) format("truetype");
-		font-weight: normal;
-		font-style: normal;
+@font-face {
+	font-family: "Iosevka";
+	src: url(fonts/iosevka-regular.ttf) format("truetype");
+	font-weight: normal;
+	font-style: normal;
 
-	}
+}
 
-	@font-face {
-		font-family: "Iosevka";
-		src: url(fonts/iosevka-italic.ttf) format("truetype");
-		font-weight: normal;
-		font-style: italic;
-		
-	}
+@font-face {
+	font-family: "Iosevka";
+	src: url(fonts/iosevka-italic.ttf) format("truetype");
+	font-weight: normal;
+	font-style: italic;
+	
+}
 
-	@font-face {
-		font-family: "Iosevka";
-		src: url(fonts/iosevka-oblique.ttf) format("truetype");
-		font-weight: normal;
-		font-style: oblique;
-		
-	}
-
-
-	@font-face {
-		font-family: "Iosevka";
-		src:url(fonts/iosevka-bold.ttf) format("truetype");
-		font-weight: bold;
-		font-style: oblique;
-		
-	}
+@font-face {
+	font-family: "Iosevka";
+	src: url(fonts/iosevka-oblique.ttf) format("truetype");
+	font-weight: normal;
+	font-style: oblique;
+	
+}
 
 
+@font-face {
+	font-family: "Iosevka";
+	src:url(fonts/iosevka-bold.ttf) format("truetype");
+	font-weight: bold;
+	font-style: oblique;
+	
+}
 
-	body{
-		background-color:var(--bgcolor);
-		font-family: 'Iosevka', Georgia, sans-serif;
-		width: calc(100% - 6em);
-	}
+body{
+	background-color:var(--bgcolor);
+	font-family: 'Iosevka', Georgia, sans-serif;
+	width: calc(100% - 6em);
+}
 
-	div.content {
-		padding: 0.3rem 0.9rem;
-	}
-		
-	h1 {
-		
-		color: var(--headerfont);
-		font-size: 3rem;
-		font-style: oblique;
-		font-weight: 400;
-		padding-top: 4rem;
-		padding-left: 5rem;
-		padding-right: 18rem;
-		
-	}
+div.content {
+	padding: 0.3rem 0.9rem;
+}
+	
+h1 {
+	
+	color: var(--headerfont);
+	font-size: 3rem;
+	
+	font-weight: 400;
+	padding-top: 4rem;
+	padding-left: 5rem;
+	padding-right: 18rem;
+	
+}
 
 
-	h2 {
-		color: var(--headerfont);
-		font-size: 2rem;
-		font-style: oblique;
-		font-weight: 500;
-		padding-top: 2rem;
-		padding-left: 5rem;
-		padding-right: 18rem;}
+h2 {
+	color: var(--headerfont);
+	font-size: 1.6rem;
+	
+	font-weight: 500;
+	padding-top: 2rem;
+	padding-left: 5rem;
+	padding-right: 18rem;}
 
-	h3 {
-		font-size:4rem; 
-		color: var(--headerfont);
-		font-weight: 500;
-		padding-top: 2rem;
-		padding-left: 5rem;
-		padding-right: 18rem;
-	}
-		
+h3 {
+	font-size:4rem; 
+	color: var(--headerfont);
+	font-weight: 500;
+	padding-top: 2rem;
+	padding-left: 5rem;
+	padding-right: 18rem;
+}
+	
 
 
 	p {
-		font-size: 1.6rem;
+		font-size: 1.5rem;
 	position: relative;
 	font-weight: 200; 
 	color:var(--mainfont);
@@ -163,7 +160,7 @@ A back up of the main colors, changing to ALMA.
 	font-size: 1.7rem;
 	font-weight:200;
 	position: relative;
-	font-style:oblique;
+	
 	color:var(--mainfont);
 	outline:none;
 	line-height: 1.4;
@@ -173,7 +170,7 @@ A back up of the main colors, changing to ALMA.
 }
 
 	.p3		{
-	font-size: 3rem;
+	font-size: 2rem;
 	font-weight:200;
 	position: relative;
 	font-style:oblique;
@@ -187,21 +184,17 @@ A back up of the main colors, changing to ALMA.
 
 
 	.p4		{
-		font-size: 2rem;
-		font-weight:200;
-		position: relative;
-		
-		color:var(--mainfont);
-		outline:none;
-		line-height: 1.4;
+	font-size: 2rem;
+	font-weight:200;
+	position: relative;
+	color:var(--mainfont);
+	outline:none;
+	line-height: 1.4;
 	padding-left: 5rem;
-		padding-right: 18rem;
-	
-		}
-	
-	
+	padding-right: 18rem;
 
- 
+	}
+
 	.medialist	{
 	text-underline-position: under;
 	outline:none;
@@ -224,7 +217,6 @@ A back up of the main colors, changing to ALMA.
   }
 
 
-
 	a {
 		transition: ease 0.3s, background-color 0.3s;
 	font-weight: 200; 
@@ -232,19 +224,22 @@ A back up of the main colors, changing to ALMA.
 	color:var(--mainfont);
 	outline:none;
 	
+	padding: 0.25em;
+    margin: 0 calc(-0.25em - 2px);
 	}
 
 	a:hover 
 	{
 	color: var(--selectorfont);
 	outline:none;
+	padding:1rem;
 	background-color:var(--selectioncolor);
 	
   	}
 	
 	  #for404 {
-		border: 8px solid #e8e8e800;
-		padding-left:-3rem;
+		border: .25rem solid #e8e8e800;  
+		margin: 0 calc(-0.25em - -3px);
 	  }
 
  /* The side navigation menu */
@@ -260,6 +255,7 @@ A back up of the main colors, changing to ALMA.
 	overflow-x: hidden; /* Disable horizontal scroll */
 	padding-top: 18rem; 
 	outline:none;
+	border-left: .11rem solid var(--headerfont);  
   }
  
   /* The navigation menu links */
@@ -273,6 +269,7 @@ A back up of the main colors, changing to ALMA.
 	transition: width 0.4s;
 	outline:none;
 	font-weight:200;
+	
   }
 
   .sidenav a:hover {
