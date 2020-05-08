@@ -218,7 +218,7 @@ h3 {
 
 
 	a {
-		transition: ease 0.3s, background-color 0.3s;
+		transition: ease 0.4s, background-color 0.4s;
 	font-weight: 200; 
 	text-decoration:none;
 	color:var(--mainfont);
@@ -286,7 +286,8 @@ h3 {
 	transition:width 0.4s, background-color 0.4s;
 	position:absolute;
 	right:0;
-	background-color:var(--selectioncolorbar)
+	background-color:var(--selectioncolorbar);
+	
 	
 }
   /* When you mouse over the navigation links, change their color */
