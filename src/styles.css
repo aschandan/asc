@@ -103,7 +103,7 @@ A back up of the main colors, changing to ALMA.
 body{
 	background-color:var(--bgcolor);
 	font-family: 'Iosevka', Georgia, sans-serif;
-	
+	padding-top:0rem;
 }
 div.content {
 	
@@ -155,7 +155,7 @@ h3 {
 	color:var(--mainfont);
 	outline:none;
 	padding-left: 5rem;
-	
+	padding-right: 25rem;
 	line-height: 1.4;
 
 	}
@@ -207,16 +207,25 @@ h3 {
 	
 
   ul{
-	font-size: 1.6rem;
+	font-size: 1.5rem;
 	position: relative;
 	font-weight: 200; 
 	color:var(--mainfont);
 	outline:none;
 	padding-left: 5rem;
-	line-height: 2.3;
-	list-style:none;
-
+	line-height: 2.5;
+	list-style: none;
   }
+  
+  #container {
+	width:75%;
+	
+   }
+   .list {
+	float:left;
+	width:50%;
+   }
+  
   	.fade-in {
 	animation: fadein 1s;
 	-moz-animation: fadein 1s; /* Firefox */
