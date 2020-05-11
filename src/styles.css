@@ -6,7 +6,7 @@
 		--sidenav: #13111b;
 		--selectioncolor: #1f1b2a;
 		--selectioncolorbar:#1f1b2a;
-		--selectorfont:#e3cb9b;
+		--selectorfont:#EFF2C0;
 	}
 /*
 A back up of the main colors, changing to ALMA.
@@ -110,10 +110,10 @@ div.content {
 	padding: 0.3rem 0.9rem;
 }
 	
-
+.aboutcontent {
 	
-  
-
+	padding: 0rem 0rem 1rem 0rem;
+}
 	
 h1 {
 	
@@ -168,9 +168,9 @@ h3 {
 	
 	color:var(--mainfont);
 	outline:none;
-	line-height: 1.4;
+	line-height: 1.5;
 	padding-left: 5rem;
-
+	padding-right: 25rem;
 
 }
 
@@ -183,7 +183,7 @@ h3 {
 	outline:none;
 	line-height: 1.4;
 	padding-left: 5rem;
-	
+	padding-right: 25rem;
 
 	}
 
@@ -205,6 +205,18 @@ h3 {
 	outline:none;
   } 
 	
+
+  ul{
+	font-size: 1.6rem;
+	position: relative;
+	font-weight: 200; 
+	color:var(--mainfont);
+	outline:none;
+	padding-left: 5rem;
+	line-height: 2.3;
+	list-style:none;
+
+  }
   	.fade-in {
 	animation: fadein 1s;
 	-moz-animation: fadein 1s; /* Firefox */
