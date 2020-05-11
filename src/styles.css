@@ -106,13 +106,13 @@ body{
 	padding-top:0rem;
 }
 div.content {
-	
-	padding: 0.3rem 0.9rem;
+
+	padding: 0rem 0rem 0rem 0rem;
 }
 	
 .aboutcontent {
 	
-	padding: 0rem 0rem 1rem 0rem;
+	padding: 0rem 0rem 0.5rem 0rem;
 }
 	
 h1 {
@@ -121,7 +121,7 @@ h1 {
 	font-size: 3rem;
 	
 	font-weight: 400;
-	padding-top: 4rem;
+	padding-top: 2rem;
 	padding-left: 5rem;
 	
 	
@@ -199,6 +199,15 @@ h3 {
 	
 
 	}
+
+	.p5		{
+		font-size: 1rem;
+		font-weight:200;
+		position: relative;
+		color:var(--mainfont);
+		outline:none;
+	width:100%;
+		}
 
 	.medialist	{
 	text-underline-position: under;
