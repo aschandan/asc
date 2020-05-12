@@ -6,7 +6,7 @@
 		--sidenav: #13111b;
 		--selectioncolor: #1f1b2a;
 		--selectioncolorbar:#1f1b2a;
-		--selectorfont:#EFF2C0;
+		--selectorfont:#e3cb9b;
 	}
 /*
 A back up of the main colors, changing to ALMA.
@@ -103,47 +103,34 @@ A back up of the main colors, changing to ALMA.
 body{
 	background-color:var(--bgcolor);
 	font-family: 'Iosevka', Georgia, sans-serif;
-	padding-top:0rem;
 }
-div.content {
 
-	padding: 0rem 0rem 0rem 0rem;
-}
-	
-.aboutcontent {
-	
-	padding: 0rem 0rem 0.5rem 0rem;
-}
+
+.main {
+	float:left;
+	margin-right: 15rem;
+	padding-top: 2rem;
+	padding-left: 5rem;
+  }
 	
 h1 {
 	
 	color: var(--headerfont);
 	font-size: 3rem;
-	
 	font-weight: 400;
-	padding-top: 2rem;
-	padding-left: 5rem;
-	
-	
 }
 
 
 h2 {
 	color: var(--headerfont);
 	font-size: 1.67rem;
-	
 	font-weight: 500;
-	padding-top: 2rem;
-	padding-left: 5rem;
 	}
 
 h3 {
 	font-size:4rem; 
 	color: var(--headerfont);
-	font-weight: 500;
-	padding-top: 2rem;
-	padding-left: 5rem;
-	
+	font-weight: 500;	
 }
 	
 
@@ -154,8 +141,6 @@ h3 {
 	font-weight: 200; 
 	color:var(--mainfont);
 	outline:none;
-	padding-left: 5rem;
-	padding-right: 25rem;
 	line-height: 1.4;
 
 	}
@@ -168,9 +153,7 @@ h3 {
 	
 	color:var(--mainfont);
 	outline:none;
-	line-height: 1.5;
-	padding-left: 5rem;
-	padding-right: 25rem;
+
 
 }
 
@@ -181,9 +164,7 @@ h3 {
 	
 	color:var(--mainfont);
 	outline:none;
-	line-height: 1.4;
-	padding-left: 5rem;
-	padding-right: 25rem;
+
 
 	}
 
@@ -194,20 +175,10 @@ h3 {
 	position: relative;
 	color:var(--mainfont);
 	outline:none;
-	line-height: 1.4;
-	padding-left: 5rem;
-	
 
 	}
 
-	.p5		{
-		font-size: 1rem;
-		font-weight:200;
-		position: relative;
-		color:var(--mainfont);
-		outline:none;
-	width:100%;
-		}
+
 
 	.medialist	{
 	text-underline-position: under;
@@ -215,25 +186,7 @@ h3 {
   } 
 	
 
-  ul{
-	font-size: 1.5rem;
-	position: relative;
-	font-weight: 200; 
-	color:var(--mainfont);
-	outline:none;
-	padding-left: 5rem;
-	line-height: 2.5;
-	list-style: none;
-  }
-  
-  #container {
-	width:75%;
-	
-   }
-   .list {
-	float:left;
-	width:50%;
-   }
+/*animation*/ 
   
   	.fade-in {
 	animation: fadein 1s;
@@ -251,6 +204,9 @@ h3 {
 	}
   }
 
+  /*end of animation*/
+
+  /*for a values, when hovering*/
 
 	a {
 		transition: ease 0.4s, background-color 0.4s;
@@ -258,7 +214,6 @@ h3 {
 	text-decoration:none;
 	color:var(--mainfont);
 	outline:none;
-	
 	padding: 0.25em;
     margin: 0 calc(-0.25em - 2px);
 	}
@@ -271,20 +226,44 @@ h3 {
 	background-color:var(--selectioncolor);
 	
   	}
-	
+
+	   ul{
+		font-size: 1.5rem;
+		position: relative;
+		font-weight: 200; 
+		color:var(--mainfont);
+		outline:none;
+		line-height: 2;
+		list-style: none;
+		padding-left: 0;
+	  }
+
+	   ul a {
+		text-decoration: underline;
+		color:#F3EAD7
+
+	   }
+	   
+	   .acclaim a{
+		text-decoration: underline;
+		color:#F3EAD7
+	   }
+
 	  #for404 {
 		border: .25rem solid #e8e8e800;  
 		margin: 0 calc(-0.25em - -3px);
 	  }
 
  /* The side navigation menu */
+
  .sidenav {
 	height: 100%; /* 100% Full-height */
-	width: 16rem; 
+	width: 15rem; 
 	position: fixed; /* Stay in place */
 	z-index: 1; /* Stay on top */
 	top: 0; /* Stay at the top */
 	right: 0;
+	float:right;
 	overflow: auto;
 	background-color:var(--sidenav); 
 	overflow-x: hidden; /* Disable horizontal scroll */
@@ -342,7 +321,7 @@ h3 {
    }
 
 
-  @media screen and (max-width: 700px) {
+  @media screen and (max-width: 800px) {
 	.sidenav {
 	  width: 100%;
 	  height: auto;
@@ -353,12 +332,87 @@ h3 {
 	  border-left: 0rem solid var(--headerfont);
 	}
 
+body{
+	text-align:center;
+	padding: 0;
+	font-size:3rem;
+}
+
+.main{
+	padding-top:1rem;
+	padding-left:0rem;
+	padding-right:0rem;
+	
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+p{
+	font-size:1.3rem;
+	text-align:center;
+	display:inline-block;
+	padding:0;
+	
+}
+
+.p2{
+	font-size:1.3rem;
+	text-align:center;
+	display:inline-block;
+	padding:0;
+	
+}
+
+.p3{
+	font-size:1.3rem;
+	text-align:center;
+	display:inline-block;
+	padding:0;
+}
+
+.p4{
+	font-size:1.3rem;
+	text-align:center;
+	padding:0;
+	display:inline-block;
+}
+
+h1{
+	text-align:center;
+	display:inline-block;
+	font-size:2rem;
+	padding:0;
+}
+
+h2{
+	padding-top:0;
+}
+
+	a {
+	transition: ease 0s, background-color 0s;
+	font-weight: 200; 
+	text-decoration:none;
+	color:var(--mainfont);
+	outline:none;
+	
+	}
+
+	a:hover 
+	{
+	color: var(--selectorfont);
+	outline:none;
+	padding:0rem;
+	text-decoration: underline;
+	pointer-events:none;
+	}
+
 	.sidenav a::after {
 		content: '';
 		display: block;
 		width: 0;
 		height: 1px;
-		transition: width 0.4s, background-color 0.4s;
+		transition: width 0s, background-color 0s;
 		position:absolute;
 		right:0;
 		
@@ -370,29 +424,36 @@ h3 {
 	
 		
 	  }
+	/* this is for the top bar nav when the display is lower than 850 or so.*/
+
+	.sidenav a {
+
+	display:inline-block;
+	font-size:1.5rem;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	border: none;}
+
 	
-	.sidenav a {float: left;
-	padding-right:10vw;
-	padding-left:10vw;
-border: none;}
-	div.content {margin-left: 0;}
+	.sidenav {
+		float: none;
+		overflow-x: hidden;
+		overflow-y: hidden;
+		
+	  }
+  
+	  #selected{
+		  content: '';
+		  right: 0;
+		  outline: 0px solid;
+		  background-color:var(--selectioncolorbar);
+		 }
+  
   }
 
-  	.sidenav {
-	  float: none;
-	  overflow-x: hidden;
-	  overflow-y: hidden;
-	  
-	}
-
-	#selected{
-		content: '';
-		right: 0;
-		outline: 0px solid;
-		background-color:var(--selectioncolorbar);
-	   }
-
-  @media screen and (max-width: 400px) {
+  	
+  @media screen and (max-width: 360px) {
 	.sidenav a {
 	  text-align: center;
 	  float: none;
