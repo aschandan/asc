@@ -108,9 +108,10 @@ body{
 
 .main {
 	float:left;
-	margin-right: 15rem;
+	margin-right: 18rem;
 	padding-top: 2rem;
 	padding-left: 5rem;
+	
   }
 	
 h1 {
@@ -135,56 +136,60 @@ h3 {
 	
 
 
-	p {
-		font-size: 1.6rem;
-	position: relative;
-	font-weight: 200; 
-	color:var(--mainfont);
-	outline:none;
-	line-height: 1.4;
+p {
+
+	font-size: 1.6rem;
+position: relative;
+font-weight: 200; 
+color:var(--mainfont);
+outline:none;
+line-height: 1.4;
+margin-right:auto;
 
 	}
 
 
-	.p2	{
-	font-size: 1.7rem;
-	font-weight:200;
-	position: relative;
-	
-	color:var(--mainfont);
-	outline:none;
+.p2	{
+font-size: 1.7rem;
+font-weight:200;
+position: relative;
+
+color:var(--mainfont);
+outline:none;
+margin-right:auto;
 
 
 }
 
-	.p3		{
-	font-size: 2rem;
-	font-weight:200;
-	position: relative;
-	
-	color:var(--mainfont);
-	outline:none;
+.p3		{
+font-size: 2rem;
+font-weight:200;
+position: relative;
+
+color:var(--mainfont);
+outline:none;
+margin-right:auto;
+
+}
 
 
-	}
+.p4		{
+font-size: 2rem;
+font-weight:200;
+position: relative;
+color:var(--mainfont);
+outline:none;
+margin-right:auto;
 
-
-	.p4		{
-	font-size: 2rem;
-	font-weight:200;
-	position: relative;
-	color:var(--mainfont);
-	outline:none;
-
-	}
+}
 
 
 
-	.medialist	{
-	text-underline-position: under;
-	outline:none;
-  } 
-	
+.medialist	{
+text-underline-position: under;
+outline:none;
+} 
+
 
 /*animation*/ 
   
@@ -269,6 +274,8 @@ h3 {
 	overflow-x: hidden; /* Disable horizontal scroll */
 	padding-top: 18rem; 
 	outline:none;
+	margin-top:auto;
+	margin-bottom:auto;
 	border-left: .11rem solid var(--headerfont);  
   }
  
@@ -276,7 +283,7 @@ h3 {
   .sidenav a {
 	padding: 1.7rem;
 	text-decoration: none;
-	text-align:right;
+	text-align:right ;
 	font-size: 2rem;
 	color: var(--headerfont);
 	display: block;
@@ -383,10 +390,12 @@ h1{
 	display:inline-block;
 	font-size:2rem;
 	padding:0;
+	margin-bottom: 0px;
 }
 
 h2{
 	padding-top:0;
+	  margin-bottom: 0px;
 }
 
 	a {
@@ -406,6 +415,19 @@ h2{
 	text-decoration: underline;
 	pointer-events:none;
 	}
+
+	
+	ul{
+		font-size: 1.3rem;
+		display:inline-block;
+		text-align:center;
+		font-weight: 200; 
+		color:var(--mainfont);
+		outline:none;
+		line-height: 2;
+		list-style: none;
+		padding: 0;
+	  }
 
 	.sidenav a::after {
 		content: '';
@@ -449,6 +471,15 @@ h2{
 		  outline: 0px solid;
 		  background-color:var(--selectioncolorbar);
 		 }
+
+		 
+
+html, body {
+	overflow-x: hidden;
+  }
+  body {
+	position: relative;
+  }
   
   }
 
