@@ -111,10 +111,10 @@
 
 
 		.main {
-		float:left;
+		
 		margin-right: 18rem;
 		padding-top: 2rem;
-		padding-left: 5rem;
+		padding-left: 4rem;
 
 		}
 
@@ -122,7 +122,7 @@
 
 		color: var(--headerfont);
 		font-size: 3rem;
-		font-weight: 400;
+		font-weight: 500;
 		}
 
 
@@ -138,6 +138,12 @@
 		font-weight: 500;	
 		}
 
+		h4 {
+		font-size:2rem; 
+		color: var(--headerfont);
+		font-weight: 500;	
+		padding-top:0rem;
+		}
 
 
 		p {
@@ -159,6 +165,7 @@
 		font-weight:200;
 		position: relative;
 		line-height: 1.4;
+		
 		color:var(--mainfont);
 		outline:none;
 		margin-right:auto;
@@ -205,15 +212,16 @@
 		outline:none;
 		} 
 
+	
 		/*-------------------list---------------------*/
 		
 		ul{
-		font-size: 1.5rem;
+		font-size: 1.4rem;
 		position: relative;
 		font-weight: 200; 
 		color:var(--mainfont);
 		outline:none;
-		line-height: 2;
+		line-height: 2.1;
 		list-style: none;
 		padding-left: 0;
 		
@@ -232,13 +240,62 @@
 		}
 
 	
-		.listpadding {
-		float:left;
-		padding-right:15rem;
-		margin:auto;
+		/*this allows for the text to float to the right of the image*/
+
+		.lists {
+		display:flex;
+		justify-content: stretch;
 				}
 
 		br.clear {  clear: both; } 
+
+
+		/*idk what this is*/
+
+		#listone{
+			margin-right:2.5rem;
+			flex-grow: 1;
+
+		}
+
+		.blurb h1 {
+			margin: 0;
+			padding-top:1.2rem;
+			}
+
+	
+			.content {
+				
+				align-items: center;
+				
+				margin: auto;
+			  }
+
+			  
+			.text {
+
+			padding-left: 0;
+			height: 100%;
+			}
+
+			.list {
+				flex-grow: 1;
+			  }
+			
+		/*img*/
+
+
+		img{
+			float:left;
+  			height: 600px;
+			margin-right:2rem;
+			padding-top:2rem;
+			min-height:400px;
+			min-width:400px;
+		  }
+		  
+
+	  
 
 		/*-------------animation---------------------*/ 
 
@@ -259,6 +316,9 @@
 		}
 
 		/*end of animation*/
+
+
+	
 
 		/*for a values, when hovering*/
 
@@ -359,7 +419,19 @@
 
 		/*'responsive' design*/
 
+
+		@media screen and (max-width: 800px) {
+		img {
+			width: 30% !important;
+			height: auto !important;
+			align-items:center;
+			margin-right:2rem;
+		  }
+		}
+
 	@media screen and (max-width: 800px) {
+
+		/*for side bar*/
 		.sidenav {
 		width: 100%;
 		height: auto;
@@ -370,6 +442,52 @@
 		border-left: 0rem solid var(--headerfont);
 		}
 
+		
+		.sidenav a::after {
+			content: '';
+			display: block;
+			width: 0;
+			height: 1px;
+			transition: width 0s, background-color 0s;
+			position:absolute;
+			right:0;
+	
+			}
+			/* When you mouse over the navigation links, change their color */
+			.sidenav a:hover::after {
+			background-color:var(--fadinginto);
+			width: 0%;
+	
+	
+			}
+			/* this is for the top bar nav when the display is lower than 850 or so.*/
+	
+			.sidenav a {
+	
+			display:inline-block;
+			font-size:1.5rem;
+			margin-left:auto;
+			margin-right:auto;
+			text-align:center;
+			border: none;}
+	
+	
+			.sidenav {
+			float: none;
+			overflow-x: hidden;
+			overflow-y: hidden;
+	
+			}
+	
+			#selected{
+			content: '';
+			right: 0;
+			outline: 0px solid;
+			background-color:var(--selectioncolorbar);
+			}
+
+			
+		/*for body and text*/
 		body{
 		text-align:center;
 		padding: 0;
@@ -386,6 +504,7 @@
 
 		}
 
+		/*text styling*/
 		p{
 		font-size:1.3rem;
 		text-align:center;
@@ -427,7 +546,11 @@
 		h2{
 		padding-top:0;
 		margin-bottom: 0px;
+		text-align:center;
+		display:inline-block;
 		}
+
+		/*a styling*/
 
 		a {
 		transition: ease 0s, background-color 0s;
@@ -448,6 +571,8 @@
 		}
 
 
+		/* list styling*/
+
 		ul{
 		font-size: 1.3rem;
 		display:inline-block;
@@ -460,6 +585,24 @@
 		padding: 0;
 		}
 
+
+		#listone{
+		margin-right:0;
+		flex-grow: 1;
+		text-align:center;
+			
+		}
+
+
+		.lists {
+		display:flex;
+		justify-content: center;
+		flex-direction: column;
+		text-align:center;
+		margin:auto;
+					}
+
+
 		.potato {
 
 		float:center;
@@ -467,51 +610,15 @@
 		}
 
 
-		.sidenav a::after {
-		content: '';
-		display: block;
-		width: 0;
-		height: 1px;
-		transition: width 0s, background-color 0s;
-		position:absolute;
-		right:0;
 
-		}
-		/* When you mouse over the navigation links, change their color */
-		.sidenav a:hover::after {
-		background-color:var(--fadinginto);
-		width: 0%;
-
-
-		}
-		/* this is for the top bar nav when the display is lower than 850 or so.*/
-
-		.sidenav a {
-
-		display:inline-block;
-		font-size:1.5rem;
-		margin-left:auto;
-		margin-right:auto;
-		text-align:center;
-		border: none;}
-
-
-		.sidenav {
-		float: none;
-		overflow-x: hidden;
-		overflow-y: hidden;
-
-		}
-
-		#selected{
-		content: '';
-		right: 0;
-		outline: 0px solid;
-		background-color:var(--selectioncolorbar);
-		}
-
-
-
+		img {
+			width: 30% !important;
+			height: auto !important;
+			text-align:center;
+			margin-right:2rem;
+		  }
+		  
+		  
 		html, body {
 		overflow-x: hidden;
 		}
@@ -521,6 +628,7 @@
 
 		}
 
+	
 
 		@media screen and (max-width: 360px) {
 		.sidenav a {
