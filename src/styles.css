@@ -1,4 +1,20 @@
 
+	:root{
+		--headerfont:#E8D1A7 ;
+		--mainfont: #ffffff;
+		--bgcolor: #0c0b10;
+		--sidenav: #13111b;
+		--selectioncolor: #1f1b2a;
+		--selectioncolorbar:#1f1b2a;
+		--selectorfont:#E8D1A7 ;
+		}
+		
+		/* this one above has alterations to the headder font and selector font. 
+		It may not be a large difference, but I wish to document the different
+		types in case I do need to use the bottom colors once again.*/
+/*
+A back up of the ALMA Dark Mode Colors. Subject to Change.
+
 		:root{
 		--headerfont:#e3cb9b;
 		--mainfont: #ffffff;
@@ -8,6 +24,7 @@
 		--selectioncolorbar:#1f1b2a;
 		--selectorfont:#e3cb9b;
 		}
+*/
 		/*
 		A back up of the main colors, changing to ALMA.
 
@@ -101,17 +118,19 @@
 		font-style: oblique;
 
 		}
+		/*--------------------------end of fonts----------------------*/
 
 		/*-------------------values for header+---------------------*/
 
 		body{
 		background-color:var(--bgcolor);
 		font-family: 'Iosevka', Georgia, sans-serif;
+		margin:auto;
 		}
 
 
 		.main {
-		
+			margin:auto;
 		margin-right: 18rem;
 		padding-top: 2rem;
 		padding-left: 4rem;
@@ -227,17 +246,19 @@
 		
 		}
 
-
 		ul a {
-		text-decoration: underline;
-		color:#F3EAD7
+			text-decoration: underline;
+			color:var(--mainfont);
+	
+			}
+			
+		.acclaim a
+			{
 
-		}
-		
-		.acclaim a{
 		text-decoration: underline;
-		color:#F3EAD7
-		}
+		color:var(--mainfont);
+			}
+	
 
 	
 		/*this allows for the text to float to the right of the image*/
@@ -252,7 +273,8 @@
 
 		/*idk what this is*/
 
-		#listone{
+		#listone
+		{
 			margin-right:2.5rem;
 			flex-grow: 1;
 
@@ -263,24 +285,23 @@
 			padding-top:1.2rem;
 			}
 
-	
-			.content {
-				
-				align-items: center;
-				
-				margin: auto;
-			  }
 
-			  
-			.text {
-
-			padding-left: 0;
-			height: 100%;
+		.content {
+			
+			align-items: center;
+			margin: auto;
 			}
 
-			.list {
-				flex-grow: 1;
-			  }
+			
+		.text {
+
+		padding-left: 0;
+		height: 100%;
+		}
+
+		.list {
+			flex-grow: 1;
+			}
 			
 		/*img*/
 
@@ -290,11 +311,22 @@
   			height: 600px;
 			margin-right:2rem;
 			padding-top:2rem;
-			min-height:400px;
-			min-width:400px;
+			min-height:230px;
+			min-width:230px;
 		  }
 		  
 
+		  /*shade*/
+		  section.shade{
+			  
+			 
+			
+    
+
+			  
+			
+			  
+		  }
 	  
 
 		/*-------------animation---------------------*/ 
@@ -352,7 +384,7 @@
 
 		.sidenav {
 		height: 100%; /* 100% Full-height */
-		width: 13rem; 
+		width: 15rem; 
 		position: fixed; /* Stay in place */
 		z-index: 1; /* Stay on top */
 		top: 0; /* Stay at the top */
@@ -420,14 +452,14 @@
 		/*'responsive' design*/
 
 
-		@media screen and (max-width: 800px) {
-		img {
-			width: 30% !important;
-			height: auto !important;
-			align-items:center;
-			margin-right:2rem;
-		  }
-		}
+		@media screen and (max-width: 1000px) {
+			.content {
+				
+				align-items: center;
+				display:flex;
+				margin: auto;
+			  }
+
 
 	@media screen and (max-width: 800px) {
 
