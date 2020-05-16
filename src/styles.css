@@ -311,24 +311,26 @@ A back up of the ALMA Dark Mode Colors. Subject to Change.
   			height: 600px;
 			margin-right:2rem;
 			padding-top:2rem;
-			min-height:230px;
-			min-width:230px;
+			min-height:350px;
+			min-width:350px;
 		  }
 		  
 
 		  /*shade*/
-		  section.shade{
-			  
-			 
-			
-    
-
-			  
-			
-			  
+		  div.shade{
+		
+			background:var(--selectioncolor);
+			margin: -5rem;
+			padding-left: 5rem;
+			padding-right: 16rem;
+			padding-top: 2rem;
+			border-top:var(--headerfont);
+		
 		  }
 	  
-
+		  div.textbottom{
+			padding-left:-5rem;
+		  }
 		/*-------------animation---------------------*/ 
 
 		.fade-in {
@@ -456,7 +458,7 @@ A back up of the ALMA Dark Mode Colors. Subject to Change.
 			.content {
 				
 				align-items: center;
-				display:flex;
+				/*display:flex;*/
 				margin: auto;
 			  }
 
@@ -510,7 +512,21 @@ A back up of the ALMA Dark Mode Colors. Subject to Change.
 			overflow-y: hidden;
 	
 			}
-	
+			
+			div.shade{
+				margin:auto;
+				padding-left:0rem;
+				padding-right:0rem;
+				padding-top:0rem;
+				margin-top:-5rem;
+			  }
+
+			div.textbottom{
+				margin:auto;
+				text-align:center;
+			
+			  }
+
 			#selected{
 			content: '';
 			right: 0;
@@ -635,11 +651,6 @@ A back up of the ALMA Dark Mode Colors. Subject to Change.
 					}
 
 
-		.potato {
-
-		float:center;
-		padding-right:0rem;
-		}
 
 
 
@@ -673,3 +684,4 @@ A back up of the ALMA Dark Mode Colors. Subject to Change.
 
 		}
 
+	}
