@@ -188,6 +188,7 @@ A back up of the ALMA Dark Mode Colors. Subject to Change.
 		color:var(--mainfont);
 		outline:none;
 		margin-right:auto;
+	
 
 
 		}
@@ -226,10 +227,7 @@ A back up of the ALMA Dark Mode Colors. Subject to Change.
 
 			}
 
-		.medialist	{
-		text-underline-position: under;
-		outline:none;
-		} 
+	
 
 	
 		/*-------------------list---------------------*/
@@ -259,7 +257,18 @@ A back up of the ALMA Dark Mode Colors. Subject to Change.
 		color:var(--mainfont);
 			}
 	
-
+			
+		ul.links
+			{
+				font-size: 1.5rem;
+				position: relative;
+				font-weight: 200; 
+				color:var(--mainfont);
+				outline:none;
+				line-height: 3;
+				margin-right:auto;
+			}
+	
 	
 		/*this allows for the text to float to the right of the image*/
 
@@ -566,6 +575,7 @@ A back up of the ALMA Dark Mode Colors. Subject to Change.
 		text-align:center;
 		display:inline-block;
 		padding:0;
+		margin:20px;
 
 		}
 
