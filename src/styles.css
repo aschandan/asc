@@ -255,8 +255,12 @@ ul a {
 .acclaim a {
     text-decoration: underline;
     color: var(--mainfont);
+  
 }
 
+.acclaim{
+    padding-right: 10px;
+}
 ul.links {
     font-size: 1.6rem;
     font-weight: 200;
@@ -304,6 +308,14 @@ br.spacing2 {
 
 div.spacingbetween{
     margin-top: 3rem;
+}
+
+div.spacingbetween2{
+    margin-top: 1rem;
+}
+
+div.spacingbetween3{
+    margin-top: 0.7rem;
 }
 
 /*idk what this is*/
@@ -498,7 +510,7 @@ a:hover {
         /*display:flex;*/
         margin: auto;
     }
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 800px) {
         /*for side bar*/
         .sidenav {
             width: 100%;
@@ -654,6 +666,7 @@ a:hover {
             text-align: center;
             margin-right: 0rem;
             float:none;
+            margin-bottom: 20px;
             
         }
         html,
