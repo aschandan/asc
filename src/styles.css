@@ -142,7 +142,7 @@ h1 {
     font-size: 3rem;
     font-weight: 500;
     padding-bottom:1rem;
-    padding-top:1rem;
+    padding-top:2rem;
     
 }
 
@@ -303,6 +303,8 @@ ul.links {
     justify-content: stretch;
 }
 
+/* this is just for spacing and such*/
+
 br.clear {
     clear: both;
 }
@@ -333,7 +335,18 @@ div.spacingbetween2{
     margin-top: 1rem;
 }
 
+div.abouttext{
+    
+    height:650px;
+    margin-bottom:2rem;
+    padding-bottom:1rem;
 
+}
+
+div.spacingbetween4{
+    margin-top: 0;
+
+}
 
 /*idk what this is*/
 
@@ -393,17 +406,7 @@ div.textbottom {
 }
 
 
-div.abouttext{
-    margin-top: 0;
-    margin-bottom:3rem;
-    padding-bottom:2rem;
 
-}
-
-div.spacingbetween4{
-    margin-top: 0;
-
-}
 
 
 /*-------------animation---------------------*/
