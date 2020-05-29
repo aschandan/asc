@@ -142,6 +142,7 @@ h1 {
     font-size: 3rem;
     font-weight: 500;
     padding-bottom:1rem;
+    padding-top:1rem;
     
 }
 
@@ -199,7 +200,7 @@ p {
 }
 
 .p2 {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     font-weight: 200;
     position: relative;
     line-height: 1.4;
@@ -337,7 +338,7 @@ div.spacingbetween2{
 /*idk what this is*/
 
 #listspacing {
-    margin-right:10rem;
+    margin-right:18rem;
     flex-grow: 0;
     
 }
@@ -366,8 +367,8 @@ div.spacingbetween2{
 
 img {
     float:left;
-
-    height: 600px;
+   
+    height: 629px;
     margin-right: 4rem;
     padding-top: 2rem;
     padding-bottom:0;
@@ -392,9 +393,15 @@ div.textbottom {
 }
 
 div.spacingbetween3{
-    margin-top: 0rem;
+    margin-top: 6rem;
+    padding-bottom:1rem;
+}
+
+div.spacingbetween4{
+    margin-top: 0;
 
 }
+
 
 /*-------------animation---------------------*/
 
