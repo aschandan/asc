@@ -200,7 +200,7 @@ p {
 }
 
 .p2 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 200;
     position: relative;
     line-height: 1.4;
@@ -371,7 +371,7 @@ img {
     height: 629px;
     margin-right: 4rem;
     padding-top: 2rem;
-    padding-bottom:0;
+    padding-bottom:2rem;
     min-height: 350px;
     min-width: 350px;
 }
@@ -392,9 +392,12 @@ div.textbottom {
     padding-left: -5rem;
 }
 
-div.spacingbetween3{
-    margin-top: 6rem;
-    padding-bottom:1rem;
+
+div.abouttext{
+    margin-top: 0;
+    margin-bottom:3rem;
+    padding-bottom:2rem;
+
 }
 
 div.spacingbetween4{
