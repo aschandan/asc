@@ -157,6 +157,7 @@ h3 {
     font-size: 3rem;
     color: var(--headerfont);
     font-weight: 500;
+    margin-top:2rem;
 
 }
 
@@ -340,14 +341,14 @@ div.spacingbetween2{
 
 div.abouttext{
     
-    height:650px;
-    margin-bottom:2rem;
+    height:550px;
+    margin-bottom:1rem;
     padding-bottom:1rem;
 
 }
 
 div.spacingbetween4{
-    margin-top: 0;
+    margin-top: 20px;
 
 }
 
@@ -369,10 +370,6 @@ div.spacingbetween4{
     margin: auto;
 }
 
-.text {
-    padding-left: 0;
-    height: 100%;
-}
 
 .list {
     flex-grow: 1;
@@ -487,7 +484,8 @@ a:hover {
     outline: none;
     margin-top: auto;
     margin-bottom: auto;
-    border-left: .11rem solid var(--headerfont);
+    /*border-left: .11rem solid var(--headerfont);*/
+
 }
 
 
@@ -541,12 +539,33 @@ a:hover {
 
 /*'responsive' design*/
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1280px) {
     .content {
         align-items: center;
-        /*display:flex;*/
+        display:inline-block;
         margin: auto;
+   
     }
+    div.abouttext{
+    
+        height:5%;
+        margin-bottom:2rem;
+        padding-bottom:2rem;
+    
+    }
+}
+
+
+@media screen and (max-width: 768px) , screen and (max-height: 1024px) {
+ 
+    div.abouttext{
+        display:inline;
+       
+        padding-bottom:0rem;
+    
+    }
+    }
+
     @media screen and (max-width: 800px) {
         /*for side bar*/
         .sidenav {
@@ -657,15 +676,6 @@ a:hover {
         
         }
         
-        div.abouttext{
-    
-            height:650px;
-            margin-bottom:28rem;
-            padding-bottom:1rem;
-        
-        }
-
-        
       
         h1 {
             text-align: center;
@@ -734,6 +744,14 @@ a:hover {
                 
             }
     
+
+            div.abouttext{
+    
+                height:950px;
+                margin-bottom:5rem;
+                padding-bottom:5rem;
+            
+            }
     
             .multiplelist {
             display:flex;
@@ -767,4 +785,3 @@ a:hover {
             overflow-y: hidden;
         }
     }
-}
