@@ -459,6 +459,7 @@ a:hover {
 #for404 {
     border: .25rem solid #e8e8e800;
     margin: 0 calc(-0.25em - -3px);
+    text-decoration: underline;
 }
 
 
