@@ -154,9 +154,10 @@ h2 {
 }
 
 h3 {
-    font-size: 4rem;
+    font-size: 3rem;
     color: var(--headerfont);
     font-weight: 500;
+
 }
 
 h4 {
@@ -218,6 +219,7 @@ p {
     color: var(--mainfont);
     outline: none;
     margin-right: auto;
+    margin-top: 0px;
 }
 
 .p4 {
@@ -239,6 +241,7 @@ p {
     
     padding-bottom: 1.3rem;
     margin-bottom:1rem;
+   
     
 
 }
@@ -640,6 +643,29 @@ a:hover {
             display: inline-block;
         }
 
+        .p5 {
+            font-size: 1.2rem;
+            text-align: center;
+            padding: 0;
+            display: inline-block;
+            
+            padding-bottom: 1.3rem;
+            margin-bottom:1rem;
+            padding-left: 10px;
+            padding-right: 10px;
+            
+        
+        }
+        
+        div.abouttext{
+    
+            height:650px;
+            margin-bottom:28rem;
+            padding-bottom:1rem;
+        
+        }
+
+        
       
         h1 {
             text-align: center;
@@ -659,10 +685,21 @@ a:hover {
             font-size: 2rem;
             color: var(--headerfont);
             font-weight: 500;
-            padding-top:5rem;
+            padding-top:3rem;
             text-align: center;
             display: inline-block;
         }
+
+        h6 {
+            font-size: 2.4rem;
+            color: var(--headerfont);
+            font-weight: 500;
+          
+            margin-bottom: 4rem;
+            text-align: center;
+            display: inline-block;
+        }
+        
         /*a styling*/
         a {
             transition: ease 0s, background-color 0s;
