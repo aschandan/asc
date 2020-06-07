@@ -461,7 +461,7 @@ img{
     height: 300px;
 }
 
-/*-------------animation---------------------*/
+/*-------------animation for text on site.---------------------*/
 
 .fade-in {
     animation: fadein 1s;
@@ -630,15 +630,7 @@ a:hover {
             overflow-y: hidden;
             border-left: 0rem solid var(--headerfont);
         }
-        .sidenav a::after {
-            content: '';
-            display: block;
-            width: 0;
-            height: 0px;
-            transition: width 0s, background-color 0s;
-            position: absolute;
-            right: 0;
-        }
+       
         /* When you mouse over the navigation links, change their color */
         .sidenav a:hover::after {
             background-color: var(--fadinginto);
@@ -652,7 +644,11 @@ a:hover {
             margin-right: auto;
             text-align: center;
             border: none;
+          
         }
+
+
+
         .sidenav {
             float: none;
             overflow-x: hidden;
@@ -771,13 +767,7 @@ a:hover {
             color: var(--mainfont);
             outline: none;
         }
-        a:hover {
-            color: var(--selectorfont);
-            outline: none;
-            padding: 0rem;
-            text-decoration: underline;
-            pointer-events: none;
-        }
+      
         /* list styling*/
         ul {
             font-size: 1.3rem;
