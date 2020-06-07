@@ -288,12 +288,19 @@ ul {
 ul a {
     text-decoration: underline;
     color: var(--mainfont);
+    text-underline-position:under;
 }
 
 .acclaim a {
     text-decoration: underline;
     color: var(--mainfont);
-  
+    text-underline-position:under; 	  
+}
+
+ .email{
+    text-decoration: underline;
+    color: var(--mainfont);
+    text-underline-position:under; 	
 }
 
 .acclaim{
@@ -305,7 +312,7 @@ ul.links {
     color: var(--mainfont);
     outline: none;
     line-height: 2;
-  
+    text-underline-position:under;
     list-style:none;
     
     padding:0px;
