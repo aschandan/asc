@@ -1,4 +1,24 @@
 :root {
+    --headerfont: #EF4C4D;
+    --mainfont: #ffffff;
+    --bgcolor: #0c0b10;
+    --sidenav: #13111b;
+    --selectioncolor: #1f1b2a;
+    --selectioncolorbar: #1f1b2a;
+    --selectorfont: #EF4C4D;
+    --shadecolor:#241420;
+}
+
+
+/* this one above has alterations to the headder font and selector font. 
+		It may not be a large difference, but I wish to document the different
+		types in case I do need to use the bottom colors once again.*/
+
+
+/*
+
+/* another backup of the last color scheme (5:03 pm, June 6, 2020)
+:root {
     --headerfont: #E8D1A7;
     --mainfont: #ffffff;
     --bgcolor: #0c0b10;
@@ -8,13 +28,7 @@
     --selectorfont: #E8D1A7;
     --shadecolor:#1b1825;
 }
-
-
-/* this one above has alterations to the headder font and selector font. 
-		It may not be a large difference, but I wish to document the different
-		types in case I do need to use the bottom colors once again.*/
-
-
+*/
 /*
 		A back up of the ALMA Dark Mode Colors. Subject to Change.
 
@@ -391,10 +405,24 @@ div.spacingbetween4{
 }
 */
 
+
+
+img.logo {
+
+    height: 145px;
+    padding-left:1rem;
+    padding-top: 0rem;
+    padding-bottom:7rem;
+   
+}
+
+
+
 /*shade, this is for the about page on the bottom.*/
 
+
 div.shade {
-    background: var(--selectioncolor);
+    background: var(--shadecolor);
     margin: -5rem;
     padding-left: 5rem;
     padding-right: 16rem;
@@ -492,7 +520,7 @@ a:hover {
 .sidenav {
     height: 100%;
     /* 100% Full-height */
-    width: 12rem;
+    width: 13rem;
     position: fixed;
     /* Stay in place */
     z-index: 1;
@@ -505,7 +533,7 @@ a:hover {
     background-color: var(--sidenav);
     overflow-x: hidden;
     /* Disable horizontal scroll */
-    padding-top: 20rem;
+    padding-top: 30vh;
     outline: none;
     margin-top: auto;
     margin-bottom: auto;
@@ -606,7 +634,7 @@ a:hover {
             content: '';
             display: block;
             width: 0;
-            height: 1px;
+            height: 0px;
             transition: width 0s, background-color 0s;
             position: absolute;
             right: 0;
