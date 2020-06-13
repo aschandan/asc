@@ -1,12 +1,12 @@
 :root {
-    --headerfont: #EF4C4D;
+    --headerfont: #f0c098;
     --mainfont: #ffffff;
-    --bgcolor: #0c0b10;
-    --sidenav: #13111b;
-    --selectioncolor: #1f1b2a;
-    --selectioncolorbar: #1f1b2a;
-    --selectorfont: #EF4C4D;
-    --shadecolor:#241420;
+    --bgcolor: #111111;
+    --sidenav: #1b1b1b;
+    --selectioncolor: #222222;
+    --selectioncolorbar: #333333;
+    --selectorfont: #f0c098;
+    --shadecolor:#333333;
 }
 
 
@@ -16,7 +16,16 @@
 
 
 /*
-
+:root {
+    --headerfont: #EF4C4D;
+    --mainfont: #ffffff;
+    --bgcolor: #0c0b10;
+    --sidenav: #13111b;
+    --selectioncolor: #1f1b2a;
+    --selectioncolorbar: #1f1b2a;
+    --selectorfont: #EF4C4D;
+    --shadecolor:#241420;
+}
 /* another backup of the last color scheme (5:03 pm, June 6, 2020)
 :root {
     --headerfont: #E8D1A7;
