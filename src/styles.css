@@ -173,7 +173,8 @@ h3 {
     color: var(--headerfont);
     font-weight: 500;
     margin-top:2rem;
-
+  
+ 
 }
 
 h4 {
@@ -201,7 +202,9 @@ h6 {
     font-weight: 500;
     padding-top: 1.2rem;
     margin-top: 0rem;
+    
 }
+
 
 
 /*-------------------styling for fonts---------------------*/
@@ -415,15 +418,18 @@ div.spacingbetween4{
 
 
 img.logo {
-
-    height: 145px;
-    padding-left:1rem;
-    padding-top: 0rem;
-    padding-bottom:7rem;
-   
+    height: 400px;
+    padding-top: 4rem;
+    
 }
 
 
+#amandeep {
+    text-decoration: underline;
+    color: var(--headerfont);
+    
+    padding-bottom: 5px;
+}
 
 /*shade, this is for the about page on the bottom.*/
 
@@ -450,10 +456,11 @@ div.shade2 {
     margin: 0vh;
     padding-left: 0rem;
     padding-right: 0rem;
-    padding-top: 1rem;
+    padding-top: 4rem;
     
     height: 75.3vh;
 }
+
 img{
     max-width: 100%;
     max-height: 100%;
