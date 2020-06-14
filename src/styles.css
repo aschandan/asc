@@ -1,16 +1,13 @@
-
 :root {
-    --headerfont: #EF4C4D;
-    --mainfont: #ffffff;
-    --bgcolor: #0c0b10;
-    --sidenav: #13111b;
-    --selectioncolor: #1f1b2a;
-    --selectioncolorbar: #1f1b2a;
-    --selectorfont: #EF4C4D;
-    --shadecolor:#241420;
+    --headerfont: #638ad3;
+    --mainfont: #1f1f1f;
+    --bgcolor: #f5ebd7;
+    --sidenav: #edddbf;
+    --selectioncolor: #e0c591;
+    --selectioncolorbar: #e0c591;
+    --selectorfont: #638ad3;
+    --shadecolor:#e3cb9b;
 }
-
-
 /* this one above has alterations to the headder font and selector font. 
 		It may not be a large difference, but I wish to document the different
 		types in case I do need to use the bottom colors once again.*/
@@ -177,7 +174,7 @@ body {
 
 h1 {
     color: var(--headerfont);
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 500;
     padding-bottom:1rem;
     padding-top:2rem;
@@ -186,13 +183,13 @@ h1 {
 
 h2 {
     color: var(--headerfont);
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 500;
     padding-top: 0rem;
 }
 
 h3 {
-    font-size: 3rem;
+    font-size: 4rem;
     color: var(--headerfont);
     font-weight: 500;
     margin-top:2rem;
@@ -201,16 +198,16 @@ h3 {
 }
 
 h4 {
-    font-size: 1.7rem;
+    font-size: 3.5rem;
     color: var(--headerfont);
     font-weight: 500;
-    padding-top: 0rem;
+    padding-top: 1rem;
     margin-top: 0rem;
-    margin-bottom:15px;
+    margin-bottom:3rem;
 }
 
 h5 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: var(--headerfont);
     font-weight: 500;
     padding-top: 0rem;
@@ -220,12 +217,13 @@ h5 {
 }
 
 h6 {
-    font-size: 2.4rem;
+    font-size: 10rem;
     color: var(--headerfont);
     font-weight: 500;
-    padding-top: 1.2rem;
+    padding-top: 0rem;
     margin-top: 0rem;
-    
+    padding-bottom:0;
+    margin-bottom:20px;
 }
 
 
@@ -233,7 +231,7 @@ h6 {
 /*-------------------styling for fonts---------------------*/
 
 p {
-    font-size: 1.6rem;
+    font-size: 2rem;
     position: relative;
     font-weight: 200;
     color: var(--mainfont);
@@ -243,7 +241,7 @@ p {
 }
 
 .p2 {
-    font-size: 1.6rem;
+    font-size: 2rem;
     font-weight: 200;
     position: relative;
     line-height: 1.4;
@@ -274,7 +272,7 @@ p {
 }
 
 .p5 {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     font-weight: 200;
     font-style: oblique;
     position: relative;
@@ -289,7 +287,7 @@ p {
 }
 
 .p6 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 200;
    
     position: relative;
@@ -301,7 +299,7 @@ p {
 /*-------------------list---------------------*/
 
 ul {
-    font-size: 1.4rem;
+    font-size: 1.7rem;
     position: relative;
     font-weight: 200;
     color: var(--mainfont);
@@ -321,6 +319,7 @@ ul a {
     text-decoration: underline;
     color: var(--mainfont);
     text-underline-position:under; 	  
+    
 }
 
  .email{
@@ -331,6 +330,7 @@ ul a {
 
 .acclaim{
     padding-right: 10px;
+    padding-bottom:6rem;
 }
 ul.links {
     font-size: 1.6rem;
@@ -450,8 +450,7 @@ img.logo {
 #amandeep {
     text-decoration: underline;
     color: var(--headerfont);
-    
-    padding-bottom: 5px;
+  font-weight:500;
 }
 
 /*shade, this is for the about page on the bottom.*/
@@ -462,7 +461,7 @@ div.shade {
     margin: -5rem;
     padding-left: 5rem;
     padding-right: 16rem;
-    padding-top: 2rem;
+    padding-top: 4rem;
     border-top: var(--headerfont);
 }
 
@@ -557,7 +556,7 @@ a:hover {
 .sidenav {
     height: 100%;
     /* 100% Full-height */
-    width: 13rem;
+    width: 11.5rem;
     position: fixed;
     /* Stay in place */
     z-index: 1;
@@ -790,8 +789,9 @@ a:hover {
             font-size: 2.4rem;
             color: var(--headerfont);
             font-weight: 500;
-          
-            margin-bottom: 4rem;
+            padding-top:3rem;
+          padding-bottom:0;
+            margin-bottom: 0rem;
             text-align: center;
             display: inline-block;
         }
