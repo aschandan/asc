@@ -1,3 +1,23 @@
+
+:root {
+    --headerfont: #EF4C4D;
+    --mainfont: #ffffff;
+    --bgcolor: #0c0b10;
+    --sidenav: #13111b;
+    --selectioncolor: #1f1b2a;
+    --selectioncolorbar: #1f1b2a;
+    --selectorfont: #EF4C4D;
+    --shadecolor:#241420;
+}
+
+
+/* this one above has alterations to the headder font and selector font. 
+		It may not be a large difference, but I wish to document the different
+		types in case I do need to use the bottom colors once again.*/
+
+
+/*
+
 :root {
     --headerfont: #f0c098;
     --mainfont: #ffffff;
@@ -10,12 +30,6 @@
 }
 
 
-/* this one above has alterations to the headder font and selector font. 
-		It may not be a large difference, but I wish to document the different
-		types in case I do need to use the bottom colors once again.*/
-
-
-/*
 :root {
     --headerfont: #EF4C4D;
     --mainfont: #ffffff;
