@@ -1,11 +1,11 @@
 :root {
-    --headerfont: #638ad3;
+    --headerfont: #224179;
     --mainfont: #1f1f1f;
-    --bgcolor: #f5ebd7;
-    --sidenav: #edddbf;
-    --selectioncolor: #e0c591;
-    --selectioncolorbar: #e0c591;
-    --selectorfont: #638ad3;
+    --bgcolor: #eddbb8;
+    --sidenav: #dab46d;
+    --selectioncolor: #dab46d;
+    --selectioncolorbar: #d6ac5d;
+    --selectorfont: #224179;
     --shadecolor:#e3cb9b;
 }
 /* this one above has alterations to the headder font and selector font. 
