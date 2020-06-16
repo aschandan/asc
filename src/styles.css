@@ -1,11 +1,11 @@
 :root {
-    --headerfont: #224179;
+    --headerfont: #3c2d38;
     --mainfont: #1f1f1f;
     --bgcolor: #eddbb8;
     --sidenav: #dab46d;
     --selectioncolor: #debc7d;
     --selectioncolorbar: #debc7d;
-    --selectorfont: #224179;
+    --selectorfont: #251c23;
     --shadecolor:#e3cb9b;
 }
 /* this one above has alterations to the headder font and selector font. 
@@ -423,6 +423,77 @@ div.spacingbetween4{
     flex-grow: 1;
 }
 
+div.shade2 {
+    background: var(--shadecolor);
+    margin: 0vh;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-top: 4rem;
+   padding-bottom:3rem;
+    z-index:-2;
+    padding-right:10rem;
+}
+
+img.works {
+  width: 33%;
+  padding-left:2rem;
+  float:right;
+}
+
+hr { display: block; 
+    height: 1px;
+    border: 0; 
+    border-top: 1px solid var(--selectorfont);
+    margin: 1em 0; 
+    padding: 0; }
+
+.group{
+    padding:2rem;
+}
+.group:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+
+  
+  
+  .text {
+    float: left;
+    width: 50%;
+    padding-left:7rem;
+  }
+  
+  .images {
+    float: left;
+    width: 25%;
+  }
+
+ /* Three image containers (use 25% for four, and 50% for two, etc) */
+ .column {
+    float: left;
+    width: 33%;
+    padding: 0px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  } 
+
+  .row2::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .column2 {
+    float: left;
+    width: 33%;
+    padding-top:5rem;
+  }
 
 /*img for about page, which has been temporarly removed for the time being.*/
 
@@ -473,15 +544,7 @@ div.textbottom {
 
 /*for index page*/
 
-div.shade2 {
-    background: var(--shadecolor);
-    margin: 0vh;
-    padding-left: 0rem;
-    padding-right: 0rem;
-    padding-top: 4rem;
-    
-    height: 75.3vh;
-}
+
 
 img{
     max-width: 100%;
@@ -666,6 +729,7 @@ a:hover {
             overflow-y: hidden;
             border-left: 0rem solid var(--headerfont);
         }
+        
        
         /* When you mouse over the navigation links, change their color */
         .sidenav a:hover::after {
@@ -701,6 +765,8 @@ a:hover {
             margin: auto;
             text-align: center;
         }
+
+
         #selected {
             content: '';
             right: 0;
@@ -855,7 +921,11 @@ a:hover {
         }
         body {
             position: relative;
+        
         }
+
+        
+
     }
     @media screen and (max-width: 360px) {
         .sidenav a {
