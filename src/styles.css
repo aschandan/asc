@@ -167,7 +167,7 @@ body {
 .main {
     margin: auto;
     margin-right: 16rem;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
     padding-left: 4rem;
     
 }
@@ -384,7 +384,7 @@ div.spacingbetween{
 }
 
 div.spacingbetween2{
-    margin-top: 1rem;
+    margin-top: 0rem;
 }
 
 div.abouttext{
@@ -443,7 +443,7 @@ img.works {
 hr { display: block; 
     height: 1px;
     border: 0; 
-    border-top: 1px solid var(--selectorfont);
+    border-top: 2px solid var(--selectorfont);
     margin: 1em 0; 
     padding: 0; }
 
