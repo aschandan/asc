@@ -9,74 +9,71 @@
     --shadecolor:#e3cb9b;
 }
 /* this one above has alterations to the headder font and selector font. 
-		It may not be a large difference, but I wish to document the different
-		types in case I do need to use the bottom colors once again.*/
-
+It may not be a large difference, but I wish to document the different
+types in case I do need to use the bottom colors once again.*/
 
 /*
-
 :root {
-    --headerfont: #f0c098;
-    --mainfont: #ffffff;
-    --bgcolor: #111111;
-    --sidenav: #1b1b1b;
-    --selectioncolor: #222222;
-    --selectioncolorbar: #333333;
-    --selectorfont: #f0c098;
-    --shadecolor:#333333;
+--headerfont: #f0c098;
+--mainfont: #ffffff;
+--bgcolor: #111111;
+--sidenav: #1b1b1b;
+--selectioncolor: #222222;
+--selectioncolorbar: #333333;
+--selectorfont: #f0c098;
+--shadecolor:#333333;
 }
 
-
 :root {
-    --headerfont: #EF4C4D;
-    --mainfont: #ffffff;
-    --bgcolor: #0c0b10;
-    --sidenav: #13111b;
-    --selectioncolor: #1f1b2a;
-    --selectioncolorbar: #1f1b2a;
-    --selectorfont: #EF4C4D;
-    --shadecolor:#241420;
+--headerfont: #EF4C4D;
+--mainfont: #ffffff;
+--bgcolor: #0c0b10;
+--sidenav: #13111b;
+--selectioncolor: #1f1b2a;
+--selectioncolorbar: #1f1b2a;
+--selectorfont: #EF4C4D;
+--shadecolor:#241420;
 }
 /* another backup of the last color scheme (5:03 pm, June 6, 2020)
 :root {
-    --headerfont: #E8D1A7;
-    --mainfont: #ffffff;
-    --bgcolor: #0c0b10;
-    --sidenav: #13111b;
-    --selectioncolor: #1f1b2a;
-    --selectioncolorbar: #1f1b2a;
-    --selectorfont: #E8D1A7;
-    --shadecolor:#1b1825;
+--headerfont: #E8D1A7;
+--mainfont: #ffffff;
+--bgcolor: #0c0b10;
+--sidenav: #13111b;
+--selectioncolor: #1f1b2a;
+--selectioncolorbar: #1f1b2a;
+--selectorfont: #E8D1A7;
+--shadecolor:#1b1825;
 }
 */
 /*
-		A back up of the ALMA Dark Mode Colors. Subject to Change.
+A back up of the ALMA Dark Mode Colors. Subject to Change.
 
-		:root{
-		--headerfont:#e3cb9b;
-		--mainfont: #ffffff;
-		--bgcolor: #0c0b10;
-		--sidenav: #13111b;
-		--selectioncolor: #1f1b2a;
-		--selectioncolorbar:#1f1b2a;
-		--selectorfont:#e3cb9b;
-		}
-		*/
+:root{
+--headerfont:#e3cb9b;
+--mainfont: #ffffff;
+--bgcolor: #0c0b10;
+--sidenav: #13111b;
+--selectioncolor: #1f1b2a;
+--selectioncolorbar:#1f1b2a;
+--selectorfont:#e3cb9b;
+}
+*/
 
 
 /*
-		A back up of the main colors, changing to ALMA.
+A back up of the main colors, changing to ALMA.
 
-		:root{
-		--headerfont:#e13470;
-		--mainfont: #ffffff;
-		--bgcolor: #0c0b10;
-		--sidenav: #13111b;
-		--selectioncolor: #1f1b2a;
-		--selectioncolorbar:#1f1b2a;
-		--selectorfont:#e13470;
-		}
-		*/
+:root{
+--headerfont:#e13470;
+--mainfont: #ffffff;
+--bgcolor: #0c0b10;
+--sidenav: #13111b;
+--selectioncolor: #1f1b2a;
+--selectioncolorbar:#1f1b2a;
+--selectorfont:#e13470;
+}
+*/
 
 
 /*-------------------fonts---------------------*/
@@ -400,7 +397,7 @@ div.spacingbetween4{
 
 }
 
-/*idk what this is*/
+/*-------------------Reizing for About Page---------------------*/
 
 #listspacing {
     margin-right:18rem;
@@ -423,6 +420,9 @@ div.spacingbetween4{
     flex-grow: 1;
 }
 
+
+/*-------------------Work Page Content---------------------*/
+
 div.shade2 {
     background: var(--shadecolor);
     margin: 0vh;
@@ -438,6 +438,7 @@ img.works {
   width: 33%;
   padding-left:2rem;
   float:right;
+  
 }
 
 hr { display: block; 
@@ -456,19 +457,54 @@ hr { display: block;
     clear: both;
     
   }
+   
+  a.view{
+    color: var(--mainfont);
+    text-decoration: underline;
+    text-underline-position:under;	
+    text-decoration-thickness:3px;
+    text-underline-offset: 10px;
+    transition: ease 0.4s;
+    outline: none;
+    font-size: 2rem;
+    font-weight: 200;
+    position: relative;
+    color: var(--mainfont);
+    outline: none;
+    margin-right: auto;
+    
+  }
+  a.view:hover {
+    -webkit-text-decoration-color: white; /* safari still uses vendor prefix */
+    -moz-text-decoration-color: white;
+    text-decoration-color: white;
+    color: white;
+    outline: none;
+    background: none;
+  }
+
 
   
-  
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+}
+
   .text {
     float: left;
-    width: 50%;
-    padding-left:7rem;
+    width: 60%;
+    padding-left:5rem;
   }
   
   .images {
     float: left;
     width: 25%;
+    
   }
+
+
 
  /* Three image containers (use 25% for four, and 50% for two, etc) */
  .column {
@@ -509,7 +545,7 @@ hr { display: block;
 }
 */
 
-
+/*-------------------Section---------------------*/
 
 img.logo {
     height: 400px;
@@ -546,19 +582,6 @@ div.textbottom {
 
 
 
-img{
-    max-width: 100%;
-    max-height: 100%;
-    display: block; /* remove extra space below image */
-}
-
-.box{
-    width: 250px;        
-    border: 5px solid black;
-}
-.box.large{
-    height: 300px;
-}
 
 /*-------------animation for text on site.---------------------*/
 
@@ -689,7 +712,9 @@ a:hover {
 }
 
 
-/*'responsive' design*/
+/*----------------------'responsive' design----------------------------------------*/
+
+
 
 @media screen and (max-width: 1280px) {
     .content {
