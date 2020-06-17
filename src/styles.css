@@ -216,10 +216,10 @@ h5 {
 }
 
 h6 {
-    font-size: 5rem;
+    font-size: 6rem;
     color: var(--headerfont);
     font-weight: 500;
-    padding-top: 3rem;
+    padding-top: 1rem;
     margin-top: 0rem;
     padding-bottom:0;
     margin-bottom:20px;
@@ -433,6 +433,14 @@ div.shade3 {
    
 }
 
+.footer {
+    background: var(--shadecolor2);
+    margin: -5rem;
+    margin-top:5px;
+    padding-left: 5rem;
+    padding-right: 16rem;
+    padding-top: 1rem;
+ }
 
 /*-------------------Work Page Content---------------------*/
 
@@ -582,6 +590,7 @@ div.shade {
     padding-left: 5rem;
     padding-right: 16rem;
     padding-top: 4rem;
+    padding-bottom:2rem;
     border-top: var(--headerfont);
 }
 
@@ -756,7 +765,7 @@ a:hover {
     }
     }
 
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 900px) {
         /*for side bar*/
         .sidenav {
             width: 100%;
@@ -767,7 +776,11 @@ a:hover {
             overflow-y: hidden;
             border-left: 0rem solid var(--headerfont);
         }
-        
+
+        .acclaim{
+            padding-right: 10px;
+            padding-bottom:10rem;
+        }
        
         /* When you mouse over the navigation links, change their color */
         .sidenav a:hover::after {
@@ -786,7 +799,14 @@ a:hover {
         }
 
 
-
+        .footer {
+            background:none;
+         
+            padding-top: 1rem;
+            text-align:center;
+            position:inline-block;
+            margin:0;
+         }
         .sidenav {
             float: none;
             overflow-x: hidden;
@@ -799,10 +819,30 @@ a:hover {
             padding-top: 0rem;
             margin-top: -5rem;
         }
+
+        div.shade2 {
+          margin: auto;
+            padding-left: 0rem;
+            padding-right: 0rem;
+            padding-top: 0rem;
+            margin-top: -5rem;
+        }
+        
+        div.shade3 {
+            margin: auto;
+            padding-left: 0rem;
+            padding-right: 0rem;
+            padding-top: 0rem;
+            margin-top: -5rem;
+           
+        }
         div.textbottom {
             margin: auto;
             text-align: center;
         }
+
+        
+
 
 
         #selected {
@@ -836,7 +876,8 @@ a:hover {
             text-align: center;
             display: inline-block;
             padding: 0;
-            margin: 20px;
+            margin:2rem;
+           
         }
         .p3 {
             font-size: 1.3rem;
@@ -874,6 +915,13 @@ a:hover {
             margin-bottom: 0px;
         }
         h2 {
+            padding-top: 0;
+            margin-bottom: 0px;
+            text-align: center;
+            display: inline-block;
+        }
+
+        h3 {
             padding-top: 0;
             margin-bottom: 0px;
             text-align: center;
