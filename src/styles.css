@@ -184,6 +184,7 @@ h2 {
     font-size: 3rem;
     font-weight: 500;
     padding-top: 0rem;
+  
 }
 
 h3 {
@@ -248,7 +249,7 @@ p {
     outline: none;
     margin-right: auto;
     margin-top:0;
-    padding-bottom:2rem;
+    padding-bottom:0rem;
 }
 
 .p3 {
@@ -741,7 +742,7 @@ a:hover {
 @media screen and (max-width: 1280px) {
     .content {
         align-items: center;
-        display:inline-block;
+        display:inline;
         margin: auto;
    
     }
@@ -759,8 +760,9 @@ a:hover {
  
     div.abouttext{
         display:inline;
-       
+    
         padding-bottom:0rem;
+        
     
     }
     }
@@ -777,8 +779,13 @@ a:hover {
             border-left: 0rem solid var(--headerfont);
         }
 
+        
+        
         .acclaim{
-            padding-right: 10px;
+            justify-content: center;
+            align-items: center;
+            padding-left:1rem;
+            width:80%;
             padding-bottom:10rem;
         }
        
@@ -841,10 +848,6 @@ a:hover {
             text-align: center;
         }
 
-        
-
-
-
         #selected {
             content: '';
             right: 0;
@@ -863,40 +866,48 @@ a:hover {
             padding-right: 0rem;
             margin-left: auto;
             margin-right: auto;
+            display: inline-block;
+            
         }
+        div{
+            
+            margin:auto;
+        }
+      
         /*text styling*/
         p {
             font-size: 1.3rem;
             text-align: center;
-            display: inline-block;
+            display: block;
             padding: 0;
+            justify-content:center;
         }
         .p2 {
-            font-size: 1.3rem;
+            font-size: 1.4rem;
             text-align: center;
-            display: inline-block;
+            display: block;
             padding: 0;
             margin:2rem;
-           
+           width:70%;
         }
         .p3 {
-            font-size: 1.3rem;
+            font-size: 1.4rem;
             text-align: center;
-            display: inline-block;
+            display: block;
             padding: 0;
         }
         .p4 {
-            font-size: 1.3rem;
+            font-size: 1.4rem;
             text-align: center;
             padding: 0;
-            display: inline-block;
+            display: block;
         }
 
         .p5 {
-            font-size: 1.2rem;
+            font-size: 1.3rem;
             text-align: center;
             padding: 0;
-            display: inline-block;
+            display: block;
             
             padding-bottom: 1.3rem;
             margin-bottom:1rem;
@@ -910,15 +921,31 @@ a:hover {
         h1 {
             text-align: center;
             display: inline-block;
-            font-size: 2rem;
+            font-size: 3rem;
             padding: 0;
-            margin-bottom: 0px;
+            margin-right: 17%;
+            justify-content:center;
         }
+
         h2 {
             padding-top: 0;
+            display: inline-block;
+            text-align: center;
+           margin:auto;
+            margin-right:20vw;
+            
+            justify-content:center;
+         
+        }
+
+        .skills h2 {
+            padding-top: 0;
             margin-bottom: 0px;
+            margin-left:0px;
             text-align: center;
             display: inline-block;
+            margin-right: 0%;
+            justify-content:center;
         }
 
         h3 {
@@ -926,6 +953,8 @@ a:hover {
             margin-bottom: 0px;
             text-align: center;
             display: inline-block;
+            font-size: 3rem;
+            margin-right: 10%;
         }
 
         h4 {
@@ -934,7 +963,7 @@ a:hover {
             font-weight: 500;
             padding-top:3rem;
             text-align: center;
-            display: inline-block;
+            display: block;
         }
 
         h6 {
@@ -945,7 +974,7 @@ a:hover {
              padding-bottom:0;
             margin-bottom: 0rem;
             text-align: center;
-            display: inline-block;
+            display: block;
         }
         
         /*a styling*/
@@ -970,21 +999,31 @@ a:hover {
             padding: 0;
         }
         #listspacing{
-            margin-right:0;
+            
             flex-grow: 1;
             text-align:center;
-                
+            margin-right: 10%;
+            width:85%;
             }
     
 
             div.abouttext{
     
-                height:950px;
-                margin-bottom:5rem;
-                padding-bottom:5rem;
-            
+                height:870px;
+                padding-top:2rem;
+                margin-bottom:0rem;
+                padding-bottom:0rem;
+           
             }
     
+            div.certifications {
+                justify-content:center;
+             display:inline-block;
+            
+             margin-right:10%;
+
+            }
+
             .multiplelist {
             display:flex;
             justify-content: center;
