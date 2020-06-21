@@ -172,10 +172,10 @@ body {
 
 h1 {
     color: var(--headerfont);
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 500;
-    padding-bottom:1rem;
-    padding-top:2rem;
+    padding-bottom:0rem;
+ 
     
 }
 
@@ -184,6 +184,7 @@ h2 {
     font-size: 3rem;
     font-weight: 500;
     padding-top: 0rem;
+    margin-bottom:2rem;
   
 }
 
@@ -205,18 +206,8 @@ h4 {
     margin-bottom:3rem;
 }
 
-h5 {
-    font-size: 2rem;
-    color: var(--headerfont);
-    font-weight: 500;
-    padding-top: 0rem;
-    padding-bottom:0rem;
-    margin-bottom:1.5rem;
-    margin-top:0;
-  
-}
 
-h6 {
+h5 {
     font-size: 6rem;
     color: var(--headerfont);
     font-weight: 500;
@@ -249,7 +240,7 @@ p {
     outline: none;
     margin-right: auto;
     margin-top:0;
-    padding-bottom:0rem;
+    padding-bottom:2rem;
 }
 
 .p3 {
@@ -381,18 +372,21 @@ br.spacing2 {
 }
 
 div.spacingbetween{
-    margin-top: 3rem;
+    margin-top: 1rem;
+    
 }
 
 div.spacingbetween2{
     margin-top: 0rem;
+    overflow:auto;
 }
 
 div.abouttext{
     
-    height:550px;
+    height:1000px;
     margin-bottom:1rem;
-    padding-bottom:1rem;
+   
+    overflow:hidden;
 
 }
 
@@ -746,14 +740,9 @@ a:hover {
         margin: auto;
    
     }
-    div.abouttext{
-    
-        height:5%;
-        margin-bottom:2rem;
-        padding-bottom:2rem;
-    
+   
     }
-}
+
 
 
 @media screen and (max-width: 768px) , screen and (max-height: 1024px) {
@@ -761,8 +750,8 @@ a:hover {
     div.abouttext{
         display:inline;
     padding-left:0;
- 
-    }
+    position: relative;
+
     }
 
     @media screen and (max-width: 900px) {
@@ -864,7 +853,7 @@ a:hover {
            
             margin-left: auto;
            
-            display: inline-block;
+            display: inline;
             margin-right:0;
             
         }
@@ -1009,8 +998,7 @@ a:hover {
     
 
             div.abouttext{
-    
-                height:870px;
+                margin-left:0;
                 padding-top:2rem;
                 margin-bottom:0rem;
                 padding-bottom:0rem;
@@ -1061,3 +1049,4 @@ a:hover {
             overflow-y: hidden;
         }
     }
+}
