@@ -236,7 +236,7 @@ p {
     font-weight: 200;
     color: var(--mainfont);
     outline: none;
-    line-height: 1.4;
+    line-height: 140%;
     margin-right: auto;
 }
 
@@ -244,7 +244,7 @@ p {
     font-size: 2rem;
     font-weight: 200;
     position: relative;
-    line-height: 1.4;
+    line-height: 140%;
     color: var(--mainfont);
     outline: none;
     margin-right: auto;
@@ -256,7 +256,7 @@ p {
     font-size: 2rem;
     font-weight: 200;
     position: relative;
-    line-height: 1.2;
+    line-height: 120%;
     color: var(--mainfont);
     outline: none;
     margin-right: auto;
@@ -305,7 +305,7 @@ ul {
     font-weight: 200;
     color: var(--mainfont);
     outline: none;
-    line-height: 2.1;
+    line-height: 210%;
     list-style: none;
     padding-left: 0;
 }
@@ -338,7 +338,7 @@ ul.links {
     font-weight: 200;
     color: var(--mainfont);
     outline: none;
-    line-height: 2;
+    line-height: 200%;
     text-underline-position:under;
     list-style:none;
     
@@ -759,12 +759,9 @@ a:hover {
 @media screen and (max-width: 768px) , screen and (max-height: 1024px) {
  
     div.abouttext{
-        display:inline-block;
+        display:inline;
     padding-left:0;
-   PADDING-RIGHT:20VW;
-        padding-bottom:0rem;
-        
-    
+ 
     }
     }
 
@@ -936,8 +933,7 @@ a:hover {
             display: inline-block;
             text-align: center;
            margin:auto;
-           padding-top:2rem;
-            padding-bottom:2rem;
+            
             
             justify-content:center;
          
@@ -999,7 +995,7 @@ a:hover {
             font-weight: 200;
             color: var(--mainfont);
             outline: none;
-            line-height: 2;
+            line-height: 200%;
             list-style: none;
             padding: 0;
         }
