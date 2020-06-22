@@ -175,7 +175,7 @@ h1 {
     font-size: 5rem;
     font-weight: 500;
     padding-bottom:0rem;
- 
+    margin-top:2rem;
     
 }
 
@@ -240,7 +240,7 @@ p {
     outline: none;
     margin-right: auto;
     margin-top:0;
-    padding-bottom:2rem;
+    padding-bottom:1rem;
 }
 
 .p3 {
@@ -345,6 +345,7 @@ ul.links {
 .multiplelist {
     display: flex;
     justify-content: stretch;
+    padding-bottom:2rem;
 }
 
 /* this is just for spacing and such*/
@@ -878,6 +879,7 @@ a:hover {
             display: inline-block;
             padding: 0;
             width:70%;
+            
           
         }
         .p3 {
