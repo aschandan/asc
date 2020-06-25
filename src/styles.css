@@ -436,10 +436,11 @@ div.shade4 {
     padding-right: 10rem;
     margin-top:4rem;
     padding-top: 4rem;
-    padding-bottom:300vh;
+    padding-bottom:50vh;
     border-top: var(--headerfont);
 }
 
+  
 
 .footer {
     background: var(--shadecolor2);
@@ -536,31 +537,6 @@ img{
   }
 
 
-
- /* Three image containers (use 25% for four, and 50% for two, etc) */
- .column {
-    float: left;
-    width: 33%;
-    padding: 0px;
-  }
-  
-  /* Clear floats after image containers */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
-  } 
-
-  .row2::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  .column2 {
-    float: left;
-    width: 33%;
-    padding-top:5rem;
-  }
 
 /*img for about page, which has been temporarly removed for the time being.*/
 
