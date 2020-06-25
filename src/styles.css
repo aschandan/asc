@@ -440,6 +440,18 @@ div.shade4 {
     border-top: var(--headerfont);
 }
 
+.column {
+    float: right;
+    width: 40%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
   
 
 .footer {
