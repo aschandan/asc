@@ -1,7 +1,7 @@
 :root {
     --headerfont: #3c2d38;
     --mainfont: #1f1f1f;
-    --bgcolor: #eddbb8;
+    --bgcolor: #e7ce9f;
     --sidenav: #dab46d;
     --selectioncolor: #f7f0e2;
     --selectioncolorbar: #debc7d;
@@ -9,72 +9,6 @@
     --shadecolor:#e3cb9b;
     --shadecolor2:#e7d3aa;
 }
-/* this one above has alterations to the headder font and selector font. 
-It may not be a large difference, but I wish to document the different
-types in case I do need to use the bottom colors once again.*/
-
-/*
-:root {
---headerfont: #f0c098;
---mainfont: #ffffff;
---bgcolor: #111111;
---sidenav: #1b1b1b;
---selectioncolor: #222222;
---selectioncolorbar: #333333;
---selectorfont: #f0c098;
---shadecolor:#333333;
-}
-
-:root {
---headerfont: #EF4C4D;
---mainfont: #ffffff;
---bgcolor: #0c0b10;
---sidenav: #13111b;
---selectioncolor: #1f1b2a;
---selectioncolorbar: #1f1b2a;
---selectorfont: #EF4C4D;
---shadecolor:#241420;
-}
-/* another backup of the last color scheme (5:03 pm, June 6, 2020)
-:root {
---headerfont: #E8D1A7;
---mainfont: #ffffff;
---bgcolor: #0c0b10;
---sidenav: #13111b;
---selectioncolor: #1f1b2a;
---selectioncolorbar: #1f1b2a;
---selectorfont: #E8D1A7;
---shadecolor:#1b1825;
-}
-*/
-/*
-A back up of the ALMA Dark Mode Colors. Subject to Change.
-
-:root{
---headerfont:#e3cb9b;
---mainfont: #ffffff;
---bgcolor: #0c0b10;
---sidenav: #13111b;
---selectioncolor: #1f1b2a;
---selectioncolorbar:#1f1b2a;
---selectorfont:#e3cb9b;
-}
-*/
-
-
-/*
-A back up of the main colors, changing to ALMA.
-
-:root{
---headerfont:#e13470;
---mainfont: #ffffff;
---bgcolor: #0c0b10;
---sidenav: #13111b;
---selectioncolor: #1f1b2a;
---selectioncolorbar:#1f1b2a;
---selectorfont:#e13470;
-}
-*/
 
 
 /*-------------------fonts---------------------*/
@@ -146,8 +80,16 @@ A back up of the main colors, changing to ALMA.
     font-family: "Iosevka";
     src: url(fonts/iosevka-bold.ttf) format("truetype");
     font-weight: bold;
-    font-style: oblique;
+ 
 }
+
+@font-face {
+    font-family: "grotesk";
+    src: url(fonts/grotesk.TTF) format("truetype");
+    font-weight: bold;
+   
+}
+
 
 
 /*--------------------------end of fonts----------------------*/
@@ -176,7 +118,8 @@ h1 {
     font-weight: 500;
     padding-bottom:0rem;
     margin-top:2rem;
-    
+    margin-bottom:1rem;
+    font-family: 'grotesk';
 }
 
 h2 {
@@ -185,7 +128,8 @@ h2 {
     font-weight: 500;
     padding-top: 0rem;
     margin-bottom:2rem;
-  
+    font-family: 'grotesk';
+ 
 }
 
 h3 {
@@ -193,7 +137,8 @@ h3 {
     color: var(--headerfont);
     font-weight: 500;
     margin-top:2rem;
-  
+    line-height:1.7;
+    font-family: 'grotesk';
  
 }
 
@@ -204,6 +149,7 @@ h4 {
     padding-top: 1rem;
     margin-top: 0rem;
     margin-bottom:3rem;
+    font-family: 'grotesk';
 }
 
 
@@ -215,6 +161,7 @@ h5 {
     margin-top: 0rem;
     padding-bottom:0;
     margin-bottom:20px;
+    font-family: 'grotesk';
 }
 
 
@@ -663,7 +610,7 @@ a:hover {
 .sidenav {
     height: 100%;
     /* 100% Full-height */
-    width: 11.5rem;
+    width: 12.5rem;
     position: fixed;
     /* Stay in place */
     z-index: 1;
@@ -680,13 +627,14 @@ a:hover {
     outline: none;
     margin-top: auto;
     margin-bottom: auto;
-    /*border-left: .11rem solid var(--headerfont);*/
+    border-left: .11rem solid var(--headerfont);
+
 
 }
 
 
 /* The navigation menu links */
-
+/*
 .sidenav a {
     padding: 1.7rem;
     text-decoration: none;
@@ -694,9 +642,10 @@ a:hover {
     font-size: 2rem;
     color: var(--headerfont);
     display: block;
-    transition: width 0.4s;
+    transition: width 0.3s;
     outline: none;
     font-weight: 200;
+
 }
 
 .sidenav a:hover {
@@ -714,13 +663,13 @@ a:hover {
     right: 0;
     background-color: var(--selectioncolorbar);
 }
-
+*/
 
 /* When you mouse over the navigation links, change their color */
 
 .sidenav a:hover::after {
     background-color: var(--headerfont);
-    width: 70%;
+    width: 75%;
     outline: none;
     transition: width 0.4s;
 }
