@@ -10,34 +10,54 @@
     Homepage - Amandeep
     </title>
   </head>
-  <!--
+  
     <div id="sidenav" class="sidenav">
       <a id="selected" href="index.html" name="selected">Home n' Works</a> 
       <a href="about.html">Info</a> 
-     !-->
     </div>
+
+     <!--
+     <div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Home & Works</a>
+  
+      <a href="about.html">About</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+   
+    
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+ !-->
 
     <body>
     <div class="main">
       <section class="fade-in">
-        <h3>
+        <h1>
           Hello there. <a id="amandeep" href="about.html" name="amandeep"> I'm Amandeep Chandan</a> ; <br>("A-ma-deep Chan-dan")
-        </h3>
+        </h1>
         <h2>
          A North Carolina based designer who specializes in UI/UX Design, Posters and Brochures.<br><br>Available for freelance work →
         </h2>
-        <hr>
         <br>
-        
       </section>
     </div>
     
     <section class="fade-in">
       <div class="shade2">
-  
+        <div id="one" class="boxes">
         <div class="group">
           <div class="text">
-            <h1> Personal Cover /  <br>Identity </h1>
+            <h3 class = "spacing"> Personal Cover /  <br>Identity </h3>
             
             <a class="view" href="template.html">View here →</a>
         
@@ -46,26 +66,23 @@
       <img src="src/works/coverpage.png">
         </div>
       </div>
-  
-      <br>
-      <hr>
-  
-      
+    </div>
+
+
+    <div id="two" class="boxes">
       <div class="group">
         <div class="text">
-          <h1> Placeholder /  <br>Placeholder </h1>
-          
+          <h3> Placeholder /  <br>Placeholder </h3>
           <a class="view" href="template.html">View here →</a>
-      
         </div>
-          <div class="images">
+      <div class="images">
     <img src="https://via.placeholder.com/450">
       </div>
     </div>
+  </div>
   
-    <br>
-    <hr>
-  
+ 
+  </div>
   
   </section>
         <!--
