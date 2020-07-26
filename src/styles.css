@@ -663,7 +663,7 @@ a:hover {
     background-color: var(--sidenav);
     overflow-x: hidden;
     /* Disable horizontal scroll */
-    padding-top: 30vh;
+    padding-top: 25vh;
     outline: none;
     margin-top: auto;
     margin-bottom: auto;
@@ -679,7 +679,8 @@ a:hover {
     padding: 1.7rem;
     text-decoration: none;
     text-align: right;
-    font-size: 2rem;
+
+    font-size: 1.6rem;
     color: var(--headerfont);
     display: block;
     transition: width 0.3s;
@@ -719,69 +720,36 @@ a:hover {
     background-color: var(--selectioncolorbar);
 }
 
-
-
-/* When you mouse over the navigation links, change their color */
-
-/*
-.topnav {
-    overflow: hidden;
-
-  }
-  
-  .topnav a {
-    float: right;
-
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    padding-right:3rem;
-    text-decoration: none;
-    font-size: 2rem;
-    color: var(--headerfont);
-    display: block;
-    transition: width 0.3s;
-    outline: none;
-    font-weight: 200;
-  }
-  
-  .topnav a:hover {
-    background-color: var(--selectioncolorbar);
-    transition: ease 0.4s;
-  }
-  
-  .topnav a.active {
-    content: '';
-    right: 0;
-    outline: 1px solid;
-    background-color: var(--selectioncolorbar);
-  }
-  
-  .topnav .icon {
-    display: none;
-  }
-
- .topnav a::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 1px;
-    transition: width 0.4s, background-color 0.4s;
-    position: absolute;
-    right: 0;
-    background-color: var(--selectioncolorbar);
+/*---contact form----*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
-  
-  @media screen and (max-width: 600px) {
-    .topnav a:not(:first-child) {display: none;}
-    .topnav a.icon {
-      float: right;
-      display: block;
-    }
-  }
-*/
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
 
 /*----------------------'responsive' design----------------------------------------*/
 
