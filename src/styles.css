@@ -729,35 +729,51 @@ a:hover {
 
     border-radius: 0px;
     box-sizing: border-box;
-    resize: vertical;
     background-color: rgba(0,0,0,.1);
     width:45rem;
    border:none;
   }
   
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    overflow: auto;
+    resize: vertical;
+    max-height: 500px;
+    min-height: 100px;
+  }
+
 
   
   /* Style the submit button */
   input[type=submit] {
     background-color: #4CAF50;
 
-    padding: 12px 20px;
+    padding: 10px 20px;
+    margin-top:0px;
     border: none;
  
     cursor: pointer;
   
   }
-  .responsivebox{
-      display:flex;
-      
-  }
 
-.together{
+  /*this is the social media box*/
+
+  .socialmedia{
+      display:flex;
+
+  }
+/*this is social media and form box*/
+
+.form-and-links{
     display:flex;
     align-items: center;
-    align-content: center;
+  
     justify-content: space-between;
     flex-direction: row;
+
 }
   /* Style the container */
   .formcontainer {
@@ -765,6 +781,7 @@ a:hover {
     background-color: none;
     display:flex;
     padding-right:16rem;
+   
   }
 
   
