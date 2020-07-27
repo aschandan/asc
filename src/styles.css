@@ -782,6 +782,7 @@ a:hover {
     
 
 }
+
   /* Style the container */
   .formcontainer {
     border-radius: 0px;
@@ -789,9 +790,8 @@ a:hover {
     display:flex;
     padding-right:10rem;
     padding-top:1rem;
-   
+    display:inline;
   }
-
   
   /* Clear floats after the columns */
   .row:after {
@@ -809,7 +809,64 @@ a:hover {
   } 
 
 
-/*----------------------'responsive' design----------------------------------------*/
+  /*--footer--*/
+
+  .contactfooter {
+    display:flex;
+
+    background-color: transparent;
+    margin-top: 1em;
+
+    padding-bottom:1rem;
+  }
+
+  .footertext {
+    font-size: 1.4rem;
+    font-weight: 400;
+    position: relative;
+    color: var(--mainfont);
+    outline: none;
+
+ 
+}
+#sole{
+    display:flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.respfooter{
+display:flex;
+justify-content: space-between;
+align-self: flex-start;
+flex-direction: row;
+box-sizing: inherit;
+
+}
+  ul.footerlist
+  {
+     display:flex;  
+   padding-left:55vw;
+  }
+
+  li.footerlist
+
+  {
+  display:flex;
+align-items:center;
+padding-left:1.2rem;
+
+  }
+  
+
+
+li a:hover {
+    color: var(--selectorfont);
+    outline: none;
+    padding: .40rem;
+    background-color: var(--selectioncolor);
+}
+  /*----------------------'responsive' design----------------------------------------*/
 
 
 
