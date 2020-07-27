@@ -6,10 +6,9 @@
     --selectioncolor: #f7f0e2;
     --selectioncolorbar: #debc7d;
     --selectorfont: #251c23;
-    --shadecolor:#e3cb9b;
-    --shadecolor2:#e7d3aa;
+    --shadecolor: #e3cb9b;
+    --shadecolor2: #e7d3aa;
 }
-
 
 /*-------------------fonts---------------------*/
 
@@ -76,36 +75,25 @@
     font-style: oblique;
 }
 
-
-
 @font-face {
     font-family: "grotesk";
     src: url(fonts/hkgrotesk-medium.TTF) format("truetype");
     font-weight: 300;
-   
 }
-
-
 
 @font-face {
     font-family: "grotesk";
     src: url(fonts/hkgrotesk-semibold.TTF) format("truetype");
     font-weight: 400;
-   
 }
-
 
 @font-face {
     font-family: "grotesk";
     src: url(fonts/hkgrotesk-bold.TTF) format("truetype");
     font-weight: bold;
-   
 }
 
-
-
 /*--------------------------end of fonts----------------------*/
-
 
 /*-------------------values for header+---------------------*/
 
@@ -113,7 +101,6 @@ body {
     background-color: var(--bgcolor);
     font-family: 'Iosevka', 'grotesk', Georgia, sans-serif;
     margin: auto;
-    
 }
 
 .main {
@@ -121,18 +108,17 @@ body {
     margin-right: 16rem;
     padding-top: .2rem;
     padding-left: 4rem;
-    
 }
 
 /* header used for homepage*/
+
 h1 {
     font-size: 4rem;
     color: var(--headerfont);
     font-weight: 500;
-    margin-top:2rem;
-    line-height:1.7;
+    margin-top: 2rem;
+    line-height: 1.7;
     font-family: 'grotesk';
- 
 }
 
 /*used in the description for the homepage and about page*/
@@ -142,28 +128,26 @@ h2 {
     font-size: 3rem;
     font-weight: 300;
     padding-top: 0rem;
-    margin-bottom:2rem;
+    margin-bottom: 2rem;
     font-family: 'grotesk';
- 
 }
 
-.h2about{
+.h2about {
     font-size: 4rem;
     font-weight: 400;
 }
 
-/*used in homepage with the artworks*/ 
+/*used in homepage with the artworks*/
+
 h3 {
     color: var(--headerfont);
     font-size: 4rem;
     font-weight: 500;
-    padding-bottom:0rem;
-    margin-top:2rem;
-    margin-bottom:1rem;
+    padding-bottom: 0rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
     font-family: 'grotesk';
 }
-
-
 
 h4 {
     font-size: 3.5rem;
@@ -171,10 +155,9 @@ h4 {
     font-weight: 300;
     padding-top: 1rem;
     margin-top: 0rem;
-    margin-bottom:3rem;
+    margin-bottom: 3rem;
     font-family: 'grotesk';
 }
-
 
 h5 {
     font-size: 6rem;
@@ -182,12 +165,10 @@ h5 {
     font-weight: 500;
     padding-top: 1rem;
     margin-top: 0rem;
-    padding-bottom:0;
-    margin-bottom:20px;
+    padding-bottom: 0;
+    margin-bottom: 20px;
     font-family: 'grotesk';
 }
-
-
 
 /*-------------------styling for fonts---------------------*/
 
@@ -209,9 +190,8 @@ p {
     color: var(--headerfont);
     outline: none;
     margin-right: auto;
-    margin-top:0;
-    padding-bottom:1rem;
-        
+    margin-top: 0;
+    padding-bottom: 1rem;
 }
 
 .p3 {
@@ -223,7 +203,6 @@ p {
     outline: none;
     margin-right: auto;
     margin-top: 0px;
-
 }
 
 .p4 {
@@ -242,22 +221,16 @@ p {
     position: relative;
     color: var(--mainfont);
     outline: none;
-
     padding-bottom: 1.3rem;
-    margin-bottom:1rem;
-   
-    
-
+    margin-bottom: 1rem;
 }
 
 .p6 {
     font-size: 2rem;
     font-weight: 200;
-   
     position: relative;
     color: var(--mainfont);
     outline: none;
- 
 }
 
 /*-------------------list---------------------*/
@@ -276,41 +249,41 @@ ul {
 ul a {
     text-decoration: underline;
     color: var(--mainfont);
-    text-underline-position:under;
+    text-underline-position: under;
 }
 
 .acclaim a {
     text-decoration: underline;
     color: var(--mainfont);
-    text-underline-position:under; 	  
-    
+    text-underline-position: under;
 }
 
- .email{
+.email {
     text-decoration: underline;
     color: var(--mainfont);
-    text-underline-position:under; 	
-    font-size:1.7rem;
+    text-underline-position: under;
+    font-size: 1.7rem;
 }
 
-.acclaim{
+.acclaim {
     padding-right: 10px;
-    padding-bottom:2rem;
+    padding-bottom: 2rem;
 }
+
 ul.links {
     font-size: 1.6rem;
     font-weight: 200;
     color: var(--mainfont);
     outline: none;
     line-height: 200%;
-    text-underline-position:under;
-    list-style:none;
-    margin-top:.7rem;
-    padding:0px;
+    text-underline-position: under;
+    list-style: none;
+    margin-top: .7rem;
+    padding: 0px;
 }
 
-.timezone{
-    float:right;
+.timezone {
+    float: right;
 }
 
 /*this allows for the text to float to the right of the image*/
@@ -318,7 +291,7 @@ ul.links {
 .multiplelist {
     display: flex;
     justify-content: stretch;
-    padding-bottom:2rem;
+    padding-bottom: 2rem;
 }
 
 /* this is just for spacing and such*/
@@ -345,41 +318,34 @@ br.spacing2 {
     /* change this to whatever height you want it */
 }
 
-div.spacingbetween{
+div.spacingbetween {
     margin-top: 1rem;
-    
 }
 
-div.spacingbetween2{
+div.spacingbetween2 {
     margin-top: 0rem;
-    overflow:auto;
+    overflow: auto;
 }
 
-div.abouttext{
-    
-    height:1000px;
-    margin-bottom:1rem;
-   
-    overflow:hidden;
-
+div.abouttext {
+    height: 1000px;
+    margin-bottom: 1rem;
+    overflow: hidden;
 }
 
-div.spacingbetween4{
+div.spacingbetween4 {
     margin-top: 20px;
-
 }
 
 /*-------------------Reizing for About Page---------------------*/
 
 #listspacing {
-    margin-right:18rem;
+    margin-right: 18rem;
     flex-grow: 0;
-    
 }
 
 .blurb h1 {
     margin: 0;
-   
 }
 
 .content {
@@ -387,28 +353,25 @@ div.spacingbetween4{
     margin: auto;
 }
 
-
 .list {
     flex-grow: 1;
 }
-
-
 
 .column {
     float: right;
     width: 40%;
     padding: 5px;
-  }
-  
-  /* Clear floats after image containers */
-  .row::after {
+}
+
+/* Clear floats after image containers */
+
+.row::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
 
 /*-------------------Work Page Content---------------------*/
-
 
 div.shade2 {
     background: var(--shadecolor);
@@ -416,16 +379,16 @@ div.shade2 {
     padding-left: 0rem;
     padding-right: 0rem;
     padding-top: 4rem;
-   padding-bottom:3rem;
-    z-index:-2;
-    padding-right:10rem;
+    padding-bottom: 3rem;
+    z-index: -2;
+    padding-right: 10rem;
     border-top: 1px solid var(--headerfont);
 }
 
 div.shade3 {
     background: var(--shadecolor2);
     margin: -5rem;
-    margin-top:5px;
+    margin-top: 5px;
     padding-left: 5rem;
     padding-right: 16rem;
     padding-top: 0rem;
@@ -437,44 +400,45 @@ div.shade4 {
     margin: -5rem;
     padding-left: 5rem;
     padding-right: 10rem;
-    margin-top:4rem;
+    margin-top: 4rem;
     padding-top: 4rem;
-    padding-bottom:50vh;
+    padding-bottom: 50vh;
     border-top: var(--headerfont);
     border-top: 1px solid var(--headerfont);
 }
 
 img.works {
-  width: 33%;
- padding-left: 10rem;
-  padding-right:2rem;
- float:right;
-  padding-top:2rem;
-
+    width: 33%;
+    padding-left: 10rem;
+    padding-right: 2rem;
+    float: right;
+    padding-top: 2rem;
 }
 
-hr { display: block; 
+hr {
+    display: block;
     height: 1px;
-    border: 0; 
+    border: 0;
     border-top: 2px solid var(--selectorfont);
-    margin: 1em 0; 
-    padding: 0; }
-
-.group{
-    padding:2rem;
+    margin: 1em 0;
+    padding: 0;
 }
+
+.group {
+    padding: 2rem;
+}
+
 .group:after {
     content: "";
     display: table;
     clear: both;
-    
-  }
-   
-  a.view{
+}
+
+a.view {
     color: var(--mainfont);
     text-decoration: underline;
-    text-underline-position:under;	
-    text-decoration-thickness:3px;
+    text-underline-position: under;
+    text-decoration-thickness: 3px;
     text-underline-offset: 10px;
     transition: ease 0.4s;
     outline: none;
@@ -483,52 +447,50 @@ hr { display: block;
     position: relative;
     outline: none;
     margin-right: auto;
-    
-  }
-  a.view:hover {
-    -webkit-text-decoration-color: #341246; /* safari still uses vendor prefix */
+}
+
+a.view:hover {
+    -webkit-text-decoration-color: #341246;
+    /* safari still uses vendor prefix */
     -moz-text-decoration-color: #341246;
     text-decoration-color: #341246;
     color: #4b1a65;
     outline: none;
     background: none;
-  }
-
-
-  
-
-img{
-    max-width: 100%;
-    max-height: 100%;
-    display: block; /* remove extra space below image */
 }
 
-  .text {
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    /* remove extra space below image */
+}
+
+.text {
     float: left;
     width: 60%;
-    padding-left:5rem;
-  }
-  
-  .images {
+    padding-left: 5rem;
+}
+
+.images {
     float: left;
     width: 25%;
-    
-  }
+}
 
- .boxes{
-padding-bottom:4rem;
-padding-left:0rem !important;
-border-bottom: 1px solid var(--headerfont);
- }
+.boxes {
+    padding-bottom: 4rem;
+    padding-left: 0rem !important;
+    border-bottom: 1px solid var(--headerfont);
+}
 
- #one{
-padding-top:0rem;
- }
+#one {
+    padding-top: 0rem;
+}
 
- #two{
-     padding-top: 6rem;
-     border-bottom:none;
- }
+#two {
+    padding-top: 6rem;
+    border-bottom: none;
+}
 
 /*img for about page, which has been temporarly removed for the time being.*/
 
@@ -549,41 +511,33 @@ padding-top:0rem;
 img.logo {
     height: 400px;
     padding-top: 4rem;
-    
 }
-
 
 #amandeep {
     text-decoration: underline;
     color: var(--headerfont);
-  font-weight:500;
+    font-weight: 500;
 }
 
 /*shade, this is for the about page on the bottom.*/
-
 
 div.shade {
     background: var(--shadecolor);
     margin: -5rem;
     padding-left: 5rem;
     padding-right: 16rem;
-    margin-top:4rem;
+    margin-top: 4rem;
     padding-top: 4rem;
-    padding-bottom:2rem;
+    padding-bottom: 2rem;
     border-top: var(--headerfont);
     border-top: 1px solid;
 }
-
 
 div.textbottom {
     padding-left: -5rem;
 }
 
-
 /*for index page*/
-
-
-
 
 /*-------------animation for text on site.---------------------*/
 
@@ -606,9 +560,7 @@ div.textbottom {
     }
 }
 
-
 /*end of animation*/
-
 
 /*for a values, when hovering*/
 
@@ -629,7 +581,6 @@ a:hover {
     background-color: var(--selectioncolor);
 }
 
-
 /*for 404 styling, fix?*/
 
 #for404 {
@@ -637,7 +588,6 @@ a:hover {
     margin: 0 calc(-0.25em - -3px);
     text-decoration: underline;
 }
-
 
 /* The side navigation menu */
 
@@ -647,7 +597,7 @@ a:hover {
     width: 11.5rem;
     position: fixed;
     /* Stay in place */
-    z-index:1;
+    z-index: 1;
     /* Stay on top */
     top: 0;
     /* Stay at the top */
@@ -662,10 +612,7 @@ a:hover {
     margin-top: auto;
     margin-bottom: auto;
     border-left: .11rem solid var(--headerfont);
-
-
 }
-
 
 /* The navigation menu links */
 
@@ -673,20 +620,17 @@ a:hover {
     padding: 1.7rem;
     text-decoration: none;
     text-align: right;
-
     font-size: 1.6rem;
     color: var(--headerfont);
     display: block;
     transition: width 0.3s;
     outline: none;
     font-weight: 200;
-
 }
 
 .sidenav a:hover {
     background-color: var(--selectioncolorbar);
     transition: ease 0.4s;
- 
 }
 
 .sidenav a::after {
@@ -717,50 +661,47 @@ a:hover {
 /*---contact form
 This is without a doubt, the messiest code I've ever written. This needs some serious help but I cannot be bothered to for now----*/
 
- /* Style inputs, select elements and textareas */
+/* Style inputs, select elements and textareas */
 
- input[type=text], select, textarea{
-
+input[type=text], select, textarea {
     padding: 12px;
-    margin-bottom:4px;
+    margin-bottom: 4px;
     box-sizing: border-box;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
     border: 2px solid var(--headerfont);
     border-radius: 1px;
-    width:39rem;
-    font-family:inherit;
-    color:var(--mainfont);
-    font-size:1.2rem;
+    width: 39rem;
+    font-family: inherit;
+    color: var(--mainfont);
+    font-size: 1.2rem;
     transition: all 0.2s ease 0s;
+}
 
-
-  }
-  
-  input[type=text]:hover, select:hover, textarea:hover{
-    color:white;
-    border-color:transparent;
+input[type=text]:hover, select:hover, textarea:hover {
+    color: white;
+    border-color: transparent;
     background-color: var(--headerfont);
-  }
+}
 
-  input[type=text]:focus, select:focus, textarea:focus{
-    color:white;
-    border-color:transparent;
+input[type=text]:focus, select:focus, textarea:focus {
+    color: white;
+    border-color: transparent;
     background-color: var(--headerfont);
-  }
+}
 
-  textarea {
-    font-family:inherit;
+textarea {
+    font-family: inherit;
     height: 390px;
     min-height: 250px;
     max-width: 100%;
     box-sizing: border-box;
     overflow: auto;
     resize: vertical;
-  }
+}
 
-  
-  /* Style the submit button */
-  input[type=submit] {
+/* Style the submit button */
+
+input[type=submit] {
     background-color: transparent;
     color: var(--headerfont);
     width: auto;
@@ -772,69 +713,67 @@ This is without a doubt, the messiest code I've ever written. This needs some se
     padding: 12px 15px 12px 25px;
     transition: all 0.2s ease 0s;
     cursor: pointer;
-    font-size:1.3rem;
+    font-size: 1.3rem;
     font-family: inherit;
-  }
+}
 
-
-  input[type=submit]:hover {
+input[type=submit]:hover {
     background-color: var(--headerfont);
-    color:white;
-    border-color:transparent;
+    color: white;
+    border-color: transparent;
+}
 
-    
-  }
+/*this is the social media box*/
 
-  /*this is the social media box*/
+.emailandmedia {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
 
-  .emailandmedia{
-      display:flex;
-      flex-wrap: wrap;
-      flex-direction: column;
-  }
-  .socialmedia{
-      display:flex;
-      padding-top:1rem;
-  }
+.socialmedia {
+    display: flex;
+    padding-top: 1rem;
+}
 
 /*this is social media and form box*/
 
-.form-and-links{
-    display:flex;
-
-    padding-top:1.4rem;
-   justify-content: space-between;
+.form-and-links {
+    display: flex;
+    padding-top: 1.4rem;
+    justify-content: space-between;
     flex-direction: row;
     margin-left: auto;
-
 }
 
-  /* Style the container */
-  .formcontainer {
+/* Style the container */
+
+.formcontainer {
     border-radius: 0px;
     background-color: none;
-    display:flex;
-    padding-right:10rem;
-    padding-top:1rem;
-    display:inline;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
+    display: flex;
+    padding-right: 10rem;
+    padding-top: 1rem;
+    display: inline;
+}
+
+/* Clear floats after the columns */
+
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
-  
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  } 
+}
 
-  
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
 /*
 .footer {
     background: var(--shadecolor2);
@@ -850,62 +789,51 @@ This is without a doubt, the messiest code I've ever written. This needs some se
 
   /*--footer--*/
 
-  .contactfooter {
-    display:flex;
+.contactfooter {
+    display: flex;
     margin-top: 2em;
     border-top: 1px solid var(--headerfont);
-    width:100%;
+    width: 100%;
     background: var(--shadecolor2);
     margin: -5rem;
-    margin-top:5px;
-    margin-bottom:none;
+    margin-top: 5px;
+    margin-bottom: none;
     padding-left: 5rem;
     padding-right: 12rem;
     padding-top: 1rem;
-  
-  }
+}
 
-  .footertext {
+.footertext {
     font-size: 1.4rem;
     font-weight: 400;
     position: relative;
     color: var(--mainfont);
     outline: none;
-    
 }
 
-#sole{
-    display:flex;
+#sole {
+    display: flex;
     width: 100%;
     flex-direction: row;
-    
 }
 
-.respfooter{
-display:flex;
-
-align-self: flex-end;
-flex-direction: row;
-box-sizing: inherit;
-
-margin-left:auto;
-
+.respfooter {
+    display: flex;
+    align-self: flex-end;
+    flex-direction: row;
+    box-sizing: inherit;
+    margin-left: auto;
 }
-  ul.footerlist
-  {
-     display:flex;  
-  
-  }
 
-  li.footerlist
+ul.footerlist {
+    display: flex;
+}
 
-  {
-  display:flex;
-align-items:center;
-padding-left:1.2rem;
-
-  }
-  
+li.footerlist {
+    display: flex;
+    align-items: center;
+    padding-left: 1.2rem;
+}
 
 ul a.footerlist {
     transition: none;
@@ -917,52 +845,29 @@ ul a.footerlist {
     margin: 0;
 }
 
-
-
-
-ul a:hover.footerlist  {
+ul a:hover.footerlist {
     color: var(--selectorfont);
     outline: none;
     padding: 0px;
     background-color: transparent;
 }
-  /*----------------------'responsive' design----------------------------------------*/
 
-
+/*----------------------'responsive' design----------------------------------------*/
 
 @media screen and (max-width: 1280px) {
     .content {
         align-items: center;
-        display:inline;
+        display: inline;
         margin: auto;
-   
     }
-   
-    }
-/*
-    @media screen and (max-width: 600px) {
-        .topnav.responsive {position: relative;}
-        .topnav.responsive .icon {
-          position: absolute;
-          right: 0;
-          top: 0;
-        }
-        .topnav.responsive a {
-          float: none;
-          display: block;
-          text-align: right;
-        }
-      }
-*/
-@media screen and (max-width: 768px) , screen and (max-height: 1024px) {
- 
-    div.abouttext{
-        display:inline;
-    padding-left:0;
-    position: relative;
+}
 
+@media screen and (max-width: 768px), screen and (max-height: 1024px) {
+    div.abouttext {
+        display: inline;
+        padding-left: 0;
+        position: relative;
     }
-
     @media screen and (max-width: 900px) {
         /*for side bar*/
         .sidenav {
@@ -974,17 +879,13 @@ ul a:hover.footerlist  {
             overflow-y: hidden;
             border-left: 0rem solid var(--headerfont);
         }
-
-        
-        
-        .acclaim{
+        .acclaim {
             justify-content: center;
             align-items: center;
-            padding-left:1rem;
-            width:80%;
-            padding-bottom:10rem;
+            padding-left: 1rem;
+            width: 80%;
+            padding-bottom: 10rem;
         }
-       
         /* When you mouse over the navigation links, change their color */
         .sidenav a:hover::after {
             background-color: var(--fadinginto);
@@ -998,18 +899,15 @@ ul a:hover.footerlist  {
             margin-right: auto;
             text-align: center;
             border: none;
-          
         }
-
-
+        /*-------------------------Div Styling------------------------------------------*/
         .footer {
-            background:none;
-         
+            background: none;
             padding-top: 1rem;
-            text-align:center;
-            position:inline-block;
-            margin:0;
-         }
+            text-align: center;
+            position: inline-block;
+            margin: 0;
+        }
         .sidenav {
             float: none;
             overflow-x: hidden;
@@ -1022,35 +920,63 @@ ul a:hover.footerlist  {
             padding-top: 0rem;
             margin-top: -5rem;
         }
-
         div.shade2 {
-          margin: auto;
+            margin: auto;
             padding-left: 0rem;
             padding-right: 0rem;
             padding-top: 0rem;
             margin-top: -5rem;
         }
-        
         div.shade3 {
             margin: auto;
             padding-left: 0rem;
             padding-right: 0rem;
             padding-top: 0rem;
             margin-top: -5rem;
-           
         }
         div.textbottom {
             margin: auto;
             text-align: center;
         }
-
         #selected {
             content: '';
             right: 0;
             outline: 0px solid;
             background-color: var(--selectioncolorbar);
         }
-        /*for body and text*/
+        div.abouttext {
+            margin-left: 0;
+            padding-top: 2rem;
+            margin-bottom: 0rem;
+            padding-bottom: 0rem;
+        }
+        div.certifications {
+            justify-content: center;
+            display: inline-block;
+            margin-right: 10%;
+        }
+        .multiplelist {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            margin: auto;
+        }
+        img {
+            width: 35% !important;
+            height: auto !important;
+            text-align: center;
+            margin-right: 0rem;
+            float: none;
+            margin-bottom: 20px;
+        }
+        /*-------------------------text and body styling-----------------------------------------------------------------------------------------------------*/
+        html, body {
+            overflow-x: hidden;
+        }
+        body {
+            position: relative;
+        }
         body {
             text-align: center;
             padding: 0;
@@ -1059,36 +985,27 @@ ul a:hover.footerlist  {
         .main {
             padding-top: 1rem;
             padding-left: 0rem;
-           
             margin-left: auto;
-           
             display: inline;
-            margin-right:0;
-            
+            margin-right: 0;
         }
-        div{
-          
-          margin: auto;
-         
-          
+        div {
+            margin: auto;
         }
-      
-        /*text styling*/
+        /*-------------------------text styling------------------------------------------------------------------------------------------------------*/
         p {
             font-size: 1.3rem;
             text-align: center;
             display: inline-block;
             padding: 0;
-            justify-content:center;
+            justify-content: center;
         }
         .p2 {
             font-size: 1.4rem;
             text-align: center;
             display: inline-block;
             padding: 0;
-            width:70%;
-            
-          
+            width: 70%;
         }
         .p3 {
             font-size: 1.4rem;
@@ -1102,81 +1019,67 @@ ul a:hover.footerlist  {
             padding: 0;
             display: inline-block;
         }
-
         .p5 {
             font-size: 1.3rem;
             text-align: center;
             padding: 0;
             display: inline-block;
-            
             padding-bottom: 1.3rem;
-            margin-bottom:1rem;
+            margin-bottom: 1rem;
             padding-left: 10px;
             padding-right: 10px;
-            
-        
         }
-        
-      
         h1 {
             text-align: center;
             display: inline-block;
             font-size: 3rem;
             padding: 0;
-            
-            justify-content:center;
+            justify-content: center;
         }
-
         h2 {
             padding-top: 0;
-            display: inline-block;
+            display: flex;
+            align-self: flex-start;
             text-align: center;
-           margin:auto;
-            
-            
-            justify-content:center;
-         
+            margin: auto;
+            font-size: 2rem;
+            justify-content: center;
         }
-
         .skills h2 {
             padding-top: 0;
             margin-bottom: 0px;
-            margin-left:0px;
+            margin-left: 0px;
             text-align: center;
             display: inline-block;
             margin-right: 0%;
-            justify-content:center;
+            justify-content: center;
         }
-
         h3 {
             padding-top: 0;
             margin-bottom: 0px;
             text-align: center;
             display: inline-block;
-            font-size: 3rem;
-            
+            font-size: 2.5rem;
+            line-height: 1.3;
         }
-
         h4 {
             font-size: 2rem;
             color: var(--headerfont);
             font-weight: 400;
-            padding-top:3rem;
+            padding-top: 3rem;
             text-align: center;
             display: inline-block;
         }
-
         h6 {
             font-size: 2.4rem;
             color: var(--headerfont);
             font-weight: 500;
-            padding-top:3rem;
-             padding-bottom:0;
+            padding-top: 3rem;
+            padding-bottom: 0;
             margin-bottom: 0rem;
             text-align: center;
             display: inline-block;
         }
-        
         /*a styling*/
         a {
             transition: ease 0s, background-color 0s;
@@ -1185,7 +1088,6 @@ ul a:hover.footerlist  {
             color: var(--mainfont);
             outline: none;
         }
-      
         /* list styling*/
         ul {
             font-size: 1.3rem;
@@ -1198,58 +1100,146 @@ ul a:hover.footerlist  {
             list-style: none;
             padding: 0;
         }
-        #listspacing{
-            
+        #listspacing {
             flex-grow: 1;
-            text-align:center;
-            margin-right: 10%;
-            width:85%;
-            }
-    
-
-            div.abouttext{
-                margin-left:0;
-                padding-top:2rem;
-                margin-bottom:0rem;
-                padding-bottom:0rem;
-           
-            }
-    
-            div.certifications {
-                justify-content:center;
-             display:inline-block;
-            
-             margin-right:10%;
-
-            }
-
-            .multiplelist {
-            display:flex;
-            justify-content: center;
-            flex-direction: column;
-            text-align:center;
-            margin:auto;
-                        }
-        img {
-            width: 35% !important;
-            height: auto !important;
             text-align: center;
-            margin-right: 0rem;
-            float:none;
+            margin-right: 10%;
+            width: 85%;
+        }
+        /*------------------------contact page formating------------------------------------------------------------------------------------------------------*/
+        /* Style inputs, select elements and textareas */
+        input[type=text], select, textarea {
+            margin-bottom: 4px;
+            box-sizing: border-box;
+            background-color: rgba(0, 0, 0, 0);
+            border: 2px solid var(--headerfont);
+            border-radius: 1px;
+            width: 20rem;
+            align-self: center;
+            font-family: inherit;
+            color: var(--mainfont);
+            font-size: 1.2rem;
+            transition: all 0.2s ease 0s;
+        }
+        input[type=text]:hover, select:hover, textarea:hover {
+            color: white;
+            border-color: transparent;
+            background-color: var(--headerfont);
+        }
+        input[type=text]:focus, select:focus, textarea:focus {
+            color: white;
+            border-color: transparent;
+            background-color: var(--headerfont);
+        }
+        textarea {
+            font-family: inherit;
+            height: 390px;
+            min-height: 250px;
+            max-width: 100%;
+            box-sizing: border-box;
+            overflow: auto;
+            resize: vertical;
+        }
+        /* Style the submit button */
+        input[type=submit] {
+            background-color: transparent;
+            color: var(--headerfont);
+            width: auto;
+            border-width: 2px;
+            border-style: solid;
+            border-color: inherit;
+            margin-top: 5px;
             margin-bottom: 20px;
-            
+            padding: 12px 15px 12px 25px;
+            transition: all 0.2s ease 0s;
+            cursor: pointer;
+            font-size: 1.3rem;
+            font-family: inherit;
         }
-        html,
-        body {
-            overflow-x: hidden;
+        /*this is social media and form box*/
+        .form-and-links {
+            display: flex;
+            flex-wrap: wrap;
+            padding-top: 1.4rem;
+            flex-direction: column;
         }
-        body {
+        h2.email {
+            font-size: 1.2rem;
+        }
+        .email {
+            text-decoration: underline;
+            color: var(--mainfont);
+            text-underline-position: under;
+            font-size: 1.4rem;
+            padding-top: 1rem;
+            margin-top: 2rem;
+        }
+        .emailandmedia {
+            margin-left: 0;
+            margin-right: 0;
+        }
+        /* Style the container */
+        .formcontainer {
+            border-radius: 0px;
+            background-color: none;
+            display: flex;
+            padding-right: 0px;
+        }
+        /*--footer--*/
+        .contactfooter {
+            display: flex;
+            margin-top: 2em;
+            border-top: 1px solid var(--headerfont);
+            width: 100%;
+            background: var(--shadecolor2);
+            margin: -5rem;
+            margin-top: 5px;
+            margin-bottom: none;
+        }
+        .footertext {
+            font-size: 1.3rem;
+            font-weight: 400;
             position: relative;
-        
+            color: var(--mainfont);
+            outline: none;
         }
-
-        
-
+        #sole {
+            display: flex;
+            width: 100%;
+            flex-direction: row;
+        }
+        .respfooter {
+            display: flex;
+            align-self: flex-end;
+            flex-direction: row;
+            box-sizing: inherit;
+            font-size: 0.6em;
+            margin-left: auto;
+            margin-right: 1rem;
+        }
+        ul.footerlist {
+            display: flex;
+        }
+        li.footerlist {
+            display: flex;
+            align-items: center;
+            padding-left: 1rem;
+        }
+        ul a.footerlist {
+            transition: none;
+            font-weight: 200;
+            text-decoration: none;
+            color: var(--headerfont);
+            outline: none;
+            padding: 0;
+            margin: 0;
+        }
+        ul a:hover.footerlist {
+            color: var(--selectorfont);
+            outline: none;
+            padding: 0px;
+            background-color: transparent;
+        }
     }
     @media screen and (max-width: 360px) {
         .sidenav a {
