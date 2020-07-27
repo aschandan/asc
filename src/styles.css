@@ -405,17 +405,6 @@ div.spacingbetween4{
     clear: both;
     display: table;
   }
-  
-
-.footer {
-    background: var(--shadecolor2);
-    margin: -5rem;
-    margin-top:5px;
-    padding-left: 5rem;
-    padding-right: 16rem;
-    padding-top: 1rem;
-    border-top: 1px solid var(--headerfont);
- }
 
 /*-------------------Work Page Content---------------------*/
 
@@ -843,16 +832,29 @@ This is without a doubt, the messiest code I've ever written. This needs some se
     }
   } 
 
+  
+/*
+.footer {
+    background: var(--shadecolor2);
+    margin: -5rem;
+    margin-top:5px;
+    margin-bottom:none;
+    padding-left: 5rem;
+    padding-right: 12rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--headerfont);
+ }
+*/
 
   /*--footer--*/
 
   .contactfooter {
     display:flex;
-
-    background-color: transparent;
     margin-top: 1em;
-
     padding-bottom:1rem;
+    background: var(--shadecolor2);
+    border-top: 1px solid var(--headerfont);
+   margin-left:5rem;
   }
 
   .footertext {
@@ -861,6 +863,7 @@ This is without a doubt, the messiest code I've ever written. This needs some se
     position: relative;
     color: var(--mainfont);
     outline: none;
+    
 }
 
 #sole{
