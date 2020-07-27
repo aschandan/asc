@@ -733,7 +733,7 @@ a:hover {
     background-color: rgba(0,0,0,0);
     border: 2px solid var(--headerfont);
     border-radius: 1px;
-    width:45rem;
+    width:39rem;
     font-family:inherit;
     color:var(--mainfont);
     font-size:inherit;
@@ -741,8 +741,8 @@ a:hover {
   
   textarea {
     font-family:inherit;
-    height: 200px;
-    min-height: 170px;
+    height: 390px;
+    min-height: 250px;
     max-width: 100%;
     box-sizing: border-box;
     overflow: auto;
@@ -767,8 +767,14 @@ a:hover {
 
   /*this is the social media box*/
 
+  .emailandmedia{
+      display:flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+  }
   .socialmedia{
       display:flex;
+      padding-top:1rem;
   }
 
 /*this is social media and form box*/
@@ -777,9 +783,9 @@ a:hover {
     display:flex;
 
     padding-top:2rem;
-    justify-content: space-between;
+   justify-content: space-between;
     flex-direction: row;
-    
+    margin-left: auto;
 
 }
 
@@ -826,9 +832,8 @@ a:hover {
     position: relative;
     color: var(--mainfont);
     outline: none;
-
- 
 }
+
 #sole{
     display:flex;
     width: 100%;
@@ -843,6 +848,7 @@ flex-direction: row;
 box-sizing: inherit;
 
 margin-left:auto;
+
 }
   ul.footerlist
   {
@@ -860,7 +866,7 @@ padding-left:1.2rem;
   }
   
 
-  li a {
+ul a.footerlist {
     transition: none;
     font-weight: 200;
     text-decoration: none;
@@ -873,7 +879,7 @@ padding-left:1.2rem;
 
 
 
-li a:hover {
+ul a:hover.footerlist  {
     color: var(--selectorfont);
     outline: none;
     padding: 0px;
