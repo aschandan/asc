@@ -119,7 +119,7 @@ body {
 .main {
     margin: auto;
     margin-right: 16rem;
-    padding-top: 1rem;
+    padding-top: .2rem;
     padding-left: 4rem;
     
 }
@@ -162,6 +162,7 @@ h3 {
     margin-bottom:1rem;
     font-family: 'grotesk';
 }
+
 
 
 h4 {
@@ -526,6 +527,7 @@ padding-top:0rem;
 
  #two{
      padding-top: 6rem;
+     border-bottom:none;
  }
 
 /*img for about page, which has been temporarly removed for the time being.*/
@@ -728,7 +730,7 @@ This is without a doubt, the messiest code I've ever written. This needs some se
     width:39rem;
     font-family:inherit;
     color:var(--mainfont);
-    font-size:inherit;
+    font-size:1.2rem;
     transition: all 0.2s ease 0s;
 
 
@@ -770,7 +772,7 @@ This is without a doubt, the messiest code I've ever written. This needs some se
     padding: 12px 15px 12px 25px;
     transition: all 0.2s ease 0s;
     cursor: pointer;
-    font-size:inherit;
+    font-size:1.3rem;
     font-family: inherit;
   }
 
@@ -844,17 +846,23 @@ This is without a doubt, the messiest code I've ever written. This needs some se
     padding-top: 1rem;
     border-top: 1px solid var(--headerfont);
  }
-*/
+
 
   /*--footer--*/
 
   .contactfooter {
     display:flex;
-    margin-top: 1em;
-    padding-bottom:1rem;
-    background: var(--shadecolor2);
+    margin-top: 2em;
     border-top: 1px solid var(--headerfont);
-   margin-left:5rem;
+    width:100%;
+    background: var(--shadecolor2);
+    margin: -5rem;
+    margin-top:5px;
+    margin-bottom:none;
+    padding-left: 5rem;
+    padding-right: 12rem;
+    padding-top: 1rem;
+  
   }
 
   .footertext {
@@ -870,6 +878,7 @@ This is without a doubt, the messiest code I've ever written. This needs some se
     display:flex;
     width: 100%;
     flex-direction: row;
+    
 }
 
 .respfooter{
@@ -902,7 +911,7 @@ ul a.footerlist {
     transition: none;
     font-weight: 200;
     text-decoration: none;
-    color: var(--mainfont);
+    color: var(--headerfont);
     outline: none;
     padding: 0;
     margin: 0;
