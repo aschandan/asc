@@ -837,16 +837,17 @@ a:hover {
 
 .respfooter{
 display:flex;
-justify-content: space-between;
-align-self: flex-start;
+
+align-self: flex-end;
 flex-direction: row;
 box-sizing: inherit;
 
+margin-left:auto;
 }
   ul.footerlist
   {
      display:flex;  
-   padding-left:55vw;
+  
   }
 
   li.footerlist
@@ -859,12 +860,24 @@ padding-left:1.2rem;
   }
   
 
+  li a {
+    transition: none;
+    font-weight: 200;
+    text-decoration: none;
+    color: var(--mainfont);
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
 
 li a:hover {
     color: var(--selectorfont);
     outline: none;
-    padding: .40rem;
-    background-color: var(--selectioncolor);
+    padding: 0px;
+    background-color: transparent;
 }
   /*----------------------'responsive' design----------------------------------------*/
 
