@@ -17,7 +17,7 @@
   <a id="selected" href="contact.html" name="selected">Contact</a>
 </div>
 
-<body>
+<body onload="form.reset();">
 <div class="main"> 
   <section class="fade-in">
     <main class="content">
@@ -30,9 +30,9 @@
               Whether you have a inquiry or simply want to find out more, let’s chat!
             </p>
             <h2>
-              Email:
+            Send some emails ↓ 
             </h2>
-            <p class="p2">
+            <p class="p3">
               <a class="email" href="mailto:amandeepchandan00@gmail.com">amandeepchandan00@gmail.com</a>
             </p>
           </div>
@@ -41,7 +41,7 @@
             <div>
           <div class="socialmedia">
           <div>
-            <h2 style="margin-top:0;">
+            <h2 style="margin-top:0; margin-bottom: 0;">
               Social Media:
             </h2>
           
@@ -67,11 +67,11 @@
             </div>
          
             <div class="formcontainer">
-              <form action="https://formspree.io/mrgyrryw" method="POST">
+              <form id="form" action="https://formspree.io/mrgyrryw" method="POST">
                 <div class="row">
                  
                   <div class="col-75">
-                    <input type="text" id="fname" name="name" placeholder="Full name">
+                    <input type="text" id="fname" name="name" placeholder="Full Name">
                   </div>
                 </div>
                 <div class="row">
@@ -87,7 +87,7 @@
                   </div>
                 </div>
                 <div class="row">
-                  <input type="submit" value="Send">
+                  <input type="submit" value="Send Message →">
                 </div>
               </form>
             </div> 

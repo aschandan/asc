@@ -210,6 +210,7 @@ p {
     margin-right: auto;
     margin-top:0;
     padding-bottom:1rem;
+        
 }
 
 .p3 {
@@ -221,6 +222,7 @@ p {
     outline: none;
     margin-right: auto;
     margin-top: 0px;
+
 }
 
 .p4 {
@@ -301,7 +303,7 @@ ul.links {
     line-height: 200%;
     text-underline-position:under;
     list-style:none;
-    
+    margin-top:.7rem;
     padding:0px;
 }
 
@@ -726,51 +728,55 @@ a:hover {
  input[type=text], select, textarea{
 
     padding: 12px;
-
-    border-radius: 0px;
+    margin-bottom:4px;
     box-sizing: border-box;
-    background-color: rgba(0,0,0,.1);
+    background-color: rgba(0,0,0,0);
+    border: 2px solid var(--headerfont);
+    border-radius: 1px;
     width:45rem;
-   border:none;
+    font-family:inherit;
+    color:var(--mainfont);
+    font-size:inherit;
   }
   
   textarea {
-    width: 100%;
-    height: 150px;
-    padding: 12px 20px;
+    font-family:inherit;
+    height: 200px;
+    min-height: 170px;
+    max-width: 100%;
     box-sizing: border-box;
     overflow: auto;
     resize: vertical;
-    max-height: 500px;
-    min-height: 100px;
+
+
   }
 
 
   
   /* Style the submit button */
   input[type=submit] {
-    background-color: #4CAF50;
-
+    background-color: var(--headerfont);
+    font-family:inherit;
     padding: 10px 20px;
     margin-top:0px;
-    border: none;
- 
+    border: 1px;
+ color:white;
     cursor: pointer;
-  
+    font-size:inherit;
   }
 
   /*this is the social media box*/
 
   .socialmedia{
       display:flex;
-
   }
+
 /*this is social media and form box*/
 
 .form-and-links{
     display:flex;
-    align-items: center;
-  
+
+    padding-top:2rem;
     justify-content: space-between;
     flex-direction: row;
 
@@ -781,6 +787,7 @@ a:hover {
     background-color: none;
     display:flex;
     padding-right:16rem;
+    padding-top:1rem;
    
   }
 
