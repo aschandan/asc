@@ -289,6 +289,7 @@ ul a {
     text-decoration: underline;
     color: var(--mainfont);
     text-underline-position:under; 	
+    font-size:1.7rem;
 }
 
 .acclaim{
@@ -722,7 +723,9 @@ a:hover {
     background-color: var(--selectioncolorbar);
 }
 
-/*---contact form----*/
+/*---contact form
+This is without a doubt, the messiest code I've ever written. This needs some serious help but I cannot be bothered to for now----*/
+
  /* Style inputs, select elements and textareas */
 
  input[type=text], select, textarea{
@@ -737,8 +740,23 @@ a:hover {
     font-family:inherit;
     color:var(--mainfont);
     font-size:inherit;
+    transition: all 0.2s ease 0s;
+
+
   }
   
+  input[type=text]:hover, select:hover, textarea:hover{
+    color:white;
+    border-color:transparent;
+    background-color: var(--headerfont);
+  }
+
+  input[type=text]:focus, select:focus, textarea:focus{
+    color:white;
+    border-color:transparent;
+    background-color: var(--headerfont);
+  }
+
   textarea {
     font-family:inherit;
     height: 390px;
@@ -747,22 +765,33 @@ a:hover {
     box-sizing: border-box;
     overflow: auto;
     resize: vertical;
-
-
   }
-
 
   
   /* Style the submit button */
   input[type=submit] {
-    background-color: var(--headerfont);
-    font-family:inherit;
-    padding: 10px 20px;
-    margin-top:0px;
-    border: 1px;
- color:white;
+    background-color: transparent;
+    color: var(--headerfont);
+    width: auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: inherit;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 12px 15px 12px 25px;
+    transition: all 0.2s ease 0s;
     cursor: pointer;
     font-size:inherit;
+    font-family: inherit;
+  }
+
+
+  input[type=submit]:hover {
+    background-color: var(--headerfont);
+    color:white;
+    border-color:transparent;
+
+    
   }
 
   /*this is the social media box*/
@@ -782,7 +811,7 @@ a:hover {
 .form-and-links{
     display:flex;
 
-    padding-top:2rem;
+    padding-top:1.4rem;
    justify-content: space-between;
     flex-direction: row;
     margin-left: auto;
