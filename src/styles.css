@@ -949,13 +949,7 @@ ul a:hover.footerlist {
             border: none;
         }
         /*----------------------------------------Div Styling-------------------------------------------------------------------*/
-        .footer {
-            background: none;
-            padding-top: 1rem;
-            text-align: center;
-            position: inline-block;
-            margin: 0;
-        }
+      
         .sidenav {
             float: none;
             overflow-x: hidden;
