@@ -900,23 +900,17 @@ ul a:hover.footerlist {
         display: flex;
         padding-right: 0px;
     }
-    @media (hover: none) {
-        a:hover { color: inherit; }
-      }
+   
 }
 
-@media screen and (max-width: 768px), screen and (max-height: 1024px) and (hover: none) {
+@media screen and (max-width: 768px), screen and (max-height: 1024px) {
 
-    @media (hover: none) {
-        a:hover { color: transparent; }
-      }
-
-    
     div.abouttext {
         display: inline;
         padding-left: 0;
         position: relative;
     }
+
     @media screen and (max-width: 900px) {
         /*for side bar*/
         .sidenav {
@@ -938,21 +932,31 @@ ul a:hover.footerlist {
         /* When you mouse over the navigation links, change their color */
         .sidenav a:hover::after {
             background-color: var(--fadinginto);
-            width: 20%;
+            width: 30%;
         }
         /* this is for the top bar nav when the display is lower than 850 or so.*/
         .sidenav a {
-            display: inline-block;
+            display: flex;
             font-size: 1.5rem;
-            margin-left: auto;
-            margin-right: auto;
+            align-self: baseline;
             text-align: center;
             border: none;
+            padding:1.5rem;
+        }
+
+        .sideitems a {
+    text-align:right;
         }
         /*----------------------------------------Div Styling-------------------------------------------------------------------*/
       
         .sidenav {
             float: none;
+            display:flex;
+            text-align:center;
+            flex-direction: column;
+            justify-content: space-between;
+            margin-left:auto;   
+            margin-right:auto; 
             overflow-x: hidden;
             overflow-y: hidden;
         }
@@ -1079,7 +1083,8 @@ ul a:hover.footerlist {
             font-size: 1.5rem;
             width: 85%;
         }
-        /*-------------------------text styling------------------------------------------------------------------------------------------------------*/
+
+/*-------------------------text styling------------------------------------------------------------------------------------------------------*/
         p {
             font-size: 1.3rem;
             text-align: center;
@@ -1109,6 +1114,7 @@ ul a:hover.footerlist {
             display: flex;
             margin: auto;
             padding-top: 1rem;
+            width:85%
         }
         .p5 {
             font-size: 1.4rem;
@@ -1169,16 +1175,14 @@ ul a:hover.footerlist {
             text-decoration: none;
             color: var(--mainfont);
             outline: none;
-            transition: none !important;
+        
         }
 
         a:hover {
             color: var(--selectorfont);
             outline: none;
-            padding:0;
-           
-            margin: 0;
-            transition: none !important;
+      
+
         }
 
         /* list styling*/
@@ -1199,8 +1203,11 @@ ul a:hover.footerlist {
             margin-right: 10%;
             width: 80%;
         }
-        /*------------------------contact page formating------------------------------------------------------------------------------------------------------*/
-        /* Style inputs, select elements and textareas */
+
+ /*------------------------contact page formating------------------------------------------------------------------------------------------------------*/
+       
+ /* Style inputs, select elements and textareas */
+
         input[type=text], select, textarea {
             margin-bottom: 4px;
             box-sizing: border-box;
@@ -1255,7 +1262,7 @@ ul a:hover.footerlist {
             margin-top: .5rem;
         }
         #contact {
-            font-size: 3.5rem;
+            font-size: 3rem;
             padding-bottom: 1rem;
         }
         /*this is social media and form box, change these values to mesxs with their spacing and stuff*/
@@ -1296,9 +1303,9 @@ ul a:hover.footerlist {
             display: flex;
             margin-top: 2em;
             border-top: 1px solid var(--headerfont);
-            width: 100%;
+            width: 95%;
             background: var(--shadecolor2);
-            margin: -5rem;
+            
             margin-top: 5px;
             margin-bottom: none;
         }
