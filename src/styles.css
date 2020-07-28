@@ -324,13 +324,13 @@ div.spacingbetween {
 
 div.spacingbetween2 {
     margin-top: 0rem;
-    overflow: auto;
+    overflow: hidden;
 }
 
 div.abouttext {
     height: 1000px;
     margin-bottom: 1rem;
-    overflow: auto;
+    overflow: hidden;
 }
 
 div.spacingbetween4 {
@@ -625,7 +625,7 @@ a:hover {
     /* Stay at the top */
     right: 0;
     float: right;
-    overflow: auto;
+    overflow: hidden;
     background-color: var(--sidenav);
     overflow-x: hidden;
     /* Disable horizontal scroll */
@@ -717,7 +717,7 @@ textarea {
     min-height: 250px;
     max-width: 100%;
     box-sizing: border-box;
-    overflow: auto;
+    overflow: hidden;
     resize: vertical;
 }
 
@@ -923,7 +923,7 @@ ul a:hover.footerlist {
             height: auto;
             position: relative;
             padding-top: 0;
-            overflow-x: auto;
+            overflow-x: hidden;
             overflow-y: hidden;
             border-left: 0rem solid var(--headerfont);
         }
@@ -1229,7 +1229,7 @@ ul a:hover.footerlist {
             min-height: 250px;
             max-width: 100%;
             box-sizing: border-box;
-            overflow: auto;
+            overflow: hidden;
             resize: vertical;
         }
         /* Style the submit button */
