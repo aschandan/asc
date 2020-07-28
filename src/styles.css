@@ -852,7 +852,7 @@ ul a:hover.footerlist {
     background-color: transparent;
 }
 
-/*----------------------'responsive' design----------------------------------------*/
+/*-------------------------------------------------'responsive' design-----------------------------------------------------------------*/
 
 @media screen and (max-width: 1280px) {
     .content {
@@ -900,7 +900,9 @@ ul a:hover.footerlist {
             text-align: center;
             border: none;
         }
-        /*-------------------------Div Styling------------------------------------------*/
+
+/*----------------------------------------Div Styling-------------------------------------------------------------------*/
+
         .footer {
             background: none;
             padding-top: 1rem;
@@ -970,7 +972,8 @@ ul a:hover.footerlist {
             float: none;
             margin-bottom: 20px;
         }
-        /*-------------------------text and body styling-----------------------------------------------------------------------------------------------------*/
+/*-------------------------text and body styling-----------------------------------------------------------------------------------------------------*/
+
         html, body {
             overflow-x: hidden;
         }
@@ -992,7 +995,8 @@ ul a:hover.footerlist {
         div {
             margin: auto;
         }
-        /*-------------------------text styling------------------------------------------------------------------------------------------------------*/
+/*-------------------------text styling------------------------------------------------------------------------------------------------------*/
+
         p {
             font-size: 1.3rem;
             text-align: center;
@@ -1070,17 +1074,20 @@ ul a:hover.footerlist {
             text-align: center;
             display: inline-block;
         }
-        h6 {
-            font-size: 2.4rem;
+  
+        h5 {
+            font-size: 2rem;
             color: var(--headerfont);
             font-weight: 500;
-            padding-top: 3rem;
+            padding-top: 1rem;
+            margin-top: 0rem;
             padding-bottom: 0;
-            margin-bottom: 0rem;
-            text-align: center;
-            display: inline-block;
+            margin-bottom: 20px;
+            font-family: 'grotesk';
         }
+
         /*a styling*/
+
         a {
             transition: ease 0s, background-color 0s;
             font-weight: 200;
@@ -1088,7 +1095,9 @@ ul a:hover.footerlist {
             color: var(--mainfont);
             outline: none;
         }
+
         /* list styling*/
+
         ul {
             font-size: 1.3rem;
             display: inline-block;
@@ -1106,7 +1115,8 @@ ul a:hover.footerlist {
             margin-right: 10%;
             width: 85%;
         }
-        /*------------------------contact page formating------------------------------------------------------------------------------------------------------*/
+/*------------------------contact page formating------------------------------------------------------------------------------------------------------*/
+
         /* Style inputs, select elements and textareas */
         input[type=text], select, textarea {
             margin-bottom: 4px;
@@ -1148,7 +1158,7 @@ ul a:hover.footerlist {
             border-width: 2px;
             border-style: solid;
             border-color: inherit;
-            margin-top: 5px;
+            margin-top: 20px;
             margin-bottom: 20px;
             padding: 12px 15px 12px 25px;
             transition: all 0.2s ease 0s;
@@ -1156,27 +1166,49 @@ ul a:hover.footerlist {
             font-size: 1.3rem;
             font-family: inherit;
         }
-        /*this is social media and form box*/
+
+        /* this is for the div that says "lets talk"*/
+        #contactblock{
+            padding-top:.5rem;
+            margin-top:.5rem;
+        }
+        #contact{
+            font-size:3.5rem;
+            padding-bottom:1rem;
+        }
+        /*this is social media and form box, change these values to mesxs with their spacing and stuff*/
+
         .form-and-links {
             display: flex;
             flex-wrap: wrap;
-            padding-top: 1.4rem;
+
             flex-direction: column;
         }
-        h2.email {
-            font-size: 1.2rem;
+        /*this is the text that says my email and stuff*/
+
+        #emailheader {
+            font-size: 2.5rem;
+
+            margin-bottom:1rem;
         }
+        #socialheader{
+            font-size: 2.5rem;
+        }
+        
         .email {
             text-decoration: underline;
             color: var(--mainfont);
             text-underline-position: under;
             font-size: 1.4rem;
-            padding-top: 1rem;
-            margin-top: 2rem;
+            
         }
+        
+        /*div related to flexing*/
+
         .emailandmedia {
             margin-left: 0;
             margin-right: 0;
+            padding-bottom:1rem;
         }
         /* Style the container */
         .formcontainer {
@@ -1208,6 +1240,7 @@ ul a:hover.footerlist {
             width: 100%;
             flex-direction: row;
         }
+
         .respfooter {
             display: flex;
             align-self: flex-end;
