@@ -354,7 +354,9 @@ div.spacingbetween4 {
 }
 
 .list {
-    flex-grow: 1;
+    flex-grow: 0;
+   
+    
 }
 
 .column {
@@ -1058,6 +1060,53 @@ ul a:hover.footerlist {
         div {
             margin: auto;
         }
+
+/*--------------------------about page stuff for right now-----------------------------------------------------------------------------------*/
+.h2about{
+    padding-top:1rem;
+    margin-top:1rem;
+    padding-bottom: 1rem;
+    font-size:2.5rem;
+    display:flex;
+    width:85%;
+}
+
+.list {
+    flex-grow: 0;
+    width:85%;
+    
+}
+
+h2#listheader {
+  
+    margin-bottom: 2rem!important;
+    margin-left: 0px;
+    text-align: center;
+    display: flex;
+   font-size:2.3rem;
+    justify-content: center;
+}
+
+h4#education{
+margin-bottom:1rem;
+}
+h5#info{
+    padding-top:2rem;
+    margin-top:1rem;
+    
+    font-size:3rem;
+}
+
+h4#timezone{
+    margin-bottom:1rem;
+}
+.p6 {
+    font-size: 1.4rem;
+
+    width:85%;
+}
+
+
 /*-------------------------text styling------------------------------------------------------------------------------------------------------*/
 
         p {
@@ -1070,9 +1119,11 @@ ul a:hover.footerlist {
         .p2 {
             font-size: 1.4rem;
             text-align: center;
-            display: inline-block;
+            display:flex;
             padding: 0;
-            width: 70%;
+            margin-left:auto;
+            margin-right:auto;
+            width:80%;
         }
         .p3 {
             font-size: 1.4rem;
@@ -1114,15 +1165,7 @@ ul a:hover.footerlist {
             font-size: 2rem;
             justify-content: center;
         }
-        .skills h2 {
-            padding-top: 0;
-            margin-bottom: 0px;
-            margin-left: 0px;
-            text-align: center;
-            display: inline-block;
-            margin-right: 0%;
-            justify-content: center;
-        }
+
         h3 {
             padding-top: 0;
             margin-bottom: 0px;
@@ -1178,7 +1221,7 @@ ul a:hover.footerlist {
             flex-grow: 1;
             text-align: center;
             margin-right: 10%;
-            width: 85%;
+            width: 80%;
         }
 /*------------------------contact page formating------------------------------------------------------------------------------------------------------*/
 
