@@ -408,7 +408,6 @@ div.shade4 {
 }
 
 
-
 hr {
     display: block;
     height: 1px;
@@ -417,6 +416,8 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
+
+/*----about page content---*/
 
 #viewbox{
     display:flex;
@@ -516,6 +517,34 @@ a.view:hover {
     min-width: 350px;
 }
 */
+
+
+/*template page / actual works created pages*/
+
+.tally{
+    display:flex;
+}
+.textblock{
+    display:flex;
+ 
+    flex-direction: column;
+    
+    width:68%;
+}
+
+/*please note this is the box around the images, not the modifer to the images themselves*/
+
+.multimages {
+
+    display:flex;
+    padding-top:2rem;
+   flex-direction: column;
+ 
+}
+
+img.works
+{width:50%;
+padding-bottom:1rem;}
 
 /*-------------------Section---------------------*/
 
