@@ -910,7 +910,7 @@ ul a:hover.footerlist {
     @media (hover: none) {
         a:hover { color: inherit; }
       }
-      
+
     div.abouttext {
         display: inline;
         padding-left: 0;
@@ -923,7 +923,7 @@ ul a:hover.footerlist {
             height: auto;
             position: relative;
             padding-top: 0;
-            overflow-x: hidden;
+            overflow-x: auto;
             overflow-y: hidden;
             border-left: 0rem solid var(--headerfont);
         }
