@@ -407,13 +407,7 @@ div.shade4 {
     border-top: 1px solid var(--headerfont);
 }
 
-img.works {
-    width: 33%;
-    padding-left: 10rem;
-    padding-right: 2rem;
-    float: right;
-    padding-top: 2rem;
-}
+
 
 hr {
     display: block;
@@ -424,14 +418,8 @@ hr {
     padding: 0;
 }
 
-.group {
-    padding: 2rem;
-}
-
-.group:after {
-    content: "";
-    display: table;
-    clear: both;
+#viewbox{
+    display:flex;
 }
 
 a.view {
@@ -447,6 +435,8 @@ a.view {
     position: relative;
     outline: none;
     margin-right: auto;
+    display:flex;
+    align-self:center;
 }
 
 a.view:hover {
@@ -459,36 +449,55 @@ a.view:hover {
     background: none;
 }
 
-img {
-    max-width: 100%;
-    max-height: 100%;
-    display: block;
-    /* remove extra space below image */
-}
 
-.text {
-    float: left;
-    width: 60%;
-    padding-left: 5rem;
-}
-
-.images {
-    float: left;
-    width: 25%;
-}
+/* actually related to work page*/
 
 .boxes {
-    padding-bottom: 4rem;
-    padding-left: 0rem !important;
+  padding:2rem;
+  padding-left:0rem;
     border-bottom: 1px solid var(--headerfont);
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+ 
 }
+
+
+
+.images {
+
+    display:flex;
+    width:20%;
+    margin-right: 10rem;
+    margin-left: auto;
+    align-self: flex-end;
+    flex-grow: 0;
+    flex-basis: auto;
+   
+}
+
+
+.text {
+    display:flex;
+    margin-right: auto;
+    margin-left: 4rem;
+    flex-direction: column;
+    align-self:flex-start
+}
+
+
+
+
 
 #one {
     padding-top: 0rem;
 }
 
 #two {
-    padding-top: 6rem;
+   
     border-bottom: none;
 }
 
@@ -1044,7 +1053,9 @@ ul a:hover.footerlist {
             font-size: 1.4rem;
             text-align: center;
             padding: 0;
-            display: inline-block;
+            display:flex;
+            margin:auto;
+            padding-top:1rem;
         }
         .p5 {
             font-size: 1.3rem;
