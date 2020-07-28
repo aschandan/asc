@@ -900,9 +900,17 @@ ul a:hover.footerlist {
         display: flex;
         padding-right: 0px;
     }
+    @media (hover: none) {
+        a:hover { color: inherit; }
+      }
 }
 
 @media screen and (max-width: 768px), screen and (max-height: 1024px) {
+
+    @media (hover: none) {
+        a:hover { color: inherit; }
+      }
+      
     div.abouttext {
         display: inline;
         padding-left: 0;
