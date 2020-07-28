@@ -351,6 +351,7 @@ div.spacingbetween4 {
 .content {
     align-items: center;
     margin: auto;
+  
 }
 
 .list {
@@ -902,7 +903,7 @@ ul a:hover.footerlist {
 @media screen and (max-width: 1280px) {
     .content {
         align-items: center;
-        display: flex;
+        
         margin: auto;
     }
     .form-and-links {
@@ -1204,29 +1205,38 @@ ul a:hover.footerlist {
             padding-bottom: 10rem;
         }
         /*-------------------Work Page Content---------------------*/
-        .worktogether {
-            display: flex;
-            flex-direction: column;
-            flex-wrap:wrap;
-        }
+
         .workblurt {
             display: flex;
         }
         .designblurb {
             display: flex;
             width: 85%;
+            margin-left:0;
         }
         .textblock2 {
             display: flex;
             flex-direction: column;
-            width: 78%;
-            margin-left: 0;
-            margin-right: 0;
+            align-items: center;
+            width: 100%;
+            margin-left: auto!important;
+            margin-right: auto!important;
+            padding-bottom:2rem;
+            margin-bottom:6rem;
         }
+
         .h3name{
             display:flex;
-            flex-direction: row;
+            flex-direction: column;
+            margin-right:0;
+            margin-left:0;
+            font-size:2.2rem;
+            text-align: center;
+            align-self: center;
+            align-items: center;
+            justify-content: center;
         }
+
         /*------------------------contact page formating------------------------------------------------------------------------------------------------------*/
         /* Style inputs, select elements and textareas */
         input[type=text], select, textarea {
