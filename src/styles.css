@@ -905,12 +905,14 @@ ul a:hover.footerlist {
       }
 }
 
-@media screen and (max-width: 768px), screen and (max-height: 1024px) {
+@media screen and (max-width: 768px), screen and (max-height: 1024px) and (hover: none) {
 
     @media (hover: none) {
         a:hover { color: inherit; }
       }
 
+      a:hover { color: inherit; }
+    }
     div.abouttext {
         display: inline;
         padding-left: 0;
@@ -1014,10 +1016,15 @@ ul a:hover.footerlist {
         }
         /*-------------------------text and body styling-----------------------------------------------------------------------------------------------------*/
         html, body {
-            overflow-x: hidden;
+            position: fixed;
+            height: 100%;
+            overflow: hidden;
         }
         body {
-            position: relative;
+            margin: 0;
+            overflow-y: auto;
+            overflow-x: hidden;
+            -webkit-overflow-scrolling: touch;
         }
         body {
             text-align: center;
@@ -1349,4 +1356,3 @@ ul a:hover.footerlist {
             overflow-y: hidden;
         }
     }
-}
