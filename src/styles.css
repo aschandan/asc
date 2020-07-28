@@ -330,7 +330,7 @@ div.spacingbetween2 {
 div.abouttext {
     height: 1000px;
     margin-bottom: 1rem;
-    overflow: hidden;
+    overflow: auto;
 }
 
 div.spacingbetween4 {
