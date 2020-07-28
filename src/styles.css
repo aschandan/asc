@@ -908,11 +908,10 @@ ul a:hover.footerlist {
 @media screen and (max-width: 768px), screen and (max-height: 1024px) and (hover: none) {
 
     @media (hover: none) {
-        a:hover { color: inherit; }
+        a:hover { color: transparent; }
       }
 
-      a:hover { color: inherit; }
-    }
+    
     div.abouttext {
         display: inline;
         padding-left: 0;
@@ -939,7 +938,7 @@ ul a:hover.footerlist {
         /* When you mouse over the navigation links, change their color */
         .sidenav a:hover::after {
             background-color: var(--fadinginto);
-            width: 0%;
+            width: 20%;
         }
         /* this is for the top bar nav when the display is lower than 850 or so.*/
         .sidenav a {
