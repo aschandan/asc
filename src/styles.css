@@ -1024,7 +1024,9 @@ ul a:hover.footerlist {
             margin: 0;
             overflow-y: auto;
             overflow-x: hidden;
-            -webkit-overflow-scrolling: touch;
+            overflow:visible;
+            -webkit-overflow-scrolling: auto;
+           
         }
         body {
             text-align: center;
