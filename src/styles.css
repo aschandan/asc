@@ -355,8 +355,6 @@ div.spacingbetween4 {
 
 .list {
     flex-grow: 0;
-   
-    
 }
 
 .column {
@@ -409,7 +407,6 @@ div.shade4 {
     border-top: 1px solid var(--headerfont);
 }
 
-
 hr {
     display: block;
     height: 1px;
@@ -421,8 +418,8 @@ hr {
 
 /*----about page content---*/
 
-#viewbox{
-    display:flex;
+#viewbox {
+    display: flex;
 }
 
 a.view {
@@ -438,8 +435,8 @@ a.view {
     position: relative;
     outline: none;
     margin-right: auto;
-    display:flex;
-    align-self:center;
+    display: flex;
+    align-self: center;
 }
 
 a.view:hover {
@@ -452,57 +449,43 @@ a.view:hover {
     background: none;
 }
 
-
 /* actually related to work page*/
 
 .boxes {
-  padding:2rem;
-  padding-left:0rem;
+    padding: 2rem;
+    padding-left: 0rem;
     border-bottom: 1px solid var(--headerfont);
-    display:flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
     align-items: center;
     align-content: center;
- 
 }
 
-
-
 .images {
-
-    display:flex;
-    width:20%;
+    display: flex;
+    width: 20%;
     margin-right: 10rem;
     margin-left: auto;
     align-self: flex-end;
     flex-grow: 0;
     flex-basis: auto;
-   
 }
 
-
 .text {
-    display:flex;
+    display: flex;
     margin-right: auto;
     margin-left: 4rem;
     flex-direction: column;
-    align-self:flex-start
+    align-self: flex-start
 }
-
-
-
-
 
 #one {
     padding-top: 0rem;
 }
 
-
-
 #three {
-   
     border-bottom: none;
 }
 
@@ -520,33 +503,30 @@ a.view:hover {
 }
 */
 
-
 /*template page / actual works created pages*/
 
-.tally{
-    display:flex;
+.tally {
+    display: flex;
 }
-.textblock{
-    display:flex;
- 
+
+.textblock {
+    display: flex;
     flex-direction: column;
-    
-    width:68%;
+    width: 68%;
 }
 
 /*please note this is the box around the images, not the modifer to the images themselves*/
 
 .multimages {
-
-    display:flex;
-    padding-top:2rem;
-   flex-direction: column;
- 
+    display: flex;
+    padding-top: 2rem;
+    flex-direction: column;
 }
 
-img.works
-{width:50%;
-padding-bottom:1rem;}
+img.works {
+    width: 50%;
+    padding-bottom: 1rem;
+}
 
 /*-------------------Section---------------------*/
 
@@ -905,17 +885,13 @@ ul a:hover.footerlist {
     .form-and-links {
         display: flex;
         flex-wrap: wrap;
-
         flex-direction: column;
     }
-
-
     /*div related to flexing*/
-
     .emailandmedia {
         margin-left: 0;
         margin-right: 0;
-        padding-bottom:1rem;
+        padding-bottom: 1rem;
     }
     /* Style the container */
     .formcontainer {
@@ -924,7 +900,6 @@ ul a:hover.footerlist {
         display: flex;
         padding-right: 0px;
     }
-
 }
 
 @media screen and (max-width: 768px), screen and (max-height: 1024px) {
@@ -965,9 +940,7 @@ ul a:hover.footerlist {
             text-align: center;
             border: none;
         }
-
-/*----------------------------------------Div Styling-------------------------------------------------------------------*/
-
+        /*----------------------------------------Div Styling-------------------------------------------------------------------*/
         .footer {
             background: none;
             padding-top: 1rem;
@@ -1037,8 +1010,7 @@ ul a:hover.footerlist {
             float: none;
             margin-bottom: 20px;
         }
-/*-------------------------text and body styling-----------------------------------------------------------------------------------------------------*/
-
+        /*-------------------------text and body styling-----------------------------------------------------------------------------------------------------*/
         html, body {
             overflow-x: hidden;
         }
@@ -1062,53 +1034,43 @@ ul a:hover.footerlist {
         }
 
 /*--------------------------about page stuff for right now-----------------------------------------------------------------------------------*/
-.h2about{
-    padding-top:1rem;
-    margin-top:1rem;
-    padding-bottom: 1rem;
-    font-size:2.5rem;
-    display:flex;
-    width:85%;
-}
 
-.list {
-    flex-grow: 0;
-    width:85%;
-    
-}
-
-h2#listheader {
-  
-    margin-bottom: 2rem!important;
-    margin-left: 0px;
-    text-align: center;
-    display: flex;
-   font-size:2.3rem;
-    justify-content: center;
-}
-
-h4#education{
-margin-bottom:1rem;
-}
-h5#info{
-    padding-top:2rem;
-    margin-top:1rem;
-    
-    font-size:3rem;
-}
-
-h4#timezone{
-    margin-bottom:1rem;
-}
-.p6 {
-    font-size: 1.4rem;
-
-    width:85%;
-}
-
-
-/*-------------------------text styling------------------------------------------------------------------------------------------------------*/
-
+        .h2about {
+            padding-top: 1rem;
+            margin-top: 1rem;
+            padding-bottom: 1rem;
+            font-size: 2.5rem;
+            display: flex;
+            width: 85%;
+        }
+        .list {
+            flex-grow: 0;
+            width: 85%;
+        }
+        h2#listheader {
+            margin-bottom: 2rem!important;
+            margin-left: 0px;
+            text-align: center;
+            display: flex;
+            font-size: 2.3rem;
+            justify-content: center;
+        }
+        h4#education {
+            margin-bottom: 1rem;
+        }
+        h5#info {
+            padding-top: 2rem;
+            margin-top: 1rem;
+            font-size: 3rem;
+        }
+        h4#timezone {
+            margin-bottom: 1rem;
+        }
+        .p6 {
+            font-size: 1.5rem;
+            width: 85%;
+        }
+        /*-------------------------text styling------------------------------------------------------------------------------------------------------*/
         p {
             font-size: 1.3rem;
             text-align: center;
@@ -1119,11 +1081,11 @@ h4#timezone{
         .p2 {
             font-size: 1.4rem;
             text-align: center;
-            display:flex;
+            display: flex;
             padding: 0;
-            margin-left:auto;
-            margin-right:auto;
-            width:80%;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
         }
         .p3 {
             font-size: 1.4rem;
@@ -1135,12 +1097,12 @@ h4#timezone{
             font-size: 1.4rem;
             text-align: center;
             padding: 0;
-            display:flex;
-            margin:auto;
-            padding-top:1rem;
+            display: flex;
+            margin: auto;
+            padding-top: 1rem;
         }
         .p5 {
-            font-size: 1.3rem;
+            font-size: 1.4rem;
             text-align: center;
             padding: 0;
             display: inline-block;
@@ -1165,7 +1127,6 @@ h4#timezone{
             font-size: 2rem;
             justify-content: center;
         }
-
         h3 {
             padding-top: 0;
             margin-bottom: 0px;
@@ -1182,7 +1143,6 @@ h4#timezone{
             text-align: center;
             display: inline-block;
         }
-  
         h5 {
             font-size: 2rem;
             color: var(--headerfont);
@@ -1193,19 +1153,26 @@ h4#timezone{
             margin-bottom: 20px;
             font-family: 'grotesk';
         }
-
         /*a styling*/
-
         a {
-            transition: ease 0s, background-color 0s;
+            
             font-weight: 200;
             text-decoration: none;
             color: var(--mainfont);
             outline: none;
+            transition: none !important;
+        }
+
+        a:hover {
+            color: var(--selectorfont);
+            outline: none;
+            padding:0;
+           
+            margin: 0;
+            transition: none !important;
         }
 
         /* list styling*/
-
         ul {
             font-size: 1.3rem;
             display: inline-block;
@@ -1223,8 +1190,7 @@ h4#timezone{
             margin-right: 10%;
             width: 80%;
         }
-/*------------------------contact page formating------------------------------------------------------------------------------------------------------*/
-
+        /*------------------------contact page formating------------------------------------------------------------------------------------------------------*/
         /* Style inputs, select elements and textareas */
         input[type=text], select, textarea {
             margin-bottom: 4px;
@@ -1274,49 +1240,40 @@ h4#timezone{
             font-size: 1.3rem;
             font-family: inherit;
         }
-
         /* this is for the div that says "lets talk"*/
-        #contactblock{
-            padding-top:.5rem;
-            margin-top:.5rem;
+        #contactblock {
+            padding-top: .5rem;
+            margin-top: .5rem;
         }
-        #contact{
-            font-size:3.5rem;
-            padding-bottom:1rem;
+        #contact {
+            font-size: 3.5rem;
+            padding-bottom: 1rem;
         }
         /*this is social media and form box, change these values to mesxs with their spacing and stuff*/
-
         .form-and-links {
             display: flex;
             flex-wrap: wrap;
-
             flex-direction: column;
         }
         /*this is the text that says my email and stuff*/
-
         #emailheader {
             font-size: 2.3rem;
-
-            margin-bottom:1rem;
+            margin-bottom: 1rem;
         }
-        #socialheader{
+        #socialheader {
             font-size: 2.3rem;
         }
-        
         .email {
             text-decoration: underline;
             color: var(--mainfont);
             text-underline-position: under;
             font-size: 1.4rem;
-            
         }
-        
         /*div related to flexing*/
-
         .emailandmedia {
             margin-left: 0;
             margin-right: 0;
-            padding-bottom:1rem;
+            padding-bottom: 1rem;
         }
         /* Style the container */
         .formcontainer {
@@ -1348,7 +1305,6 @@ h4#timezone{
             width: 100%;
             flex-direction: row;
         }
-
         .respfooter {
             display: flex;
             align-self: flex-end;
@@ -1372,14 +1328,15 @@ h4#timezone{
             text-decoration: none;
             color: var(--headerfont);
             outline: none;
-            padding: 0;
-            margin: 0;
+          
         }
-        ul a:hover.footerlist {
+      
+        ul.footerlist a:hover {
             color: var(--selectorfont);
             outline: none;
-            padding: 0px;
-            background-color: transparent;
+            color: var(--selectorfont);
+            
+            padding:.5rem;
         }
     }
     @media screen and (max-width: 360px) {
