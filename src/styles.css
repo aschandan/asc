@@ -860,6 +860,29 @@ ul a:hover.footerlist {
         display: inline;
         margin: auto;
     }
+    .form-and-links {
+        display: flex;
+        flex-wrap: wrap;
+
+        flex-direction: column;
+    }
+
+
+    /*div related to flexing*/
+
+    .emailandmedia {
+        margin-left: 0;
+        margin-right: 0;
+        padding-bottom:1rem;
+    }
+    /* Style the container */
+    .formcontainer {
+        border-radius: 0px;
+        background-color: none;
+        display: flex;
+        padding-right: 0px;
+    }
+
 }
 
 @media screen and (max-width: 768px), screen and (max-height: 1024px) {
@@ -1187,12 +1210,12 @@ ul a:hover.footerlist {
         /*this is the text that says my email and stuff*/
 
         #emailheader {
-            font-size: 2.5rem;
+            font-size: 2.3rem;
 
             margin-bottom:1rem;
         }
         #socialheader{
-            font-size: 2.5rem;
+            font-size: 2.3rem;
         }
         
         .email {
