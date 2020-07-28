@@ -373,6 +373,17 @@ div.spacingbetween4 {
 
 /*-------------------Work Page Content---------------------*/
 
+#workheader {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#workblurt {
+    display: flex;
+}
+
 div.shade2 {
     background: var(--shadecolor);
     margin: 0vh;
@@ -416,7 +427,19 @@ hr {
     padding: 0;
 }
 
-/*----about page content---*/
+/*-------------------Work Page Content---------------------*/
+
+.worktogether {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.workblurt {
+    display: flex;
+}
+
+/*----about page content-------------------------*/
 
 #viewbox {
     display: flex;
@@ -528,7 +551,7 @@ img.works {
     padding-bottom: 1rem;
 }
 
-/*-------------------Section---------------------*/
+/*-------------------Section-------------------------------------*/
 
 img.logo {
     height: 400px;
@@ -809,7 +832,7 @@ input[type=submit]:hover {
  }
 
 
-  /*--footer--*/
+/*--------------------------------------------footer--------------------------------*/
 
 .contactfooter {
     display: flex;
@@ -879,7 +902,7 @@ ul a:hover.footerlist {
 @media screen and (max-width: 1280px) {
     .content {
         align-items: center;
-        display: inline;
+        display: flex;
         margin: auto;
     }
     .form-and-links {
@@ -900,34 +923,30 @@ ul a:hover.footerlist {
         display: flex;
         padding-right: 0px;
     }
-   
 }
 
 @media screen and (max-width: 768px), screen and (max-height: 1024px) {
-
     div.abouttext {
         display: inline;
         padding-left: 0;
         position: relative;
     }
-
     @media screen and (max-width: 900px) {
-        /*for side bar*/
+        /*-----------------------------*for side bar*--------------------------------------------*/
         .sidenav {
             width: 100%;
             height: auto;
             position: relative;
-            padding-top: 0;
+            padding-top: 1rem;
             overflow-x: hidden;
             overflow-y: hidden;
             border-left: 0rem solid var(--headerfont);
-        }
-        .acclaim {
+            float: none;
+            display: flex;
+            text-align: center;
+            flex-direction: column;
             justify-content: center;
-            align-items: center;
-            padding-left: 1rem;
-            width: 80%;
-            padding-bottom: 10rem;
+            margin-right: auto;
         }
         /* When you mouse over the navigation links, change their color */
         .sidenav a:hover::after {
@@ -937,29 +956,13 @@ ul a:hover.footerlist {
         /* this is for the top bar nav when the display is lower than 850 or so.*/
         .sidenav a {
             display: flex;
-            font-size: 1.5rem;
+            font-size: 1.4rem;
             align-self: baseline;
             text-align: center;
             border: none;
-            padding:1.5rem;
-        }
-
-        .sideitems a {
-    text-align:right;
+            padding: .9rem;
         }
         /*----------------------------------------Div Styling-------------------------------------------------------------------*/
-      
-        .sidenav {
-            float: none;
-            display:flex;
-            text-align:center;
-            flex-direction: column;
-            justify-content: space-between;
-            margin-left:auto;   
-            margin-right:auto; 
-            overflow-x: hidden;
-            overflow-y: hidden;
-        }
         div.shade {
             margin: auto;
             padding-left: 0rem;
@@ -992,7 +995,7 @@ ul a:hover.footerlist {
             background-color: var(--selectioncolorbar);
         }
         div.abouttext {
-            margin-left: 0;
+            margin-left: 0!important;
             padding-top: 2rem;
             margin-bottom: 0rem;
             padding-bottom: 0rem;
@@ -1017,6 +1020,9 @@ ul a:hover.footerlist {
             float: none;
             margin-bottom: 20px;
         }
+        div {
+            margin: auto;
+        }
         /*-------------------------text and body styling-----------------------------------------------------------------------------------------------------*/
         html, body {
             position: fixed;
@@ -1028,7 +1034,6 @@ ul a:hover.footerlist {
             overflow-y: auto;
             overflow-x: hidden;
             -webkit-overflow-scrolling: auto;
-           
         }
         body {
             text-align: center;
@@ -1038,16 +1043,11 @@ ul a:hover.footerlist {
         .main {
             padding-top: 1rem;
             padding-left: 0rem;
-            margin-left: auto;
-            display: inline;
+            margin-left: 0;
+            display:inline;
             margin-right: 0;
         }
-        div {
-            margin: auto;
-        }
-
-/*--------------------------about page stuff for right now-----------------------------------------------------------------------------------*/
-
+        /*--------------------------about page stuff for right now-----------------------------------------------------------------------------------*/
         .h2about {
             padding-top: 1rem;
             margin-top: 1rem;
@@ -1083,8 +1083,7 @@ ul a:hover.footerlist {
             font-size: 1.5rem;
             width: 85%;
         }
-
-/*-------------------------text styling------------------------------------------------------------------------------------------------------*/
+        /*-------------------------text styling------------------------------------------------------------------------------------------------------*/
         p {
             font-size: 1.3rem;
             text-align: center;
@@ -1114,7 +1113,7 @@ ul a:hover.footerlist {
             display: flex;
             margin: auto;
             padding-top: 1rem;
-            width:85%
+            width: 85%
         }
         .p5 {
             font-size: 1.4rem;
@@ -1170,21 +1169,15 @@ ul a:hover.footerlist {
         }
         /*a styling*/
         a {
-            
             font-weight: 200;
             text-decoration: none;
             color: var(--mainfont);
             outline: none;
-        
         }
-
         a:hover {
             color: var(--selectorfont);
             outline: none;
-      
-
         }
-
         /* list styling*/
         ul {
             font-size: 1.3rem;
@@ -1203,11 +1196,39 @@ ul a:hover.footerlist {
             margin-right: 10%;
             width: 80%;
         }
-
- /*------------------------contact page formating------------------------------------------------------------------------------------------------------*/
-       
- /* Style inputs, select elements and textareas */
-
+        .acclaim {
+            justify-content: center;
+            align-items: center;
+            padding-left: 1rem;
+            width: 80%;
+            padding-bottom: 10rem;
+        }
+        /*-------------------Work Page Content---------------------*/
+        .worktogether {
+            display: flex;
+            flex-direction: column;
+            flex-wrap:wrap;
+        }
+        .workblurt {
+            display: flex;
+        }
+        .designblurb {
+            display: flex;
+            width: 85%;
+        }
+        .textblock2 {
+            display: flex;
+            flex-direction: column;
+            width: 78%;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        .h3name{
+            display:flex;
+            flex-direction: row;
+        }
+        /*------------------------contact page formating------------------------------------------------------------------------------------------------------*/
+        /* Style inputs, select elements and textareas */
         input[type=text], select, textarea {
             margin-bottom: 4px;
             box-sizing: border-box;
@@ -1260,6 +1281,7 @@ ul a:hover.footerlist {
         #contactblock {
             padding-top: .5rem;
             margin-top: .5rem;
+            padding: 1rem;
         }
         #contact {
             font-size: 3rem;
@@ -1305,7 +1327,6 @@ ul a:hover.footerlist {
             border-top: 1px solid var(--headerfont);
             width: 95%;
             background: var(--shadecolor2);
-            
             margin-top: 5px;
             margin-bottom: none;
         }
@@ -1344,15 +1365,12 @@ ul a:hover.footerlist {
             text-decoration: none;
             color: var(--headerfont);
             outline: none;
-          
         }
-      
         ul.footerlist a:hover {
             color: var(--selectorfont);
             outline: none;
             color: var(--selectorfont);
-            
-            padding:.5rem;
+            padding: .5rem;
         }
     }
     @media screen and (max-width: 360px) {
