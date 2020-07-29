@@ -442,7 +442,7 @@ hr {
 
 /*----about page content-------------------------*/
 
-#viewbox {
+.viewbox {
     display: flex;
 }
 
