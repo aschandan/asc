@@ -1,3 +1,38 @@
+/*
+@font-face {
+    font-family: 'HkGrotesk';
+    font-style: normal;
+    font-weight: 400;
+    src: local('HkGrotesk-Regular'), local('HkGrotesk-Regular'),
+         url('fonts/HKGrotesk-Regular.woff2') format('woff2'), 
+         url('fonts/HKGrotesk-Regular.woff') format('woff'); 
+         font-display: swap;
+  }
+  
+  
+  @font-face {
+    font-family: 'HkGrotesk';
+    font-style: normal;
+    font-weight: 500;
+    src: local('HkGrotesk-Medium'), local('HkGrotesk-Medium'),
+         url('fonts/HKGrotesk-Medium.woff2') format('woff2'), 
+         url('fonts/HKGrotesk-Medium.woff') format('woff'); 
+         font-display: swap;
+  }
+  
+
+  @font-face {
+    font-family: 'HkGrotesk';
+    font-style: normal;
+    font-weight: 600;
+    src: local('HkGrotesk-SemiBold'), local('HkGrotesk-SemiBold'),
+         url('fonts/HKGrotesk-SemiBold.woff2') format('woff2'), 
+         url('fonts/HKGrotesk-SemiBold.woff') format('woff');
+         font-display: swap;
+  }
+  
+*/
+
 
 :root {
     --headerfont: #3c2d38;
@@ -9,102 +44,77 @@
     --selectorfont: #251c23;
     --shadecolor: #e3cb9b;
     --shadecolor2: #e7d3aa;
-    --FontFamily1:src: url(fonts/WorkSans);
-    --FontFamily2:src: url();
 }
-$font1: "WorkSans", monospace;
-$font2: 'Eczar', serif;
+
+
 
 /*-------------------fonts---------------------*/
 
+/* work-sans-regular - latin */
+
 @font-face {
-    font-family: $font1;
-    src: var(--FontFamily1) format("truetype");
-    font-weight: 100;
+    font-family: 'Work Sans';
     font-style: normal;
-}
-
-@font-face {
-    font-family: $font1;
-    src: var(--FontFamily1) format("truetype");
-    font-weight: 100;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: $font1;
-    src: var(--FontFamily1) format("truetype");
-    font-weight: 100;
-    font-style: oblique;
-}
-
-@font-face {
-    font-family: $font1;
-    src: var(--FontFamily1) format("truetype");
-    font-weight: 200;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: $font1;
-    src: var(--FontFamily1) format("truetype");
-    font-weight: 200;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: $font1;
-    src: var(--FontFamily1) format("truetype");
-    font-weight: 200;
-    font-style: oblique;
-}
-
-@font-face {
-    font-family: $font1;
-    src: var(--FontFamily1) format("truetype");
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: $font1;
-    src: var(--FontFamily1) format("truetype");
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family:$font1;
-    src: var(--FontFamily1) format("truetype");
-    font-weight: normal;
-    font-style: oblique;
-}
-
-@font-face {
-    font-family: "grotesk";
-    src: url(fonts/hkgrotesk-medium.TTF) format("truetype");
     font-weight: 300;
+    src: local(''),
+         url('fonts/work-sans-v8-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/work-sans-v8-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+/* work-sans-italic - latin */
+
+  @font-face {
+    font-family: 'Work Sans';
+    font-style: italic;
+    font-weight: 300;
+    src: local(''),
+         url('fonts/work-sans-v8-latin-italic.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('fonts/work-sans-v8-latin-italic.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+         font-display: swap;
 }
 
 @font-face {
-    font-family: "grotesk";
-    src: url(fonts/hkgrotesk-semibold.TTF) format("truetype");
+    font-family: 'Eczar';
+    font-style: normal;
     font-weight: 400;
-}
+    src: local('Eczar Regular'), local('Eczar-Regular'),
+         url('fonts/eczar-v8-latin-regular.woff2') format('woff2'),
+         url('fonts/eczar-v8-latin-regular.woff') format('woff'); 
+         font-display: swap;
+  }
 
-@font-face {
-    font-family: "grotesk";
-    src: url(fonts/hkgrotesk-bold.TTF) format("truetype");
-    font-weight: bold;
-}
+ 
+  @font-face {
+    font-family: 'Eczar';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Eczar SemiBold'), local('Eczar-SemiBold'),
+         url('fonts/eczar-v8-latin-600.woff2') format('woff2'), 
+         url('src/fonts/eczar-v8-latin-600.woff') format('woff'); 
+         font-display: swap;
+  }
+  
+ 
+  @font-face {
+    font-family: 'Eczar';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Eczar Medium'), local('Eczar-Medium'),
+         url('fonts/eczar-v8-latin-500.woff2') format('woff2'), 
+         url('fonts/eczar-v8-latin-500.woff') format('woff'); 
+         font-display: swap;
+  }
+
 
 /*--------------------------end of fonts----------------------*/
 
 /*-------------------values for header+---------------------*/
 
-body {
+*{
+       font-family: 'Eczar', 'Work Sans', serif;
+}
+body{
     background-color: var(--bgcolor);
-    font-family: 'WorkSans', serif, 'grotesk', Georgia, sans-serif;
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -112,9 +122,19 @@ body {
     overflow-x: hidden; 
 }
 
-.main {
- 
+h1, h2, h3, h4, h5, h5{
+    font-family:'Eczar', serif;
+}
 
+p,.p2,.p3,.p4,.p5,.p6, ul, li, a{
+    Font-family:'Work Sans', sans-serif;
+}
+
+a, ul, li{
+    color:var(--headerfont)!important;
+}
+
+.main {
     padding-top: .2rem;
     padding-left: 15rem;
 }
@@ -127,7 +147,7 @@ h1 {
     font-weight: 500;
     margin-top: 2rem;
     line-height: 1.7;
-    font-family: 'grotesk';
+  
 }
 
 /*used in the description for the homepage and about page*/
@@ -138,12 +158,12 @@ h2 {
     font-weight: 600;
     padding-top: 0rem;
     margin-bottom: 2rem;
-    font-family: 'grotesk';
+   
 }
 
 .h2about {
     font-size: 4rem;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 /*used in homepage with the artworks*/
@@ -155,17 +175,17 @@ h3 {
     padding-bottom: 0rem;
     margin-top: 2rem;
     margin-bottom: 1rem;
-    font-family: 'grotesk';
+  
 }
 
 h4 {
     font-size: 3.5rem;
     color: var(--headerfont);
-    font-weight: 300;
+    font-weight: 500;
     padding-top: 1rem;
     margin-top: 0rem;
     margin-bottom: 3rem;
-    font-family: 'grotesk';
+  
 }
 
 h5 {
@@ -176,7 +196,7 @@ h5 {
     margin-top: 0rem;
     padding-bottom: 0;
     margin-bottom: 20px;
-    font-family: 'grotesk';
+  
 }
 
 /*-------------------styling for fonts---------------------*/
@@ -1181,7 +1201,7 @@ ul a:hover.footerlist {
             margin-top: 0rem;
             padding-bottom: 0;
             margin-bottom: 20px;
-            font-family: 'grotesk';
+            
         }
         /*a styling*/
         a {
