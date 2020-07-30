@@ -80,7 +80,7 @@
     src: local('Eczar Regular'), local('Eczar-Regular'),
          url('fonts/eczar-v8-latin-regular.woff2') format('woff2'),
          url('fonts/eczar-v8-latin-regular.woff') format('woff'); 
-         font-display: optional;
+         font-display: swap;
   }
 
  
@@ -90,8 +90,8 @@
     font-weight: 600;
     src: local('Eczar SemiBold'), local('Eczar-SemiBold'),
          url('fonts/eczar-v8-latin-600.woff2') format('woff2'), 
-         url('src/fonts/eczar-v8-latin-600.woff') format('woff'); 
-         font-display: optional;
+         url('fonts/eczar-v8-latin-600.woff') format('woff'); 
+         font-display: swap;
   }
   
  
@@ -102,7 +102,7 @@
     src: local('Eczar Medium'), local('Eczar-Medium'),
          url('fonts/eczar-v8-latin-500.woff2') format('woff2'), 
          url('fonts/eczar-v8-latin-500.woff') format('woff'); 
-         font-display: optional;
+         font-display: swap;
   }
 
 
