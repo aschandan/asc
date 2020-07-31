@@ -658,11 +658,16 @@ a:hover {
     color: var(--selectorfont);
     outline: none;
     padding: .75rem;
-    padding-bottom:20px;
+    padding-bottom:15px;
     background-color: var(--selectioncolor);
 }
 
 /*for 404 styling, fix?*/
+
+#fourohfourspacing{
+    padding-left: 10rem;
+    margin-left: 5rem;
+}
 
 #for404 {
     border: .25rem solid #e8e8e800;
@@ -682,7 +687,7 @@ a:hover {
     /* Stay on top */
     top: 0;
     /* Stay at the top */
-    
+   
     left: 1;
     overflow: hidden;
     background-color: var(--sidenav);
@@ -885,10 +890,11 @@ input[type=submit]:hover {
     background: var(--shadecolor2);
     margin: -5rem;
     margin-top: 2px;
-    margin-bottom: none;
+    margin-bottom: 0;
     padding-left: 5rem;
     padding-right: 2rem;
     padding-top: 1rem;
+
 }
 
 .footertext {
@@ -911,7 +917,7 @@ input[type=submit]:hover {
     flex-direction: row;
     box-sizing: inherit;
     margin-left: auto;
-    margin-right: 2rem;
+    margin-right: 7rem;
 }
 
 ul.footerlist {
@@ -934,12 +940,8 @@ ul a.footerlist {
     margin: 0;
 }
 
-ul a:hover.footerlist {
-    color: var(--selectorfont);
-    outline: none;
-    padding: 0px;
-    background-color: transparent;
-}
+
+
 
 /*-------------------------------------------------'responsive' design-----------------------------------------------------------------*/
 
