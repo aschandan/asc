@@ -120,6 +120,8 @@ body{
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
+    display:flex; 
+    flex-direction:column; 
 }
 
 h1, h2, h3, h4, h5, h5{
@@ -782,7 +784,7 @@ input[type=text]:focus, select:focus, textarea:focus {
 
 textarea {
     font-family: inherit;
-    height: 390px;
+    height: 300px;
     min-height: 250px;
     max-width: 100%;
     box-sizing: border-box;
@@ -889,12 +891,12 @@ input[type=submit]:hover {
     width: 100%;
     background: var(--shadecolor2);
     margin: -5rem;
-    margin-top: 2px;
+    margin-top:auto; 
     margin-bottom: 0;
     padding-left: 5rem;
     padding-right: 2rem;
     padding-top: 1rem;
-
+   
 }
 
 .footertext {
@@ -905,10 +907,12 @@ input[type=submit]:hover {
     outline: none;
 }
 
+
 #sole {
     display: flex;
     width: 100%;
     flex-direction: row;
+  
 }
 
 .respfooter {
