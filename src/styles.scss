@@ -1366,6 +1366,7 @@ screen and (max-height: 1024px) {
             display: flex;
             flex-wrap: wrap;
             flex-direction: column;
+            padding-bottom: 1rem;
         }
         /*this is the text that says my email and stuff*/
         #emailheader {
@@ -1400,6 +1401,7 @@ screen and (max-height: 1024px) {
             border-top: 1px solid var(--headerfont);
             width: 100%;
             background: var(--footercolor);
+            margin: -2.5rem;
             margin-top: 0px;
             margin-bottom: none;
         }
