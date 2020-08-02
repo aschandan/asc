@@ -141,6 +141,7 @@ a, ul, li{
     padding-left: 15rem;
 }
 
+
 /* header used for homepage*/
 
 h1 {
@@ -838,6 +839,7 @@ input[type=submit]:hover {
     flex-direction: row;
     margin-left: auto;
     margin-right:auto;
+    padding-bottom:4rem;
 }
 
 /* Style the container */
@@ -890,10 +892,8 @@ input[type=submit]:hover {
     border-top: 1px solid var(--headerfont);
     width: 100%;
     background: var(--shadecolor2);
-    margin: -5rem;
-    margin-top:auto; 
-    margin-bottom: 0;
-    padding-left: 5rem;
+    margin:auto;
+
     padding-right: 2rem;
     padding-top: 1rem;
    
@@ -903,6 +903,7 @@ input[type=submit]:hover {
     font-size: 1.4rem;
     font-weight: 400;
     position: relative;
+    padding-left: 14rem;
     color: var(--mainfont);
     outline: none;
 }
@@ -922,6 +923,7 @@ input[type=submit]:hover {
     box-sizing: inherit;
     margin-left: auto;
     margin-right: 7rem;
+    background: var(--shadecolor2);
 }
 
 ul.footerlist {
